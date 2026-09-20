@@ -1,0 +1,22 @@
+{
+  "name": "toll",
+  "version": "0.1.0",
+  "description": "What a tokenized stock costs to hold, read from the chain.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "tsx scripts/verify.ts",
+    "tape": "tsx scripts/build-tape.ts"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0"
+  }
+}
