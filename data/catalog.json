@@ -7,11 +7,354 @@
     "unlisted": false
   },
   {
+    "symbol": "ABBVx",
+    "name": "AbbVie xStock",
+    "mint": "XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ABTx",
+    "name": "Abbott xStock",
+    "mint": "XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ACGLx",
+    "name": "Arch Capital xStock",
+    "mint": "Xs7Dude9fBWENN3Vi25cwQmAF5BXR2zXrFMgPjKWmSS",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ACNx",
+    "name": "Accenture xStock",
+    "mint": "Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ADBEx",
+    "name": "Adobe xStock",
+    "mint": "XsDZMGEU8zadWFCkTtPBoPWYcUX3JHVmghnwf2Mve2q",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AEHRx",
+    "name": "Aehr Test Systems xStock",
+    "mint": "Xs8kHDEs5w8ERuTmefBXsJy66G5mh836VgDFfgpuRej",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ALLEx",
+    "name": "Allegion xStock",
+    "mint": "Xs8oye9cvsGBCLRdGsKXK4RhaPT6oAqrsUqvBiGw2rG",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AMATx",
+    "name": "Applied Materials, Inc. xStock",
+    "mint": "XsQZdaWUAGC4R3fgD2N1fupKvJfJq6YM51ccnsLUWFA",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AMBRx",
+    "name": "Amber xStock",
+    "mint": "XsaQTCgebC2KPbf27KUhdv5JFvHhQ4GDAPURwrEhAzb",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AMCRx",
+    "name": "Amcor xStock",
+    "mint": "XsuDF3uVgT3SMSvX6kssq9FmChHZRBaK7TFdEapnxk5",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AMCx",
+    "name": "AMC Entertainment xStock",
+    "mint": "XsEkwEYVKnvqVF3sxsimXVEEB17jdT9pVA6SP3NBEYe",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AMDx",
+    "name": "AMD xStock",
+    "mint": "XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "AMZNx",
-    "name": "Amazon xStock",
+    "name": "Amazon.com xStock",
     "mint": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "ANETx",
+    "name": "Arista Networks, Inc. xStock",
+    "mint": "XsrsM2RgtYxXqxmy4iWgxQJUkkHG1U5wzi74sVNUW8m",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ANx",
+    "name": "AutoNation xStock",
+    "mint": "XsUMEvLD9Bo7iwYdsVqkxcAmXpYFVnjGgZjPKnYMv4y",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AONx",
+    "name": "Aon xStock",
+    "mint": "XsLd6TthuyfbYSP89Ze7DJRw1ZJmPSfFwaSZ1bP9Ejb",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "APLDx",
+    "name": "Applied Digital Corporation xStock",
+    "mint": "Xs2ZEuDVSQkNnXHqfqEYKVShLHpecyKfdfpEYwiHtQE",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "APPx",
+    "name": "AppLovin xStock",
+    "mint": "XsPdAVBi8Zc1xvv53k4JcMrQaEDTgkGqKYeh7AYgPHV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "APTVx",
+    "name": "Aptiv xStock",
+    "mint": "XsiKaTXpReUM51cT42hZFo8HQLjaN4vPxxGbUcdTRfe",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ARQQx",
+    "name": "Arqit Quantum xStock",
+    "mint": "Xsq3YJ62Kyyqj92w8jwoQLiUzPwFGBfibffe12dJ3Vg",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ASMLx",
+    "name": "ASML xStock",
+    "mint": "XshuHQ6o6SVpUNawvnnTMxsZ4tacZsNgVCLorv7TkFq",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ASTSx",
+    "name": "AST SpaceMobile xStock",
+    "mint": "XsR4LAtaBgTKTRUhiijY1ba13nx4bepeEcag2Pr4dZ1",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AUx",
+    "name": "Anglogold Ashanti xStock",
+    "mint": "Xs61MkDiQRGDTskN6farB7Ehnj3KayM3PnuRjaWFHWi",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AVGOx",
+    "name": "Broadcom xStock",
+    "mint": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AXPx",
+    "name": "American Express xStock",
+    "mint": "XstYR6KGqZFchAuhHoEe4mL8W2kL9aqGW1EDBKRrmGB",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "AZNx",
+    "name": "AstraZeneca xStock",
+    "mint": "Xs3ZFkPYT2BN7qBMqf1j1bfTeTm1rFzEFSsQ1z3wAKU",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BABAx",
+    "name": "Alibaba xStock",
+    "mint": "XsJBX1kSf58ymLVKFSm2MkbLtsPiVRMWTvkvF7TSiVT",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BACx",
+    "name": "Bank of America xStock",
+    "mint": "XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BAOSx",
+    "name": "Baosheng Media xStock",
+    "mint": "XsTfCgVbjc2w7gKaUHL2oedbXruf3JVqmfZn4nipoua",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BBx",
+    "name": "BlackBerry xStock",
+    "mint": "XsBPCyiRanUFCw5zd3m9EUGWMZZRhtpavZ5SWPdTWM6",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BGx",
+    "name": "Bunge Global xStock",
+    "mint": "XsTk9BmLSTUVGWA8snhsKvfAiJTZwqv4HjLwg5XosTg",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BIDUx",
+    "name": "Baidu xStock",
+    "mint": "XsnStpqwfPD5mC1KRVrJ3w6kxEYVkUQivDHBSEr4uxf",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BILIx",
+    "name": "Bilibili xStock",
+    "mint": "Xsgu2ZZPVjVdjf2HN9F2weJNSyyireZBfu8MYJBBH1S",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BKNGx",
+    "name": "Booking xStock",
+    "mint": "XseQvfvuDT3KHKiwPNW1gcjfHbFjEMVTV5NJzDdNQmu",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BLKx",
+    "name": "BlackRock xStock",
+    "mint": "Xs5ywCCaayf3TFdxFxuJCr25XMoqY6vdfJKkSHE4D6r",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BLSHx",
+    "name": "Bullish xStock",
+    "mint": "XsRiRZg9NGkL3WEZZmqnxvxEoyeHG8LhgzMQF2HRE6F",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BMNRx",
+    "name": "Bitmine xStock",
+    "mint": "XsrBCwaH8c46xiqXBChzobgufRKxQxAWUWbndgBNzFn",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BRK.Bx",
+    "name": "Berkshire Hathaway xStock",
+    "mint": "Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BTBTx",
+    "name": "Bit Digital xStock",
+    "mint": "XsPLBFy59Q3hY59KLAJur8QyvziMF4xUxGTxXqXE7cT",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BTDRx",
+    "name": "Bitdeer Technologies xStock",
+    "mint": "XsqgvqTs3e14JWGKCbLae3gvjxrVqnz5WmeVD9dodkx",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "BTGOx",
+    "name": "Bitgo xStock",
+    "mint": "XsvHMmbDcd14DHHW16PkxPGW7ks77ehxUv1E9Zmxgj4",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CAPRx",
+    "name": "Capricor Therapeutics xStock",
+    "mint": "XsypxSHtYDVoj6NygnrFpeXwH3JbMNcjyfTx9Zyn4mw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CARTx",
+    "name": "Maplebear xStock",
+    "mint": "XsXHPcqnuwVsccWY4pWukAVEuoe5N3axrpX2NwaSLT1",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CAVAx",
+    "name": "Cava xStock",
+    "mint": "XsPMh6LbBkmy9i8cCDDpHAku6XkeNdDTWF1Pnair5VK",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CBx",
+    "name": "Chubb xStock",
+    "mint": "XsyXzuvyKkuWWJvm9ciFAzScF7e3sAHPgpT3CEbrAb4",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CCLx",
+    "name": "Carnival xStock",
+    "mint": "XsDPeNLGkVzqoCwWD6cPyAtdBu2yZa8j1u9JYS7oNri",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CEGx",
+    "name": "Constellation Energy Corporation xStock",
+    "mint": "Xssu2cDLdZXZYrq17frTVrb3meumRCAzEf7pXyxoWVN",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CHYMx",
+    "name": "Chime Financial xStock",
+    "mint": "Xsim8883PnGBHyFMFYPqQQ1c9YxoRkiRrdEpe5HR1ND",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CLSKx",
+    "name": "CleanSpark xStock",
+    "mint": "Xsn3H7ACEpSF2ULxeiD6kW4jRZXpurh8ZPttyfoS56W",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CMCSAx",
+    "name": "Comcast xStock",
+    "mint": "XsvKCaNsxg2GN8jjUmq71qukMJr7Q1c5R2Mk9P8kcS8",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "COINx",
@@ -21,6 +364,27 @@
     "unlisted": false
   },
   {
+    "symbol": "COPXx",
+    "name": "Global X Copper Miners xStock",
+    "mint": "XsybfiKkD4UmjkAGT2uR8X2sq9AWFtvGJM2KTffoALZ",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CORZx",
+    "name": "Core Scientific xStock",
+    "mint": "XsBGEXxbBcuu8Nrokj14G8v4ezT3JYWWLneTzXK8t6Z",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "COSTx",
+    "name": "Costco xStock",
+    "mint": "XsiRaD8qZm1P3KViowDYFS8rZ8BYT2g7ZEeyztthRye",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "CRCLx",
     "name": "Circle xStock",
     "mint": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1",
@@ -28,11 +392,228 @@
     "unlisted": false
   },
   {
+    "symbol": "CRDOx",
+    "name": "Credo Technology xStock",
+    "mint": "XsPZqWN9qCGwwasxuo3zSEnM6vQbBJ9imktKjUeBMyF",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CRHx",
+    "name": "CRH xStock",
+    "mint": "XsSFnM7Nt2A6cBHWL4wvLDqQKECuodcBjRarpcicGLj",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CRMx",
+    "name": "Salesforce xStock",
+    "mint": "XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CRWDx",
+    "name": "CrowdStrike xStock",
+    "mint": "Xs7xXqkcK7K8urEqGg52SECi79dRp2cEKKuYjUePYDw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CSCOx",
+    "name": "Cisco xStock",
+    "mint": "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CURRx",
+    "name": "Currenc xStock",
+    "mint": "XspmHq9PDp2vBYfPqWCWXy8ZAwbYTjSBXgBNStyXpyS",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "CVXx",
+    "name": "Chevron xStock",
+    "mint": "XsNNMt7WTNA2sV3jrb1NNfNgapxRF5i4i6GcnTRRHts",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "DELLx",
+    "name": "Dell Technologies Inc. xStock",
+    "mint": "Xsu7Tc5J2fVUE4H5vYAiSr34cvLJeCsYPMjAYnayQn6",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "DFDVx",
+    "name": "DFDV xStock",
+    "mint": "Xs2yquAgsHByNzx68WJC55WHjHBvG9JsMB7CWjTLyPy",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "DHRx",
+    "name": "Danaher xStock",
+    "mint": "Xseo8tgCZfkHxWS9xbFYeKFyMSbWEvZGFV1Gh53GtCV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "DOCSx",
+    "name": "Doximity xStock",
+    "mint": "Xs1h3Cyg8R4UvRuSG8XueWJ12J4JDSNLbtWL7oK3SPH",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "DTMx",
+    "name": "DT Midstream xStock",
+    "mint": "XsQASnxBwD5bETPvfQ1GXqNUDCct4RLoHQUovVe8psK",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "DUOLx",
+    "name": "Duolingo xStock",
+    "mint": "Xs1CqRVt2mGVfMSHf7M6cDhkjpw8HDF14XbQNzDnGg4",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "EBAYx",
+    "name": "eBay xStock",
+    "mint": "XsDYSbgLh3T7oh59UmRX1F5WjDgJD3nmzACaG5LR1MB",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ESTCx",
+    "name": "Elastic xStock",
+    "mint": "XsM7wvqnJ8BDG6UWDoWnTWiwUoTwg1EgaHfr17aD7oK",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ETNx",
+    "name": "Eaton Corporation plc xStock",
+    "mint": "Xs8S5L4HkJpeBWF1J4oyUX6rVwGHmG7GZ7PiChPt7nY",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "EWJx",
+    "name": "iShares MSCI Japan ETF xStock",
+    "mint": "XsaXKP7GaPDA3bLwtuFoZ2oGsaukfeS1v2U1xUeqwrp",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "EWTx",
+    "name": "iShares MSCI Taiwan ETF xStock",
+    "mint": "XsM8hCeX916xAiVLCeFwxmVpTNYq14rjM8h8Ha2UiTe",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "EWZx",
+    "name": "iShares MSCI Brazil ETF xStock",
+    "mint": "XsvsSHRUz5dAmUGH9jvVnkEZRcLkgo7uJf1VWhSuVLk",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "EXPEx",
+    "name": "Expedia xStock",
+    "mint": "XsFj75v4Tw8TWSDaDoVTHF8RAjEEkmUeKgoRjB9DHsf",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FGDLx",
+    "name": "Franklin Responsibly Sourced Gold ETF xStock",
+    "mint": "XspurdrAqbRJMQfAUEfh88QxE3XbSWxQGu3GneJR6e3",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FIGRx",
+    "name": "Figure Technology Solutions xStock",
+    "mint": "XsvVsjMoBRwH3AaRaZu6YMuEdSWSbCdpxPFCrfMXQfk",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FIGx",
+    "name": "Figma xStock",
+    "mint": "XssfYT48PeXG2EmNdEaVtQcveNhxYnM42KTqdjmiBS9",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FLEXx",
+    "name": "Flex xStock",
+    "mint": "XsFYbD5dUBjCYxwF9oP2QTeJbPBt1mJybme62LGSyyF",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FLUTx",
+    "name": "Flutter Entertainment xStock",
+    "mint": "XsfVkV6AtVAeR2hcpg5Bwwekq2LG3Thcds3oh4woMit",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FLYx",
+    "name": "Firefly Aerospace xStock",
+    "mint": "XsA5xNUbsqxyz22XSFnNeALLv5XsmBgq3SCaK6xFR5R",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FTIx",
+    "name": "TechnipFMC xStock",
+    "mint": "XsoPv7MccAc4Zf1irRh3NLCSP59XMTaudu8ucRQR7S8",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FUFUx",
+    "name": "BitFuFu xStock",
+    "mint": "XsHt1AVPshZpfFWGGpooJ8tdeGknUQVJ9CwhvKrnZrw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "FWDIx",
+    "name": "Forward Industries xStock",
+    "mint": "XsQTDfyyWUBRbLnikwDoSqrcn3YKLG2EDRLHCoQ9e3a",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "GEVx",
+    "name": "GE Vernova Inc. xStock",
+    "mint": "XswXzAsMV9kebQjCVtr1btvrQgQ7C4C9kKgH4QYAVzw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "GLDx",
     "name": "Gold xStock",
     "mint": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "GLXYx",
+    "name": "Galaxy Digital xStock",
+    "mint": "Xs3c2aZenyRQwXjki5MDxJEJ2km27ef2rWQMFWx7QKJ",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "GMEx",
@@ -49,11 +630,151 @@
     "unlisted": false
   },
   {
+    "symbol": "GPROx",
+    "name": "GoPro xStock",
+    "mint": "Xs3N3dcHdWXaJ5dv2ysjMA8DS33vixYYzAgVzkG6L3T",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "GRMNx",
+    "name": "Garmin xStock",
+    "mint": "XsWa1TvdA54zbHmNiiCrxJimWhuTXQLjCM64Nc6T68A",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "GSx",
+    "name": "Goldman Sachs xStock",
+    "mint": "XsgaUyp4jd1fNBCxgtTKkW64xnnhQcvgaxzsbAq5ZD1",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "HDx",
+    "name": "Home Depot xStock",
+    "mint": "XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "HONx",
+    "name": "Honeywell xStock",
+    "mint": "XsRbLZthfABAPAfumWNEJhPyiKDW6TvDVeAeW7oKqA2",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "HOODx",
     "name": "Robinhood xStock",
     "mint": "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "HSDTx",
+    "name": "Helius Medical Technologies xStock",
+    "mint": "XsicTFC7G68d74FaYDctWggkKDgkMx8LpNoFNr81TrF",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "HUTx",
+    "name": "Hut 8 xStock",
+    "mint": "XsG5QyZTQnVSpsXRpD92K5ZGoxXjsmfTyx7fW7r18DV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "IBMx",
+    "name": "International Business Machines xStock",
+    "mint": "XspwhyYPdWVM8XBHZnpS9hgyag9MKjLRyE3tVfmCbSr",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "IEMGx",
+    "name": "Core MSCI Emerging Markets xStock",
+    "mint": "XsFnZawJdLdXfBSEt5Vw29K5vdBiHotdPLjUPafpfHs",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "IJRx",
+    "name": "S&P Small Cap xStock",
+    "mint": "XsyZcb97BzETAqi9BoP2C9D196MiMNBisGMVNje2Thz",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "INFQx",
+    "name": "Infleqtion xStock",
+    "mint": "XsXw4uaUyz6fHfK6qcet55Cg8b5rnf4D1TCJ96FUJqe",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "INTCx",
+    "name": "Intel xStock",
+    "mint": "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ITAx",
+    "name": "iShares U.S. Aerospace & Defense ETF xStock",
+    "mint": "XsXoAR52Q2NYFkYiNqhCq4FauvyA1tdRsrmEYNf9fuh",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "IWMx",
+    "name": "Russell 2000 xStock",
+    "mint": "XsbELVbLGBkn7xfMfyYuUipKGt1iRUc2B7pYRvFTFu3",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "JAZZx",
+    "name": "Jazz Pharmaceuticals xStock",
+    "mint": "Xs3vKvZf5Rn9pMVM7ctBh1jb4EEH2fAVVmCBB4XDiEf",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "JCIx",
+    "name": "Johnson Controls International xStock",
+    "mint": "XsJjKxPyPx1oyqVoyekbphLCLEwEzszsYbZQXsGPDdE",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "JDx",
+    "name": "JD.com xStock",
+    "mint": "XstnmTaJXkobEbbs7AgmGLBsBeWyHTSJAFcJ6BF6ycs",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "JNJx",
+    "name": "Johnson & Johnson xStock",
+    "mint": "XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "JPMx",
+    "name": "JPMorgan Chase xStock",
+    "mint": "XsMAqkcKsUewDrzVkait4e5u4y8REgtyS7jWgCpLV2C",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "KLACx",
+    "name": "KLA Corporation xStock",
+    "mint": "Xsw2uU1i8tHjbgstUbtt3m6kg7BS7AgG5aj8z7ddmmN",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "KOx",
@@ -63,6 +784,97 @@
     "unlisted": false
   },
   {
+    "symbol": "KRAQx",
+    "name": "KRAQ xStock",
+    "mint": "XsAiRejKuvLAdq9KtedrMSrabz7SWdzKoVK6Qgac1Ki",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "KVYOx",
+    "name": "Klaviyo xStock",
+    "mint": "XsRbXdtjkCdkzekhRvcSYWq4nvJPh6S5SRVdDvukdss",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LINx",
+    "name": "Linde xStock",
+    "mint": "XsSr8anD1hkvNMu8XQiVcmiaTP7XGvYu7Q58LdmtE8Z",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LITEx",
+    "name": "Lumentum Holdings Inc. xStock",
+    "mint": "XsexQ9qqNbDkLE6XwCN9ceVhLo8Lxc7UheVR6eBkKyo",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LLYVKx",
+    "name": "Liberty Live xStock",
+    "mint": "Xspy37kNF9i6dwNTUZp7dMGiQgbbS4SMuTSW2deo5ps",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LLYx",
+    "name": "Eli Lilly xStock",
+    "mint": "Xsnuv4omNoHozR6EEW5mXkw8Nrny5rB3jVfLqi6gKMH",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LRCXx",
+    "name": "Lam Research Corporation xStock",
+    "mint": "XsSN912SN4Whn2xn59vWZHt1uLbw9WnoNGp5MigmHFf",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LULUx",
+    "name": "lululemon xStock",
+    "mint": "XsDmtC5EpfzJoCzDN2SJP98xpCsSR2CqdZauJSvHNXT",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LUNRx",
+    "name": "Intuitive Machines xStock",
+    "mint": "XsBHq5npA7gUemYgFkzHvpWznPvybEUmyuz3o3Dim11",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LYBx",
+    "name": "LyondellBasell Industries xStock",
+    "mint": "Xsir2zEBi9NoWA8r1oSdxS3RHzb38JuuAWWt3xqFW8w",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "LYTEx",
+    "name": "Roundhill Photonics & Optics ETF xStock",
+    "mint": "Xs5xCbQ7r3tJrR1huRmNrAKLyDZQM4MadU1rkmrh8hX",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MARAx",
+    "name": "MARA xStock",
+    "mint": "XsguBZPkM9BDmxspmWe29EmrYZBv21ENcC27Pqh7grB",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MAx",
+    "name": "Mastercard xStock",
+    "mint": "XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "MCDx",
     "name": "McDonald's xStock",
     "mint": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
@@ -70,11 +882,60 @@
     "unlisted": false
   },
   {
+    "symbol": "MDTx",
+    "name": "Medtronic xStock",
+    "mint": "XsDgw22qRLTv5Uwuzn6T63cW69exG41T6gwQhEK22u2",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "METAx",
     "name": "Meta xStock",
     "mint": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "MFPx",
+    "name": "Midera Food Processing xStock",
+    "mint": "XsqCwhPzDBwxF7HcqcbYDoLCFLxRTBqrNnFzRq1bmaB",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MNSTx",
+    "name": "Monster xStock",
+    "mint": "XsyusqQvb8RDULsY9szwvUv2CxrDKa642w7kecZPdRM",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MOOx",
+    "name": "VanEck Agribusiness ETF xStock",
+    "mint": "Xs72K1Ta1D5ccNy3RzSyQWGgZywWvphX78pL8WBk1Bo",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MRKx",
+    "name": "Merck xStock",
+    "mint": "XsnQnU7AdbRZYe2akqqpibDdXjkieGFfSkbkjX1Sd1X",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MRPx",
+    "name": "Millrose Properties xStock",
+    "mint": "XsrNGY9WNBVqCeoRvuNe66itJDeGsVer1j6rsw9iyMj",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MRVLx",
+    "name": "Marvell xStock",
+    "mint": "XsuxRGDzbLjnJ72v74b7p9VY6N66uYgTCyfwwRjVCJA",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "MSFTx",
@@ -91,11 +952,165 @@
     "unlisted": false
   },
   {
+    "symbol": "MUx",
+    "name": "Micron Technology xStock",
+    "mint": "XsQLZycSZ7QnBBdBXQaTbQdiUcbRqjNJgyBGAMzhHav",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "MWHx",
+    "name": "SOLV Energy xStock",
+    "mint": "XsuHF4oEB9BJvgkV5XW9vCbE9tUUkkjFEzzG8n3gYjP",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "NFLXx",
+    "name": "Netflix xStock",
+    "mint": "XsEH7wWfJJu2ZT3UCFeVfALnVA6CP5ur7Ee11KmzVpL",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "NTESx",
+    "name": "NetEase xStock",
+    "mint": "Xss5mnWWwgwVc6d7dibSqcb43fbmjXAnuRaJ6ZF2iXQ",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "NUx",
+    "name": "Nu xStock",
+    "mint": "Xstn27LaCPFZashxd1eEn6NV4fVfuye1AM3MMsbuB97",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "NVDAx",
     "name": "NVIDIA xStock",
     "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "NVDLx",
+    "name": "GraniteShares 2x Long NVDA Daily ETF xStock",
+    "mint": "XsrH4d2jVBUbZx5YJ3CyPsiN84ugZQGKCbJAoDn9qEd",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "NVOx",
+    "name": "Novo Nordisk xStock",
+    "mint": "XsfAzPzYrYjd4Dpa9BU3cusBsvWfVB9gBcyGC87S57n",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "NXTx",
+    "name": "Nextpower xStock",
+    "mint": "XsMHaqEVV3ZekoRp1c3vARffHjJZCqk8FsciXHNghpj",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "OKLOx",
+    "name": "Oklo xStock",
+    "mint": "XsJb1p4Ks6VFggq68JyMz7S3kdRfkqh4wA6EMyxi4DD",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "OPENx",
+    "name": "OPEN xStock",
+    "mint": "XsGtpmjhmC8kyjVSWL4VicGu36ceq9u55PTgF8bhGv6",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "ORCLx",
+    "name": "Oracle xStock",
+    "mint": "XsjFwUPiLofddX5cWFHW35GCbXcSu1BCUGfxoQAQjeL",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "OSCRx",
+    "name": "Oscar Health xStock",
+    "mint": "Xsj1NnCroe64taUVsrxwWSzd1VgPnLtTD1K7W8MLXmd",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "OUSTx",
+    "name": "Ouster xStock",
+    "mint": "XsUsHYstgit1UE4anT2thfJvTByEHmrgx4V1FS8EQu8",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PALLx",
+    "name": "abrdn Physical Palladium Shares xStock",
+    "mint": "XsTTtPA5V19YwHKDv4xeVXNM6kdsQNJvg3MyWkRUckt",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PANWx",
+    "name": "Palo Alto Networks xStock",
+    "mint": "XsQ6NfzzLH8nspjrB9X8R2K64Zz7Tnxqu12juDiMPMW",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PBx",
+    "name": "Prosperity Bancshares xStock",
+    "mint": "XsEQBApgA2VFWJZ1Rr9xh8MWBMBV2nTzzQXoL36M2xx",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PDDx",
+    "name": "PDD xStock",
+    "mint": "XsSdwPGhuiTBir2bpJTiJkEhfMEn5bG75XevuePua1q",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PENGx",
+    "name": "Penguin Solutions xStock",
+    "mint": "XsNKpPnrpzt3MRF7dA9EtAxWyrdivwN5xyvHUi2iweV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PEPx",
+    "name": "PepsiCo xStock",
+    "mint": "Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PFEx",
+    "name": "Pfizer xStock",
+    "mint": "XsAtbqkAP1HJxy7hFDeq7ok6yM43DQ9mQ1Rh861X8rw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PGx",
+    "name": "Procter & Gamble xStock",
+    "mint": "XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PHMx",
+    "name": "PulteGroup xStock",
+    "mint": "XsNcipuq5a8j8A79VDZZpPWuTpSj62Mm1NuPWzUJkhg",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "PLTRx",
@@ -105,11 +1120,263 @@
     "unlisted": false
   },
   {
+    "symbol": "PLx",
+    "name": "Planet Labs xStock",
+    "mint": "XsMJtFbb8BwzQtck3oRXyAfs7SAPRuTXnSEDNd7BAVz",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PMx",
+    "name": "Philip Morris xStock",
+    "mint": "Xsba6tUnSjDae2VcopDB6FGGDaxRrewFCDa5hKn5vT3",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PNRx",
+    "name": "Pentair xStock",
+    "mint": "XsjtAXkyNt9px9ayydwZq86shcRfK9bWy9q9PRhaPN2",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "POETx",
+    "name": "POET Technologies xStock",
+    "mint": "XszWcNSHsYTXqxDbgK5GzNPxNfxSAKJBCkr2YtsjuPT",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PPLTx",
+    "name": "abrdn Physical Platinum Shares xStock",
+    "mint": "Xst6eFD4YT6sz9RLMysN9SyvaZWtraSdVJQGu5ZkAme",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PURRx",
+    "name": "Hyperliquid Strategies xStock",
+    "mint": "XscLQvx6mzoarzvLF6CntvUPFa6ukUkFCvqzLxiihmw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PWRx",
+    "name": "Quanta Services, Inc. xStock",
+    "mint": "XsLR2VCGNzYVLfJGEwwNZsRYDZBGyBnoQH5rPGvwodA",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "PYPLx",
+    "name": "PayPal xStock",
+    "mint": "XshWQWYVp5ff8CrAEsGmLVKD47nBWi3Ygn5v8wXK27G",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "QNTx",
+    "name": "Quantinuum xStock",
+    "mint": "XsGRoyBwemr8giBu8mgShoRGXHYbip7yWHDsaAueMvA",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "QQQx",
     "name": "Nasdaq xStock",
     "mint": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "QYLDx",
+    "name": "Global X NASDAQ 100 Covered Call ETF xStock",
+    "mint": "XsyGzGhqwnbfqeN6TQWK4SHnVJYgbxRdp4aH5L6RwEZ",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RAMx",
+    "name": "Roundhill T-REX 2X Long DRAM Daily Target ETF xStock",
+    "mint": "XsZRN32fxqsvU9VmL254K1yLyYVkL3RXcBRJpTsRYWc",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RBCx",
+    "name": "RBC Bearings xStock",
+    "mint": "XsZBSMXWT7D5TEKeM4pS4gY3Dc2MqebCuC3TaZCTQVz",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RBLXx",
+    "name": "Roblox xStock",
+    "mint": "Xss5RAku5EH6UViFdvW7ss9xQjwQLsrs2opPMhb3k43",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RDWx",
+    "name": "Redwire xStock",
+    "mint": "Xs8LesEYZb7SZJrW85hMrrVzyeoyxKrCNVnpEURLzZp",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RIOTx",
+    "name": "Riot Platforms xStock",
+    "mint": "Xs31mE5EiqjSHEaiX9QDKCN6NvSGCqpJ6f1FNq2wri5",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RKLBx",
+    "name": "Rocket Lab xStock",
+    "mint": "XsKSh3QDynp6oms9yHjZXbZo3pKzUBoqUFKPHS2g9Bh",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RKTx",
+    "name": "Rocket Companies xStock",
+    "mint": "XsmcgXdcTCXpPJwXPSs67ELi7iRkBzDZF1qcgEuUvTK",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "RPRXx",
+    "name": "Royalty Pharma xStock",
+    "mint": "XsHkjFmgE1UtuNJXffYmTGMaF1rDU14BYBJbEGR4DVc",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SBETx",
+    "name": "SharpLink Gaming xStock",
+    "mint": "XsEoih2x6nZuUjFwzGoba6MFmtzCkzW2c4YAm6baQbq",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SCHFx",
+    "name": "Schwab International Equity xStock",
+    "mint": "XsWAnFM77x6YvpdaZoos79R12o4Yj4r7EVkaTWddzhU",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SGOVx",
+    "name": "iShares 0-3 Month Treasury Bond ETF xStock",
+    "mint": "XsYD72ntjj7ZwoFDZCDmN2gamTcLpnywqvG7PQN5vCN",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SHLDx",
+    "name": "Global X Defense Tech ETF xStock",
+    "mint": "XsAzGv2quxQWSUphAKcmFeFyJqTgDkcetgp3DmAFVj4",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SHOPx",
+    "name": "Shopify xStock",
+    "mint": "XsRN7n3AZDs577pgQSGbrbgznY5T9xERcjr4dK6vHnX",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SIMOx",
+    "name": "Silicon Motion Technology xStock",
+    "mint": "XsC6bBzDDABjHhKmUAxx7THK4jF5zbJgPA3kVox5okM",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SKDDx",
+    "name": "GraniteShares 2x Short SK Hynix Daily ETF xStock",
+    "mint": "XsxtnDUJzTMjqmzajufokv9xrG868kvkp5KNuNNsU4d",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SKUUx",
+    "name": "GraniteShares 2x Long SK Hynix Daily ETF xStock",
+    "mint": "XstZ31nh6HKMkkNgEcXqAJuF2CFmexYkM4tGaNtUVWK",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SLBx",
+    "name": "SLB xStock",
+    "mint": "Xssse6ey1U1D1NNbJHvep6MpvL16D4dqigsguvLGQqF",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SLMTx",
+    "name": "Brera xStock",
+    "mint": "XsPHkGBbztHCCe1RMhiAs7CxVqoghmyd6zDUfrbfVWG",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SLVx",
+    "name": "iShares Silver Trust xStock",
+    "mint": "XsxAd6okt8y1RRK6gNg7iJaqiWNiq5Md5EDf3ZrF2dm",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SMCIx",
+    "name": "Super Micro Computer, Inc. xStock",
+    "mint": "XsMxAoJP47FQGLsVUvSS2QfBaHdNsd7DRU6nWRL8RSa",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SMHx",
+    "name": "VanEck Semiconductor ETF xStock",
+    "mint": "XstuBvLo7soZzj3beCCPonHpR3eUfPNSeQzw35Swons",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SMRx",
+    "name": "NuScale Power Corporation xStock",
+    "mint": "XsrwdnwLHjVnyy7fgE2Pdwjp3czEm73jPjkSC5xzUBw",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SNDKx",
+    "name": "Sandisk Corporation xStock",
+    "mint": "Xswbpc8UqU6e1j9QZEWCjBMjyvz4twqD7PCy6j2e7jj",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SONYx",
+    "name": "Sony xStock",
+    "mint": "XsEKTjrrYD3Yni2CEPZUn1H4wKsSXpZc8hBQLFy54TR",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SPCEx",
+    "name": "Virgin Galactic xStock",
+    "mint": "Xsgrm4D6VBTfDx5bs7GNdjtmWDgZ8V79r3YpsYwf5py",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SPCHx",
+    "name": "Leverage Shares 2X Long SPCX Daily ETF xStock",
+    "mint": "Xst9jAZk2vxXtsttJdDh5pKvwfmDUPHAPqt3dxFi64G",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "SPCXx",
@@ -119,11 +1386,46 @@
     "unlisted": false
   },
   {
+    "symbol": "SPGIx",
+    "name": "S&P Global xStock",
+    "mint": "XsTuW2zaiPbzgrnQ7b4Z99zeULMM7gPxppE61CtpyDj",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SPOTx",
+    "name": "Spotify Technology xStock",
+    "mint": "Xss3SfGpiR5nhJYsJ7gdd1qiNGxcsr5NX78rmGBDtND",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SPXCx",
+    "name": "SPX Technologies xStock",
+    "mint": "XsMnix8kbE6B6q6VDNTDizLCCP2WpYPj4vtFpumqFFG",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "SPYx",
     "name": "SP500 xStock",
     "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "SQQQx",
+    "name": "ProShares UltraPro Short QQQ xStock",
+    "mint": "XsSPkcE4GbHiBacr8awTTHpwFBuznazcwEKgdvBCkoz",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "STEx",
+    "name": "Steris xStock",
+    "mint": "Xs2HTHR5KBVGz9HS1iMakbTs1zXZVRuaLDMApPbabwW",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "STRCx",
@@ -133,11 +1435,354 @@
     "unlisted": false
   },
   {
+    "symbol": "STRKx",
+    "name": "Strategy PP Fixed xStock",
+    "mint": "XsaQGz41BEQkS9xAB44uvUtuXcdLJAXEU1dogEzWMZ8",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SUIGx",
+    "name": "SUI xStock",
+    "mint": "XspncLEk5B19BMLwvC26DqNtJxKWWxuBKq9phbCG8ff",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SVRAx",
+    "name": "Savara xStock",
+    "mint": "Xs9F6gJ3H1gp3dcNiZGNQMuWBkaHLVuR7fUaCVrPU1u",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "SWx",
+    "name": "Smurfit WestRock xStock",
+    "mint": "Xs2p9MnR8wGJHUwtFu86KBHCzDcZJHufCCALZQfU7ty",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TBLLx",
+    "name": "TBLL xStock",
+    "mint": "XsqBC5tcVQLYt8wqGCHRnAUUecbRYXoJCReD6w7QEKp",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TEMx",
+    "name": "Tempus AI xStock",
+    "mint": "XsBgbNRDujfznQq8P4NLKEkRTbPxUVt4v1xwkDzMMtQ",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TERx",
+    "name": "Teradyne, Inc. xStock",
+    "mint": "Xsbe4fwmjVQEWEPkzfyxqNdPUUK7X9dKfTJrZdDbNgx",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TGTx",
+    "name": "Target xStock",
+    "mint": "XsjXR5jf4d4GNpJXwLvEBTMwK3ZYro2qZGgvUCzyJrx",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TKOx",
+    "name": "TKO xStock",
+    "mint": "XsTSUDFMukRGiSzCg79RNWXQbmCbBNZisW4GcDXhboo",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TMFx",
+    "name": "Direxion Daily 20 Year Treasury Bull 3X ETF xStock",
+    "mint": "XsNZ125wJDfhqhdSuGMeVCWgP26pYsY5ZRtiAfKtU2d",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TMOx",
+    "name": "Thermo Fisher xStock",
+    "mint": "Xs8drBWy3Sd5QY3aifG9kt9KFs2K3PGZmx7jWrsrk57",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TMUSx",
+    "name": "T-Mobile xStock",
+    "mint": "XswCi2U1G6Ppbw1QhG45yKb8UKuR1FKLJrquv2FZSD4",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TONXx",
+    "name": "TON xStock",
+    "mint": "XscE4GUcsYhcyZu5ATiGUMmhxYa1D5fwbpJw4K6K4dp",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TQQQx",
+    "name": "TQQQ xStock",
+    "mint": "XsjQP3iMAaQ3kQScQKthQpx9ALRbjKAjQtHg6TFomoc",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TREXx",
+    "name": "Trex xStock",
+    "mint": "XsKkwEmc69VUFMAGPQ8eoxK5d6qyTESzTXjccS6Mpyi",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TRONx",
+    "name": "Tron xStock",
+    "mint": "XsRrH4fDA27xfyDjpcwefvcBdHCXs34krUuaXGEXzqz",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TSEMx",
+    "name": "Tower Semiconductor xStock",
+    "mint": "XsCMQxyd94mNDqb9uXoxLh6hNFFcBygdBYerEKp2LZy",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
     "symbol": "TSLAx",
     "name": "Tesla xStock",
     "mint": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
     "issuer": "Backed",
     "unlisted": false
+  },
+  {
+    "symbol": "TSLLx",
+    "name": "Direxion Daily TSLA Bull 2X Shares xStock",
+    "mint": "XsWfu1svxj6DPqQZFAinCvtDa1EvgAZGx5qocUkrrA6",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TSMx",
+    "name": "TSMC xStock",
+    "mint": "XsafvsGtzFqqHgTnA3aPC83EAMkacU5mcGtcSayhpVV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "TTx",
+    "name": "Trane Technologies xStock",
+    "mint": "XszyRH55GaDt8vYFw8p7KaLT8pedveg4B1QWcxy6VBV",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "Tx",
+    "name": "AT&T xStock",
+    "mint": "XsqML71RLbyUM3CmY4EYN88zE6BJkpvJACnUKBdGD3x",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "UBERx",
+    "name": "Uber xStock",
+    "mint": "XsAsZLF4MmsvS1sDxRMrUz7REjHfwbC9UAMXSRBqgEB",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "UNHx",
+    "name": "UnitedHealth xStock",
+    "mint": "XszvaiXGPwvk2nwb3o9C1CX4K6zH8sez11E6uyup6fe",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "URAx",
+    "name": "Global X Uranium ETF xStock",
+    "mint": "Xsq9sEQjYiUTSZ55RrbHAzVfz8HotwFGrqgxkgiv4LB",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "URNMx",
+    "name": "Sprott Uranium Miners ETF xStock",
+    "mint": "Xst3tzrmqjzvGXZz2eE2h8CWWWxy4wzp6mXvTuG5Tqt",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "USARx",
+    "name": "USA Rare Earth Inc. xStock",
+    "mint": "XsJJneENiaBPqqcdK1gMsfwi9cbw111azigzRYHoctX",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "USOx",
+    "name": "United States Oil Fund xStock",
+    "mint": "XsXJBom7kFSxA6hc2ArzUwe6o6zyRU1AdHTfvev1HkG",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "UUUUx",
+    "name": "Energy Fuels Inc. xStock",
+    "mint": "XsYHvpLWfTfqdLkPbCc4eUT21eH521BRTXBypgzpEDH",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "UVXYx",
+    "name": "ProShares Ultra VIX Short-Term Futures ETF xStock",
+    "mint": "Xsb9Hu9KkxJxMNoaogz7UYsNS3VHvLCqwT9S1mRyVGE",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "UWMCx",
+    "name": "UWM xStock",
+    "mint": "XsnxBb5gE5FL1onApUD67qSC1QyNd2uk5A9QEEnSB5S",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VCXx",
+    "name": "Fundrise Innovation Fund, LLC xStock",
+    "mint": "Xs7UsqobM3EJgMeHwdAbmDBCZH1G5WTCjatpeYcCr8x",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VGKx",
+    "name": "Vanguard FTSE Europe ETF xStock",
+    "mint": "XsosCAu1L8Ebpr4SdBDV1EboYDRTWCH8j79UnHYzvbN",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VRTx",
+    "name": "Vertiv Holdings Co xStock",
+    "mint": "XsLUiVEwYeoneKpgR1C2Q4DBUZhX4xDktSCfQqq8zmn",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VSTx",
+    "name": "Vistra xStock",
+    "mint": "Xs936JPaWKEXmpu54DZ149GETV7PmsnTqnMWxgcPNAj",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VTIx",
+    "name": "Vanguard xStock",
+    "mint": "XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VTx",
+    "name": "Vanguard Total World xStock",
+    "mint": "XsEdDDTcVGJU6nvdRdVnj53eKTrsCkvtrVfXGmUK68V",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VUGx",
+    "name": "Vanguard Growth ETF xStock",
+    "mint": "XsNVBwVGqtDqmA2Waoiux5mfykH8nepLK74z3ZoQWK2",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "Vx",
+    "name": "Visa xStock",
+    "mint": "XsqgsbXwWogGJsNcVZ3TyVouy2MbTkfCFhCGGGcQZ2p",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "VXUSx",
+    "name": "Vanguard Total International Stock ETF xStock",
+    "mint": "XsLT5v4DAd1kwViPQh3SZiT5kzJfNLxzJxJN1dySZTe",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "WBDx",
+    "name": "Warner Bros. Discovery xStock",
+    "mint": "XsZUSqxAXKJkEimvD4CoVvEb4WUC92TFgj5zRtBxFeL",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "WENx",
+    "name": "Wendy's xStock",
+    "mint": "Xs4uNhvBDAcp2mz3g9XR5q3vzLgmF1ANWxJgWk2d5u3",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "WMTx",
+    "name": "Walmart xStock",
+    "mint": "Xs151QeqTCiuKtinzfRATnUESM2xTU6V9Wy8Vy538ci",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "WTWx",
+    "name": "Willis Towers Watson xStock",
+    "mint": "XsbkEG4hDnNbTAA5DNDaLG9jYPMTK9q19CuNuzhRR8b",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "WULFx",
+    "name": "TeraWulf xStock",
+    "mint": "XsuwUbQSzCJN2wZabD1Gxf1MER2Ypa7hMzVMYB2WawJ",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "XBIx",
+    "name": "State Street SPDR S&P Biotech ETF xStock",
+    "mint": "XsNG7S8TMR3Xqa86GHjgtM8gj6Jkt8f62EvtG29B5yc",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "XLEx",
+    "name": "Energy Select Sector SPDR Fund xStock",
+    "mint": "Xs54CrhmpVp6uxZXwgSTegrRH2kShh88XFPzgf4BExu",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "XOMx",
+    "name": "Exxon Mobil xStock",
+    "mint": "XsaHND8sHyfMfsWPj6kSdd5VwvCayZvjYgKmmcNL5qh",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "XOPx",
+    "name": "SPDR S&P Oil & Gas Exploration & Production ETF xStock",
+    "mint": "XsAk6BoV4kBXUM6WXodKyM21CN92G9jArwAzFvbh3LX",
+    "issuer": "Backed",
+    "unlisted": true
+  },
+  {
+    "symbol": "XPOFx",
+    "name": "Xponential Fitness xStock",
+    "mint": "Xs8wJQMzTe9wnwdvZwtEVm7BrFER3NUhAm8ZxKShZAL",
+    "issuer": "Backed",
+    "unlisted": true
   },
   {
     "symbol": "ANDURIL",
