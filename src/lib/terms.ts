@@ -70,8 +70,12 @@ export interface Terms {
   paused: boolean
   /** Distinct addresses that hold at least one power over this mint. */
   authorities: string[]
-  /** What a buy-then-sell round trip leaves of 1 unit, as a fraction. */
-  roundTrip: { costFraction: number; keeps: number } | null
+  /**
+   * What a buy-then-sell round trip leaves of 1 unit, as a fraction.
+   * `exact` is false when the mint caps the fee per transfer, in which case the
+   * percentage only holds below that cap and the cap itself is the real answer.
+   */
+  roundTrip: { costFraction: number; keeps: number; exact: boolean; capPerTransfer: string | null } | null
   readAt: number
 }
 
@@ -307,7 +311,14 @@ export async function readTerms(rpc: Rpc, address: string, epochHint?: number): 
     powers,
     paused: pausable?.paused === true,
     authorities,
-    roundTrip: toll ? { costFraction: 1 - keeps, keeps } : null,
+    roundTrip: toll
+      ? {
+          costFraction: 1 - keeps,
+          keeps,
+          exact: toll.uncapped,
+          capPerTransfer: toll.uncapped ? null : toll.maximumFee,
+        }
+      : null,
     readAt: now,
   }
 }

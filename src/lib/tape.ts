@@ -111,17 +111,18 @@ export async function changesByAuthority(
 
   // The public endpoint drops a request now and then under load. Give every
   // straggler its own unhurried second pass before calling the read a failure.
+  const recovered: Change[] = []
   if (unreachable.length > 0) {
     const stragglers = [...unreachable]
     unreachable.length = 0
     for (const signature of stragglers) {
+      const row = signatures.find((s) => s.signature === signature)
       try {
         const tx = await rpc.getTransaction(signature)
         if (tx && !tx.meta?.err) {
-          const row = signatures.find((s) => s.signature === signature)
           for (const ix of allInstructions(tx)) {
             const change = toChange(ix, signature, row?.blockTime ?? 0, authority)
-            if (change) perSignature[0].push(change)
+            if (change) recovered.push(change)
           }
         }
       } catch {
@@ -139,7 +140,7 @@ export async function changesByAuthority(
       'The public Solana endpoint is rate-limiting. Wait a moment and read again, or point Toll at your own endpoint.',
     )
   }
-  return perSignature.flat().sort((a, b) => b.blockTime - a.blockTime)
+  return [...perSignature.flat(), ...recovered].sort((a, b) => b.blockTime - a.blockTime)
 }
 
 export class TapeError extends Error {

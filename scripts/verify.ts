@@ -132,5 +132,23 @@ console.log('\n(d) input that should fail cleanly, not break')
   }
 }
 
+// ------------------------------------------------- an authority with no history
+// Regression: the straggler-retry pass used to write into the first
+// transaction's results, which crashed outright when there were none.
+console.log('\n(e) an address that has never signed anything')
+{
+  const empty = {
+    endpoint: 'stub',
+    getSignatures: async () => [],
+    getTransaction: async () => null,
+  } as unknown as Rpc
+  try {
+    const changes = await changesByAuthority(empty, PRESTOCKS_ADMIN)
+    check('reads as no changes, not as a crash', changes, [])
+  } catch (err) {
+    check(`reads as no changes, not as a crash (threw ${String(err)})`, false, true)
+  }
+}
+
 console.log(`\n${failures === 0 ? 'GATE PASSED' : `GATE FAILED — ${failures} check(s) failed`}\n`)
 process.exit(failures === 0 ? 0 : 1)
