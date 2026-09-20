@@ -1,0 +1,1592 @@
+{
+ "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp": {
+  "ticker": "AAPL",
+  "equity": "49f6b65cb1de6b10eaf75e7c03ca029c306d0357e91b5311b175084a5ad55688",
+  "token": "978e6cc68a119ce066aa830017318563a9ed04ec3a0a6439010fc11296a58675",
+  "redemptionRate": "25babb83691a056fd65f879bfd7197eabd840aae741f69c87ccb31e204a979b2"
+ },
+ "XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie": {
+  "ticker": "ABBV",
+  "equity": "019ae7cb58ee716ebdd1288b057373d60224fc98a9a43ee373c6b0df1f3ffdf5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7": {
+  "ticker": "ABT",
+  "equity": "4aac40f432e039ab06236eb9bd3c58347f953d8f05b29aaac295b99cc47ee429",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs7Dude9fBWENN3Vi25cwQmAF5BXR2zXrFMgPjKWmSS": {
+  "ticker": "ACGL",
+  "equity": "01ccca2a0ba40cfa1e9ea3c81c5ebae0169e32c42603ed9c112e58769d187474",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU": {
+  "ticker": "ACN",
+  "equity": "68848984b74a7766ad23cdccd8e78e9ef339dcfb86b7e96990f27447c20967ed",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsDZMGEU8zadWFCkTtPBoPWYcUX3JHVmghnwf2Mve2q": {
+  "ticker": "ADBE",
+  "equity": "df82dc88ea742bb42bdb845e5fc3ca4eef2354c67357d338221e8a696891b4ca",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8kHDEs5w8ERuTmefBXsJy66G5mh836VgDFfgpuRej": {
+  "ticker": "AEHR",
+  "equity": "aa27f6a84dd364fd2956e350b12f4d698b57793f9a1d7ab5e8b575b3cfa50d8d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8oye9cvsGBCLRdGsKXK4RhaPT6oAqrsUqvBiGw2rG": {
+  "ticker": "ALLE",
+  "equity": "f063ce6db3f3c237f248e51fe80cc4910fef79a8f0f3fc056b0d5b6a2bd450ba",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsQZdaWUAGC4R3fgD2N1fupKvJfJq6YM51ccnsLUWFA": {
+  "ticker": "AMAT",
+  "equity": "b9bc74cc1243b706efacf664ed206d08ab1dda79e8b87752c7c44b3bdf1b9e08",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsaQTCgebC2KPbf27KUhdv5JFvHhQ4GDAPURwrEhAzb": {
+  "ticker": "AMBR",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsuDF3uVgT3SMSvX6kssq9FmChHZRBaK7TFdEapnxk5": {
+  "ticker": "AMCR",
+  "equity": "ca8c4a0ace217ae153dbdcaf27d9f5e29a8ddfe4385979c4b364db9588a65cd0",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsEkwEYVKnvqVF3sxsimXVEEB17jdT9pVA6SP3NBEYe": {
+  "ticker": "AMC",
+  "equity": "5b1703d7eb9dc8662a61556a2ca2f9861747c3fc803e01ba5a8ce35cb50a13a1",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF": {
+  "ticker": "AMD",
+  "equity": "3622e381dbca2efd1859253763b1adc63f7f9abb8e76da1aa8e638a57ccde93e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg": {
+  "ticker": "AMZN",
+  "equity": "b5d0e0fa58a1f8b81498ae670ce93c872d14434b72c364885d4fa1b257cbb07a",
+  "token": "7148fbe6e493ff2580305c92a8d7f8628c9943b11b9b253aebc24863fec290e8",
+  "redemptionRate": "0ed9040c3fcdadf6ab2f1815f6b252e4c1ca5fd55108390f4acd52a7efac13dd"
+ },
+ "XsrsM2RgtYxXqxmy4iWgxQJUkkHG1U5wzi74sVNUW8m": {
+  "ticker": "ANET",
+  "equity": "31cc7558642dc348a3e2894146a998031438de8ccc56b7af2171bcd5e5d83eda",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsUMEvLD9Bo7iwYdsVqkxcAmXpYFVnjGgZjPKnYMv4y": {
+  "ticker": "AN",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsLd6TthuyfbYSP89Ze7DJRw1ZJmPSfFwaSZ1bP9Ejb": {
+  "ticker": "AON",
+  "equity": "7b1525d880bf2d40d273c738036f3806bf9b0aef6688e16b246d7e37ec2923ed",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs2ZEuDVSQkNnXHqfqEYKVShLHpecyKfdfpEYwiHtQE": {
+  "ticker": "APLD",
+  "equity": "7fc1e64946aff450748e8f60644d052ae787e5708dc48c6c73c546ee94218cc3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsPdAVBi8Zc1xvv53k4JcMrQaEDTgkGqKYeh7AYgPHV": {
+  "ticker": "APP",
+  "equity": "54f128939505878cf4412abc5a533255ce07e85833849170deb67deff0533aa7",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsiKaTXpReUM51cT42hZFo8HQLjaN4vPxxGbUcdTRfe": {
+  "ticker": "APTV",
+  "equity": "169b68eb05ce4bac2eac0a70b7eafd1abf78bd5d8c6f769e1668bf011308e4e8",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsq3YJ62Kyyqj92w8jwoQLiUzPwFGBfibffe12dJ3Vg": {
+  "ticker": "ARQQ",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XshuHQ6o6SVpUNawvnnTMxsZ4tacZsNgVCLorv7TkFq": {
+  "ticker": "ASML",
+  "equity": "1a6e324589a0e355919fb1c0389edc3fdf4c46034626bd82aad4e47714cfa94f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsR4LAtaBgTKTRUhiijY1ba13nx4bepeEcag2Pr4dZ1": {
+  "ticker": "ASTS",
+  "equity": "17f979e1f6b7c429e4b9ecee96633dbecdc5378566ddfd3d220b0ef8d874e4bd",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs61MkDiQRGDTskN6farB7Ehnj3KayM3PnuRjaWFHWi": {
+  "ticker": "AU",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": {
+  "ticker": "AVGO",
+  "equity": "d0c9aef79b28308b256db7742a0a9b08aaa5009db67a52ea7fa30ed6853f243b",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XstYR6KGqZFchAuhHoEe4mL8W2kL9aqGW1EDBKRrmGB": {
+  "ticker": "AXP",
+  "equity": "9ff7b9a93df40f6d7edc8184173c50f4ae72152c6142f001e8202a26f951d710",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs3ZFkPYT2BN7qBMqf1j1bfTeTm1rFzEFSsQ1z3wAKU": {
+  "ticker": "AZN",
+  "equity": "7fb3b27d9039f8ca0a435fe0fdf724a3a5a2309ab62ad07ca775e5ab2100c1be",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsJBX1kSf58ymLVKFSm2MkbLtsPiVRMWTvkvF7TSiVT": {
+  "ticker": "BABA",
+  "equity": "72bc23b1d0afb1f8edef20b7fb60982298993161bc0fd749587d6f60cd1ee9a3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP": {
+  "ticker": "BAC",
+  "equity": "21debc1718a4b76ff74dadf801c261d76c46afaafb74d9645b65e00b80f5ee3e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsTfCgVbjc2w7gKaUHL2oedbXruf3JVqmfZn4nipoua": {
+  "ticker": "BAOS",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsBPCyiRanUFCw5zd3m9EUGWMZZRhtpavZ5SWPdTWM6": {
+  "ticker": "BB",
+  "equity": "638b83fde383839d7e4287c84fe1049f38045f543eabdf2fa23ee440bcae4838",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsTk9BmLSTUVGWA8snhsKvfAiJTZwqv4HjLwg5XosTg": {
+  "ticker": "BG",
+  "equity": "e39d2f3aa68f677f9782542e6142dc43bd7a9cd002c8af87aecad19758a76874",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsnStpqwfPD5mC1KRVrJ3w6kxEYVkUQivDHBSEr4uxf": {
+  "ticker": "BIDU",
+  "equity": "9bdee8cb689424d01f6eaf7217adfcff65b51a30774a77fff8006c21c7059350",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsgu2ZZPVjVdjf2HN9F2weJNSyyireZBfu8MYJBBH1S": {
+  "ticker": "BILI",
+  "equity": "006d336e4cd222530a057ed307c619af1379a4dedfc4839dcbab413df956fbaa",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XseQvfvuDT3KHKiwPNW1gcjfHbFjEMVTV5NJzDdNQmu": {
+  "ticker": "BKNG",
+  "equity": "e90b679a7e4ca0d591abb634959d38a535c2036c6b121c520a82cff111ff7d12",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs5ywCCaayf3TFdxFxuJCr25XMoqY6vdfJKkSHE4D6r": {
+  "ticker": "BLK",
+  "equity": "68d038affb5895f357d7b3527a6d3cd6a54edd0fe754a1248fb3462e47828b08",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsRiRZg9NGkL3WEZZmqnxvxEoyeHG8LhgzMQF2HRE6F": {
+  "ticker": "BLSH",
+  "equity": "df68956522c14482f38841a1105220f9e32c35e48a3fd517cc955a4580ab1cae",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsrBCwaH8c46xiqXBChzobgufRKxQxAWUWbndgBNzFn": {
+  "ticker": "BMNR",
+  "equity": "54e2e127c93950de5a710100fd1cd387aba1ec8920850efdb05da5fee57d2e32",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x": {
+  "ticker": "BRK.B",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsPLBFy59Q3hY59KLAJur8QyvziMF4xUxGTxXqXE7cT": {
+  "ticker": "BTBT",
+  "equity": "ff62267568a8f48ec7b1805eb989a8c96da713b335caf20275def485da7984c9",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsqgvqTs3e14JWGKCbLae3gvjxrVqnz5WmeVD9dodkx": {
+  "ticker": "BTDR",
+  "equity": "eda74e4c405a1f8d8d1c6004a197c20e620f5580e855ec66cf167f8d5f5ec7a3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsvHMmbDcd14DHHW16PkxPGW7ks77ehxUv1E9Zmxgj4": {
+  "ticker": "BTGO",
+  "equity": "6540ed0004047d446b252bc49bff9e23e667c5c7d0437ad0db8e120e7b19c311",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsypxSHtYDVoj6NygnrFpeXwH3JbMNcjyfTx9Zyn4mw": {
+  "ticker": "CAPR",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsXHPcqnuwVsccWY4pWukAVEuoe5N3axrpX2NwaSLT1": {
+  "ticker": "CART",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsPMh6LbBkmy9i8cCDDpHAku6XkeNdDTWF1Pnair5VK": {
+  "ticker": "CAVA",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsyXzuvyKkuWWJvm9ciFAzScF7e3sAHPgpT3CEbrAb4": {
+  "ticker": "CB",
+  "equity": "ff65ec3cf0931c4c489baecd95da35d3db5aa0278150d0d09a3fdc25970fc690",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsDPeNLGkVzqoCwWD6cPyAtdBu2yZa8j1u9JYS7oNri": {
+  "ticker": "CCL",
+  "equity": "2e92206274d7a8d2fe094d7ef448724608bdb231b3096ceac004fc44e12975db",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xssu2cDLdZXZYrq17frTVrb3meumRCAzEf7pXyxoWVN": {
+  "ticker": "CEG",
+  "equity": "a541bc5c4b69961442e45e9198c7cce151ff9c2a1003f620c6d4a9785c77a4d9",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsim8883PnGBHyFMFYPqQQ1c9YxoRkiRrdEpe5HR1ND": {
+  "ticker": "CHYM",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsn3H7ACEpSF2ULxeiD6kW4jRZXpurh8ZPttyfoS56W": {
+  "ticker": "CLSK",
+  "equity": "79e935bc10c55f2c36a08df1564afc5b33425c8dc80829dd954c67e63ed3374a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsvKCaNsxg2GN8jjUmq71qukMJr7Q1c5R2Mk9P8kcS8": {
+  "ticker": "CMCSA",
+  "equity": "1bd6720eea4df323c076c9bbc1e98e8f5fe4bd16584e56468c5fb6b1a6072725",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu": {
+  "ticker": "COIN",
+  "equity": "fee33f2a978bf32dd6b662b65ba8083c6773b494f8401194ec1870c640860245",
+  "token": "641435d5dffb5311140b480517c79986d8488d5cf08a11eec53b83ad02cab33f",
+  "redemptionRate": "b663e208031820ed2ea373346501ceb897f230623439482f0e2a13150af08549"
+ },
+ "XsybfiKkD4UmjkAGT2uR8X2sq9AWFtvGJM2KTffoALZ": {
+  "ticker": "COPX",
+  "equity": "8bbaca50510ba7108093fd89100523a01d4eee8087de21c9ca807292933e5479",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsBGEXxbBcuu8Nrokj14G8v4ezT3JYWWLneTzXK8t6Z": {
+  "ticker": "CORZ",
+  "equity": "214fc87a8f0f5adc797fc1f7927e1040650366e8f943e20caf13ad0d6e806956",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsiRaD8qZm1P3KViowDYFS8rZ8BYT2g7ZEeyztthRye": {
+  "ticker": "COST",
+  "equity": "163f6a6406d65305e8e27965b9081ac79b0cf9529f0fcdc14fe37e65e3b6b5cb",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1": {
+  "ticker": "CRCL",
+  "equity": "92b8527aabe59ea2b12230f7b532769b133ffb118dfbd48ff676f14b273f1365",
+  "token": "c13184461c0c80d98ffcd89be627c2220b94a96c7c67f0c4b16bc12fd3b17758",
+  "redemptionRate": "381f301f3aabddfa8605be298e704bf7c40738a5f7aeb07dd0b023f993ce7638"
+ },
+ "XsPZqWN9qCGwwasxuo3zSEnM6vQbBJ9imktKjUeBMyF": {
+  "ticker": "CRDO",
+  "equity": "70223a069575a95493bd4a473c47554ac8b333af557e2264eb0d0236e2838fc2",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsSFnM7Nt2A6cBHWL4wvLDqQKECuodcBjRarpcicGLj": {
+  "ticker": "CRH",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN": {
+  "ticker": "CRM",
+  "equity": "feff234600320f4d6bb5a01d02570a9725c1e424977f2b823f7231e6857bdae8",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs7xXqkcK7K8urEqGg52SECi79dRp2cEKKuYjUePYDw": {
+  "ticker": "CRWD",
+  "equity": "baed936d3c6c2e34104e92c6b015b97ce96adc5ab4f04230c1270e1162e7a270",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf": {
+  "ticker": "CSCO",
+  "equity": "3f4b77dd904e849f70e1e812b7811de57202b49bc47c56391275c0f45f2ec481",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XspmHq9PDp2vBYfPqWCWXy8ZAwbYTjSBXgBNStyXpyS": {
+  "ticker": "CURR",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsNNMt7WTNA2sV3jrb1NNfNgapxRF5i4i6GcnTRRHts": {
+  "ticker": "CVX",
+  "equity": "f464e36fd4ef2f1c3dc30801a9ab470dcdaaa0af14dd3cf6ae17a7fca9e051c5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsu7Tc5J2fVUE4H5vYAiSr34cvLJeCsYPMjAYnayQn6": {
+  "ticker": "DELL",
+  "equity": "a2950270a22ce39a22cb3488ba91e60474cd93c6d01da2ecc5a97c1dd40f4995",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs2yquAgsHByNzx68WJC55WHjHBvG9JsMB7CWjTLyPy": {
+  "ticker": "DFDV",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xseo8tgCZfkHxWS9xbFYeKFyMSbWEvZGFV1Gh53GtCV": {
+  "ticker": "DHR",
+  "equity": "725ae6c67201359f9601d6ee8228c821f0abc93fef5cc509acfcee3f7bc2a388",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs1h3Cyg8R4UvRuSG8XueWJ12J4JDSNLbtWL7oK3SPH": {
+  "ticker": "DOCS",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsQASnxBwD5bETPvfQ1GXqNUDCct4RLoHQUovVe8psK": {
+  "ticker": "DTM",
+  "equity": "92a1e209ab752e83d91381995d1dde40c4affd07b947d5ca1f5d11b4197720a1",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs1CqRVt2mGVfMSHf7M6cDhkjpw8HDF14XbQNzDnGg4": {
+  "ticker": "DUOL",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsDYSbgLh3T7oh59UmRX1F5WjDgJD3nmzACaG5LR1MB": {
+  "ticker": "EBAY",
+  "equity": "6264a259e2cc90dfd3207f5831949eced2da6bf53965834c9160e4ceb9240947",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsM7wvqnJ8BDG6UWDoWnTWiwUoTwg1EgaHfr17aD7oK": {
+  "ticker": "ESTC",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8S5L4HkJpeBWF1J4oyUX6rVwGHmG7GZ7PiChPt7nY": {
+  "ticker": "ETN",
+  "equity": "b1cf984febc32fbd98f0c5d31fed29d050d56a272406bae9de64dd94ba7e5e1e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsaXKP7GaPDA3bLwtuFoZ2oGsaukfeS1v2U1xUeqwrp": {
+  "ticker": "EWJ",
+  "equity": "73560d1ee6daf7f322314d58dd8d0eed720fffcab390c1c1d54b5088d92497a2",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsM8hCeX916xAiVLCeFwxmVpTNYq14rjM8h8Ha2UiTe": {
+  "ticker": "EWT",
+  "equity": "525d459fca8a752d343d564db6f6de6e121f9823575615fb4a1f39d195637a6d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsvsSHRUz5dAmUGH9jvVnkEZRcLkgo7uJf1VWhSuVLk": {
+  "ticker": "EWZ",
+  "equity": "2b196f0db8ac6805b970154cf4b69365e496830a6d17c17f46f3c682dad47b33",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsFj75v4Tw8TWSDaDoVTHF8RAjEEkmUeKgoRjB9DHsf": {
+  "ticker": "EXPE",
+  "equity": "1aed988d2a3349d64e8a34c0d71535e01d17bf6b80c4d99138288af251822552",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XspurdrAqbRJMQfAUEfh88QxE3XbSWxQGu3GneJR6e3": {
+  "ticker": "FGDL",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsvVsjMoBRwH3AaRaZu6YMuEdSWSbCdpxPFCrfMXQfk": {
+  "ticker": "FIGR",
+  "equity": "ed3eb3353fd34a90ee3613defda80c11ae2b58c04ddcfd4ff351c3c66e9629b3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XssfYT48PeXG2EmNdEaVtQcveNhxYnM42KTqdjmiBS9": {
+  "ticker": "FIG",
+  "equity": "e6af4d828b88cd3b40cb34686e61157d3fa37c1aa20ca2b99453aae62619b351",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsFYbD5dUBjCYxwF9oP2QTeJbPBt1mJybme62LGSyyF": {
+  "ticker": "FLEX",
+  "equity": "68799c6196bad6e233c747cfa4a92897a88375268b406a81ca47df277e839d50",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsfVkV6AtVAeR2hcpg5Bwwekq2LG3Thcds3oh4woMit": {
+  "ticker": "FLUT",
+  "equity": "28b4e628c91cbfe3e02bef0ffc4b0d2a0ee22f9f4d8f7c0fd2bb4763b1df36e3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsA5xNUbsqxyz22XSFnNeALLv5XsmBgq3SCaK6xFR5R": {
+  "ticker": "FLY",
+  "equity": "a840894f11d120c1f72d37cb612dff446284b59c374cc27fbdb91d2e1415a84a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsoPv7MccAc4Zf1irRh3NLCSP59XMTaudu8ucRQR7S8": {
+  "ticker": "FTI",
+  "equity": "3e491b8ca12a98bb0b35a00ff83ee47d8d10781637efe06d3762324d0ac458ab",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsHt1AVPshZpfFWGGpooJ8tdeGknUQVJ9CwhvKrnZrw": {
+  "ticker": "FUFU",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsQTDfyyWUBRbLnikwDoSqrcn3YKLG2EDRLHCoQ9e3a": {
+  "ticker": "FWDI",
+  "equity": "a41c677511649aaf529a1e5c30294849749e7b218c23bbcdaba602f9246e0c50",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XswXzAsMV9kebQjCVtr1btvrQgQ7C4C9kKgH4QYAVzw": {
+  "ticker": "GEV",
+  "equity": "57e28b0f0ab18923f5c987629c0c714b9b46c87e729ed95ed6e23e466e8d1e0c",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re": {
+  "ticker": "GLD",
+  "equity": "e190f467043db04548200354889dfe0d9d314c08b8d4e62fabf4d5a3140fecca",
+  "token": "e7d1138d0083368634087268c64b7bea0b4101a6365f83915cba9e76a8364b96",
+  "redemptionRate": null
+ },
+ "Xs3c2aZenyRQwXjki5MDxJEJ2km27ef2rWQMFWx7QKJ": {
+  "ticker": "GLXY",
+  "equity": "67e031d1723e5c89e4a826d80b2f3b41a91b05ef6122d523b8829a02e0f563aa",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc": {
+  "ticker": "GME",
+  "equity": "6f9cd89ef1b7fd39f667101a91ad578b6c6ace4579d5f7f285a4b06aa4504be6",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN": {
+  "ticker": "GOOGL",
+  "equity": "5a48c03e9b9cb337801073ed9d166817473697efff0d138874e0f6a33d6d5aa6",
+  "token": "b911b0329028cd0283e4259c33809d62942bd2716a58084e5f31d64c00b5424e",
+  "redemptionRate": "d54f066daee8cfbee2ecbefc8faa351c7c38b2c2a7cd8b704af20875974e3c68"
+ },
+ "Xs3N3dcHdWXaJ5dv2ysjMA8DS33vixYYzAgVzkG6L3T": {
+  "ticker": "GPRO",
+  "equity": "b1c775cfcb8140daacc57f79a63fb1b30b69a1dac14d29d03b713bb88711a928",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsWa1TvdA54zbHmNiiCrxJimWhuTXQLjCM64Nc6T68A": {
+  "ticker": "GRMN",
+  "equity": "14226b55af532f2fdea5928cff806c6073f67da5b9333672f709e7cf1e5ee7c6",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsgaUyp4jd1fNBCxgtTKkW64xnnhQcvgaxzsbAq5ZD1": {
+  "ticker": "GS",
+  "equity": "9c68c0c6999765cf6e27adf75ed551b34403126d3b0d5b686a2addb147ed4554",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3": {
+  "ticker": "HD",
+  "equity": "b3a83dbe70b62241b0f916212e097465a1b31085fa30da3342dd35468ca17ca5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsRbLZthfABAPAfumWNEJhPyiKDW6TvDVeAeW7oKqA2": {
+  "ticker": "HON",
+  "equity": "107918baaaafb79cd9df1c8369e44ac21136d95f3ca33f2373b78f24ba1e3e6a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg": {
+  "ticker": "HOOD",
+  "equity": "306736a4035846ba15a3496eed57225b64cc19230a50d14f3ed20fd7219b7849",
+  "token": "dd49a9ac6df5cbfa9d8fc6371f7ae927a74d5c6763c1c01b4220d70314c647f9",
+  "redemptionRate": "d88c382daa11f3a377796bc3f9318e7fbffd69c5bbceb5e58548670a7ad23e7f"
+ },
+ "XsicTFC7G68d74FaYDctWggkKDgkMx8LpNoFNr81TrF": {
+  "ticker": "HSDT",
+  "equity": "0f62d775396f303a630eec361709b5eb3126a89e6a73820f3c356d3a9b33dd8f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsG5QyZTQnVSpsXRpD92K5ZGoxXjsmfTyx7fW7r18DV": {
+  "ticker": "HUT",
+  "equity": "fb88ad7526f97f7ca6f43aaa7d3b620f412968db2cbcfac1e906362def8456f3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XspwhyYPdWVM8XBHZnpS9hgyag9MKjLRyE3tVfmCbSr": {
+  "ticker": "IBM",
+  "equity": "cfd44471407f4da89d469242546bb56f5c626d5bef9bd8b9327783065b43c3ef",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsFnZawJdLdXfBSEt5Vw29K5vdBiHotdPLjUPafpfHs": {
+  "ticker": "IEMG",
+  "equity": "96b1207c795f31283f5e44c527a1db18cacfb68de745a0de326611b0b5af3fc3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsyZcb97BzETAqi9BoP2C9D196MiMNBisGMVNje2Thz": {
+  "ticker": "IJR",
+  "equity": "ca0bac9d1826b4a222320f58d47ed66bdc95722124578ed50803674ccd99a775",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsXw4uaUyz6fHfK6qcet55Cg8b5rnf4D1TCJ96FUJqe": {
+  "ticker": "INFQ",
+  "equity": "4c2c1ce2790e81344d5bba316845299b44e93305a4b163b8a3ca7e1bef0830dc",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": {
+  "ticker": "INTC",
+  "equity": "c1751e085ee292b8b3b9dd122a135614485a201c35dfc653553f0e28c1baf3ff",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsXoAR52Q2NYFkYiNqhCq4FauvyA1tdRsrmEYNf9fuh": {
+  "ticker": "ITA",
+  "equity": "79f7f0b79a6b7fdc0d7d9e8b6337fd709b8eea9dc6f57b6174c84816cae88bfd",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsbELVbLGBkn7xfMfyYuUipKGt1iRUc2B7pYRvFTFu3": {
+  "ticker": "IWM",
+  "equity": "eff690a187797aa225723345d4612abec0bf0cec1ae62347c0e7b1905d730879",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs3vKvZf5Rn9pMVM7ctBh1jb4EEH2fAVVmCBB4XDiEf": {
+  "ticker": "JAZZ",
+  "equity": "de709cb4f011fdab0973b46cb05d62687c52a802f53740c55946d694e89948e5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsJjKxPyPx1oyqVoyekbphLCLEwEzszsYbZQXsGPDdE": {
+  "ticker": "JCI",
+  "equity": "f6207ac0b3f712a3021a91f87ff0f03279e5df5126f4e9657f3e4cb3e18ab0f0",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XstnmTaJXkobEbbs7AgmGLBsBeWyHTSJAFcJ6BF6ycs": {
+  "ticker": "JD",
+  "equity": "4c45e26d5253283ab4736b4f4ba9d0e6517679f8425ef07722dacc4b6da90750",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn": {
+  "ticker": "JNJ",
+  "equity": "12848738d5db3aef52f51d78d98fc8b8b8450ffb19fb3aeeb67d38f8c147ff63",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsMAqkcKsUewDrzVkait4e5u4y8REgtyS7jWgCpLV2C": {
+  "ticker": "JPM",
+  "equity": "7f4f157e57bfcccd934c566df536f34933e74338fe241a5425ce561acdab164e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsw2uU1i8tHjbgstUbtt3m6kg7BS7AgG5aj8z7ddmmN": {
+  "ticker": "KLAC",
+  "equity": "9c27675f282bfe54b5d0a7b187b29b09184d32d4462de7e3060629c7b8895aad",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ": {
+  "ticker": "KO",
+  "equity": "9aa471dccea36b90703325225ac76189baf7e0cc286b8843de1de4f31f9caa7d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsAiRejKuvLAdq9KtedrMSrabz7SWdzKoVK6Qgac1Ki": {
+  "ticker": "KRAQ",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsRbXdtjkCdkzekhRvcSYWq4nvJPh6S5SRVdDvukdss": {
+  "ticker": "KVYO",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsSr8anD1hkvNMu8XQiVcmiaTP7XGvYu7Q58LdmtE8Z": {
+  "ticker": "LIN",
+  "equity": "9146c5c900d9aea9579819cf50d1ae18b54dea58eea3c9a198102e4e458e652b",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsexQ9qqNbDkLE6XwCN9ceVhLo8Lxc7UheVR6eBkKyo": {
+  "ticker": "LITE",
+  "equity": "fd7141d35093fb93e84d82507cc6a97775fe263bd8ecd8b7e2b940a6ae487979",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xspy37kNF9i6dwNTUZp7dMGiQgbbS4SMuTSW2deo5ps": {
+  "ticker": "LLYVK",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsnuv4omNoHozR6EEW5mXkw8Nrny5rB3jVfLqi6gKMH": {
+  "ticker": "LLY",
+  "equity": "70dcf5fd56553d0023693e4b590336a8c9bcfd0d98dd9f093b1f697820d98325",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsSN912SN4Whn2xn59vWZHt1uLbw9WnoNGp5MigmHFf": {
+  "ticker": "LRCX",
+  "equity": "01a67883f58bd0f0e9cf8f52f21d7cf78c144d7e7ae32ce9256420834b33fb75",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsDmtC5EpfzJoCzDN2SJP98xpCsSR2CqdZauJSvHNXT": {
+  "ticker": "LULU",
+  "equity": "13a19eb6a936a8c7020fe675687979b44e991efbfb4d3d2ca91425ce57b9e6f8",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsBHq5npA7gUemYgFkzHvpWznPvybEUmyuz3o3Dim11": {
+  "ticker": "LUNR",
+  "equity": "d5385d0f9a7b6268a357094c841bec5834b02265cb3ac439e53963a55defb38f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsir2zEBi9NoWA8r1oSdxS3RHzb38JuuAWWt3xqFW8w": {
+  "ticker": "LYB",
+  "equity": "9b02cd30bda06e851c8a18bddd0bda152856de8b5c429f0f16232b6678d26afc",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs5xCbQ7r3tJrR1huRmNrAKLyDZQM4MadU1rkmrh8hX": {
+  "ticker": "LYTE",
+  "equity": "3dd0ef0b6b582aeb1b1ad93c59f4b149f67159c91c8782d812c7df9567cd23ba",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsguBZPkM9BDmxspmWe29EmrYZBv21ENcC27Pqh7grB": {
+  "ticker": "MARA",
+  "equity": "0fc2ad77a9ab75bcbc3ebd7a9ff60facd08c517309e2d684baa979c910a0e43e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC": {
+  "ticker": "MA",
+  "equity": "639db3fe6951d2465bd722768242e68eb0285f279cb4fa97f677ee8f80f1f1c0",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": {
+  "ticker": "MCD",
+  "equity": "d3178156b7c0f6ce10d6da7d347952a672467b51708baaf1a57ffe1fb005824a",
+  "token": "27cac3c00ed32285b8686611bbc4a654279c1ea11ab4dc90822c2edd20734bca",
+  "redemptionRate": "9da35621c6b18f310a83e9ac6cefa12d72208612b444acf68ba706416dcb47a8"
+ },
+ "XsDgw22qRLTv5Uwuzn6T63cW69exG41T6gwQhEK22u2": {
+  "ticker": "MDT",
+  "equity": "1d762c633d4166a8d061518e187047afda1868cc524990262d8144e39dbb815f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu": {
+  "ticker": "META",
+  "equity": "78a3e3b8e676a8f73c439f5d749737034b139bbbe899ba5775216fba596607fe",
+  "token": "bf3e5871be3f80ab7a4d1f1fd039145179fb58569e159aee1ccd472868ea5900",
+  "redemptionRate": "dfeda47e0d3ed1db00062c9ae8b82f5d0d9699f772e7fee1bfd4e9b1dd168574"
+ },
+ "XsqCwhPzDBwxF7HcqcbYDoLCFLxRTBqrNnFzRq1bmaB": {
+  "ticker": "MFP",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsyusqQvb8RDULsY9szwvUv2CxrDKa642w7kecZPdRM": {
+  "ticker": "MNST",
+  "equity": "579e60cbba314226de0f602f770113aa007bf1786ee37b923800028dc203d1e5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs72K1Ta1D5ccNy3RzSyQWGgZywWvphX78pL8WBk1Bo": {
+  "ticker": "MOO",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsnQnU7AdbRZYe2akqqpibDdXjkieGFfSkbkjX1Sd1X": {
+  "ticker": "MRK",
+  "equity": "c81114e16ec3cbcdf20197ac974aed5a254b941773971260ce09e7caebd6af46",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsrNGY9WNBVqCeoRvuNe66itJDeGsVer1j6rsw9iyMj": {
+  "ticker": "MRP",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsuxRGDzbLjnJ72v74b7p9VY6N66uYgTCyfwwRjVCJA": {
+  "ticker": "MRVL",
+  "equity": "7aef4e90557add5289266340ccd1e1aa7a225f1220206b07aaf98e53101ce116",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX": {
+  "ticker": "MSFT",
+  "equity": "d0ca23c1cc005e004ccf1db5bf76aeb6a49218f43dac3d4b275e92de12ded4d1",
+  "token": "bb723a70af731ab56b9a650eb7e8ac22b7bc07ea77f8670bd1fa9a37bf6df3f5",
+  "redemptionRate": "fbc60d2549711c0fc72da0c9f6971170d4592c2fbd1e9780dc52464316225acc"
+ },
+ "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ": {
+  "ticker": "MSTR",
+  "equity": "e1e80251e5f5184f2195008382538e847fafc36f751896889dd3d1b1f6111f09",
+  "token": "53f95ba4e23ed15ea56083e2ee9a5eec48055d6f59033d4bb95f1ca2a2349c28",
+  "redemptionRate": "342df7ea9b8db28630933d55d0c9c1119525eb5be58d499ecc4e88faf061083a"
+ },
+ "XsQLZycSZ7QnBBdBXQaTbQdiUcbRqjNJgyBGAMzhHav": {
+  "ticker": "MU",
+  "equity": "152244dc24665ca7dd3f257b8f442dc449b6346f48235b7b229268cb770dda2d",
+  "token": "0ce20662c616102659948a2e6ccf7ce05c930366af42b71240086eafb7cfa860",
+  "redemptionRate": null
+ },
+ "XsuHF4oEB9BJvgkV5XW9vCbE9tUUkkjFEzzG8n3gYjP": {
+  "ticker": "MWH",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsEH7wWfJJu2ZT3UCFeVfALnVA6CP5ur7Ee11KmzVpL": {
+  "ticker": "NFLX",
+  "equity": "8376cfd7ca8bcdf372ced05307b24dced1f15b1afafdeff715664598f15a3dd2",
+  "token": "02a67e6184e6c9dd65e14745a2a80df8b2b3d2ca91b4b191404936003d9929ae",
+  "redemptionRate": "55d490cd3adfcd28eb51eb6505dc84d9e2f8318bf430e070c5e174adf35043a6"
+ },
+ "Xss5mnWWwgwVc6d7dibSqcb43fbmjXAnuRaJ6ZF2iXQ": {
+  "ticker": "NTES",
+  "equity": "664fc65e3f9ffb458e7144959ed8d5c86e923eb7ca283efeadb79bd6c1e4b9ce",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xstn27LaCPFZashxd1eEn6NV4fVfuye1AM3MMsbuB97": {
+  "ticker": "NU",
+  "equity": "94cf523ff21fe219b826598951fcb6f2f2224f8e61394f81f52a5929baefe76d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
+  "ticker": "NVDA",
+  "equity": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
+  "token": "4244d07890e4610f46bbde67de8f43a4bf8b569eebe904f136b469f148503b7f",
+  "redemptionRate": "b675c4e9f46d94afa9174a7df09966b77a2950970bb50a77ec8ad4fcfd8266f4"
+ },
+ "XsrH4d2jVBUbZx5YJ3CyPsiN84ugZQGKCbJAoDn9qEd": {
+  "ticker": "NVDL",
+  "equity": "9d11836b6b6feb5c2c455d3e332b91411f247e9e002b671ec35440774ddc5277",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsfAzPzYrYjd4Dpa9BU3cusBsvWfVB9gBcyGC87S57n": {
+  "ticker": "NVO",
+  "equity": "8dde322496e031d942b9eee8ca769d618cd2e69b18196644369379f5a1e7c23d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsMHaqEVV3ZekoRp1c3vARffHjJZCqk8FsciXHNghpj": {
+  "ticker": "NXT",
+  "equity": "23b3b7d1da822f55f5cc531abf64941904e99c7ddc2b991104c16d5e3ae57b20",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsJb1p4Ks6VFggq68JyMz7S3kdRfkqh4wA6EMyxi4DD": {
+  "ticker": "OKLO",
+  "equity": "0d283a095e94dff4d4e607614ed686eb53e548238fb3af231148c276ecefe83e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsGtpmjhmC8kyjVSWL4VicGu36ceq9u55PTgF8bhGv6": {
+  "ticker": "OPEN",
+  "equity": "b4ef19d348a726dad5a655bcac5fe6e09c83af142bf1006b45d0f9ca4d5a46b5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsjFwUPiLofddX5cWFHW35GCbXcSu1BCUGfxoQAQjeL": {
+  "ticker": "ORCL",
+  "equity": "e47ff732eaeb6b4163902bdee61572659ddf326511917b1423bae93fcdf3153c",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsj1NnCroe64taUVsrxwWSzd1VgPnLtTD1K7W8MLXmd": {
+  "ticker": "OSCR",
+  "equity": "4af609fcabd2fc48ac3c17232d00dc6ecf8e6ca7f6561976826174c19240f0cc",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsUsHYstgit1UE4anT2thfJvTByEHmrgx4V1FS8EQu8": {
+  "ticker": "OUST",
+  "equity": "33e337a21f74f02e0a5aa4a6ca8bcac777456865d1a27cc3e0495bd25d8d1b07",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsTTtPA5V19YwHKDv4xeVXNM6kdsQNJvg3MyWkRUckt": {
+  "ticker": "PALL",
+  "equity": "feeb371f721e75853604c47104967f0ab3fa92b988837013f5004f749a8a0599",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsQ6NfzzLH8nspjrB9X8R2K64Zz7Tnxqu12juDiMPMW": {
+  "ticker": "PANW",
+  "equity": "3b00df0661ccb3109d11ff301c1aa4e88b8d647cb477b089ba225149e6e1b7bb",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsEQBApgA2VFWJZ1Rr9xh8MWBMBV2nTzzQXoL36M2xx": {
+  "ticker": "PB",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsSdwPGhuiTBir2bpJTiJkEhfMEn5bG75XevuePua1q": {
+  "ticker": "PDD",
+  "equity": "ae69f62081eb15ae4f077397871a1cf29cacf75e7b1db740aed9074c1efd3fa4",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsNKpPnrpzt3MRF7dA9EtAxWyrdivwN5xyvHUi2iweV": {
+  "ticker": "PENG",
+  "equity": "e35e3fa2164c7b0ef15d904c231939e799ee683437ca0aa362133bafaf540ae6",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF": {
+  "ticker": "PEP",
+  "equity": "be230eddb16aad5ad273a85e581e74eb615ebf67d378f885768d9b047df0c843",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsAtbqkAP1HJxy7hFDeq7ok6yM43DQ9mQ1Rh861X8rw": {
+  "ticker": "PFE",
+  "equity": "0704ad7547b3dfee329266ee53276349d48e4587cb08264a2818288f356efd1d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV": {
+  "ticker": "PG",
+  "equity": "ad2fda41998f4e7be99a2a7b27273bd16f183d9adfc014a4f5e5d3d6cd519bf4",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsNcipuq5a8j8A79VDZZpPWuTpSj62Mm1NuPWzUJkhg": {
+  "ticker": "PHM",
+  "equity": "a8bf7d55b95d25528cfe20141ade2952147a135208ca590fcc2ccf756d9b5119",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": {
+  "ticker": "PLTR",
+  "equity": "11a70634863ddffb71f2b11f2cff29f73f3db8f6d0b78c49f2b5f4ad36e885f0",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsMJtFbb8BwzQtck3oRXyAfs7SAPRuTXnSEDNd7BAVz": {
+  "ticker": "PL",
+  "equity": "562e632de00dd4ad4a70b024afc3e2a220c1b05116d58cf96089825303f94762",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsba6tUnSjDae2VcopDB6FGGDaxRrewFCDa5hKn5vT3": {
+  "ticker": "PM",
+  "equity": "a32f875eb39e23f087ea0db141b00857630c2c5011bfbe53a2a4d186f37cb583",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsjtAXkyNt9px9ayydwZq86shcRfK9bWy9q9PRhaPN2": {
+  "ticker": "PNR",
+  "equity": "47c6ca824cb9b240f65ca58190a42df41cbc20dcee3803f313445828fe1b24b0",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XszWcNSHsYTXqxDbgK5GzNPxNfxSAKJBCkr2YtsjuPT": {
+  "ticker": "POET",
+  "equity": "d44395eb9a32dd0203793e12ccd0da18fde61bc7710b6ca6f33d56f307d14cdb",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xst6eFD4YT6sz9RLMysN9SyvaZWtraSdVJQGu5ZkAme": {
+  "ticker": "PPLT",
+  "equity": "782410278b6c8aa2d437812281526012808404aa14c243f73fb9939eeb88d430",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XscLQvx6mzoarzvLF6CntvUPFa6ukUkFCvqzLxiihmw": {
+  "ticker": "PURR",
+  "equity": "b95c77565b8fcf080abfaee5fbd966e6732d9bb05ed7e839222c6352066929d8",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsLR2VCGNzYVLfJGEwwNZsRYDZBGyBnoQH5rPGvwodA": {
+  "ticker": "PWR",
+  "equity": "a189b9eee6d023e3b79a726804aeb748d54e52cf6ebcebe0f7d5c8dae4988357",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XshWQWYVp5ff8CrAEsGmLVKD47nBWi3Ygn5v8wXK27G": {
+  "ticker": "PYPL",
+  "equity": "773c3b11f6be58e8151966a9f5832696d8cd08884ccc43ac8965a7ebea911533",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsGRoyBwemr8giBu8mgShoRGXHYbip7yWHDsaAueMvA": {
+  "ticker": "QNT",
+  "equity": "348c83cb74c894850277f7061f8db5714b087846614789fb9bd6a02603abaa9a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ": {
+  "ticker": "QQQ",
+  "equity": "9695e2b96ea7b3859da9ed25b7a46a920a776e2fdae19a7bcfdf2b219230452d",
+  "token": "178a6f73a5aede9d0d682e86b0047c9f333ed0efe5c6537ca937565219c4054d",
+  "redemptionRate": "5fe0ad9fd9bd888bbdfb609dbe8a6233248fa3dee25755f986f473c43938c7ca"
+ },
+ "XsyGzGhqwnbfqeN6TQWK4SHnVJYgbxRdp4aH5L6RwEZ": {
+  "ticker": "QYLD",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsZRN32fxqsvU9VmL254K1yLyYVkL3RXcBRJpTsRYWc": {
+  "ticker": "RAM",
+  "equity": "a1c8e6bd0fcd3a19a87ce81ad405496d598cac14f1292792b3b560ae6ef42827",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsZBSMXWT7D5TEKeM4pS4gY3Dc2MqebCuC3TaZCTQVz": {
+  "ticker": "RBC",
+  "equity": "a2f38e713d7ca6840f04991622f39be9195317b70bc5b73cf63e60866c17e249",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xss5RAku5EH6UViFdvW7ss9xQjwQLsrs2opPMhb3k43": {
+  "ticker": "RBLX",
+  "equity": "d62134a195739141d0649991f11fe0f9cd9eb83fd890bc3ba41dfdd18c1a49f4",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8LesEYZb7SZJrW85hMrrVzyeoyxKrCNVnpEURLzZp": {
+  "ticker": "RDW",
+  "equity": "24799168878b008a944098996a0bfbe6cb980fcd93fd28bf5e24511850be8d10",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs31mE5EiqjSHEaiX9QDKCN6NvSGCqpJ6f1FNq2wri5": {
+  "ticker": "RIOT",
+  "equity": "46417522a59b245c5af35c33c13426d991b36514c4c85aaefe1cf787e7daad90",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsKSh3QDynp6oms9yHjZXbZo3pKzUBoqUFKPHS2g9Bh": {
+  "ticker": "RKLB",
+  "equity": "40589e289317e4fbd997b1a267606e20a1cc7c3e4689f9e5a5992957917816c8",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsmcgXdcTCXpPJwXPSs67ELi7iRkBzDZF1qcgEuUvTK": {
+  "ticker": "RKT",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsHkjFmgE1UtuNJXffYmTGMaF1rDU14BYBJbEGR4DVc": {
+  "ticker": "RPRX",
+  "equity": "6e13e9ddac63e865961396f716a1384cb553a92777add53ac190caaaeba507f0",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsEoih2x6nZuUjFwzGoba6MFmtzCkzW2c4YAm6baQbq": {
+  "ticker": "SBET",
+  "equity": "6b5bedda9e9d6354c5b93659cba6747d21b527437022da6e5f32e3b53e485a04",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsWAnFM77x6YvpdaZoos79R12o4Yj4r7EVkaTWddzhU": {
+  "ticker": "SCHF",
+  "equity": "601671d8a16a9f456d9a16d0bf203dd80d5076cc95ddca29cb5c7f8024dbeba6",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsYD72ntjj7ZwoFDZCDmN2gamTcLpnywqvG7PQN5vCN": {
+  "ticker": "SGOV",
+  "equity": "8d6a29bb5ed522931d711bb12c4bbf92af986936e52af582032913b5ffcbf4d5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsAzGv2quxQWSUphAKcmFeFyJqTgDkcetgp3DmAFVj4": {
+  "ticker": "SHLD",
+  "equity": "6b971ce35cfc0f144200bf5aa184863af1522312fad078fc6d5b7743501eae51",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsRN7n3AZDs577pgQSGbrbgznY5T9xERcjr4dK6vHnX": {
+  "ticker": "SHOP",
+  "equity": "c9034e8c405ba92888887bc76962b619d0f8e8bf3e12aba972af0cf64e814d5d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsC6bBzDDABjHhKmUAxx7THK4jF5zbJgPA3kVox5okM": {
+  "ticker": "SIMO",
+  "equity": "54c51d3e772f079c37c8bb030878da5e1d55eb2c67be7e36435b03beda542c3f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsxtnDUJzTMjqmzajufokv9xrG868kvkp5KNuNNsU4d": {
+  "ticker": "SKDD",
+  "equity": "bc47b69cb88ac5139e853856242b63e86a71dc62ee5bcb8392f28e0a308dd661",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XstZ31nh6HKMkkNgEcXqAJuF2CFmexYkM4tGaNtUVWK": {
+  "ticker": "SKUU",
+  "equity": "1e01caca2c7be1ae9c93580bcd3c0ab54f7d7eeed0b5afb3c238c2b5f751cf07",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xssse6ey1U1D1NNbJHvep6MpvL16D4dqigsguvLGQqF": {
+  "ticker": "SLB",
+  "equity": "8042b087e06b64b7a40056782d48c8add189943d8354c56726e655f46e65320f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsPHkGBbztHCCe1RMhiAs7CxVqoghmyd6zDUfrbfVWG": {
+  "ticker": "SLMT",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsxAd6okt8y1RRK6gNg7iJaqiWNiq5Md5EDf3ZrF2dm": {
+  "ticker": "SLV",
+  "equity": "6fc08c9963d266069cbd9780d98383dabf2668322a5bef0b9491e11d67e5d7e7",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsMxAoJP47FQGLsVUvSS2QfBaHdNsd7DRU6nWRL8RSa": {
+  "ticker": "SMCI",
+  "equity": "8f34132a42f8bb7a47568d77a910f97174a30719e16904e9f2915d5b2c6c2d52",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XstuBvLo7soZzj3beCCPonHpR3eUfPNSeQzw35Swons": {
+  "ticker": "SMH",
+  "equity": "2487b620e66468404ba251bfaa6b8382774010cbb5d504ac48ec263e0b1934aa",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsrwdnwLHjVnyy7fgE2Pdwjp3czEm73jPjkSC5xzUBw": {
+  "ticker": "SMR",
+  "equity": "69155365daba71df19c2c0416467b64581052cfa75f44b77f352a92698b81639",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xswbpc8UqU6e1j9QZEWCjBMjyvz4twqD7PCy6j2e7jj": {
+  "ticker": "SNDK",
+  "equity": "c86a1f20cd7d5d07932baea30bcd8e479b775c4f51f82526bf1de6dc79fa3f76",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsEKTjrrYD3Yni2CEPZUn1H4wKsSXpZc8hBQLFy54TR": {
+  "ticker": "SONY",
+  "equity": "b4e9d5fc0e0dbf10b138cbbdcb0c211dd6a56676bcf16d09760be7967bd204f9",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsgrm4D6VBTfDx5bs7GNdjtmWDgZ8V79r3YpsYwf5py": {
+  "ticker": "SPCE",
+  "equity": "fce02687a8a49f19f78f7f97bd686c779135221429206bbd8735d5ad4c782130",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xst9jAZk2vxXtsttJdDh5pKvwfmDUPHAPqt3dxFi64G": {
+  "ticker": "SPCH",
+  "equity": "c0d6a4977d0a64cc1e3e4e03f9505147a569fb0c0aff1ee6eca59df5d99a867f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
+  "ticker": "SPCX",
+  "equity": "8a593d6edde7a3095213c88116d8840d01e93c2ddeb800bc891772eb8b93bb94",
+  "token": "e8e2234a06b288fedde43ae9450cb288886ecb3259ad2f41d0067f02244a0101",
+  "redemptionRate": "3bd917356e64e4eb1355adefd2caf09cf0716bbdb58012907bdcad63ab21064e"
+ },
+ "XsTuW2zaiPbzgrnQ7b4Z99zeULMM7gPxppE61CtpyDj": {
+  "ticker": "SPGI",
+  "equity": "e7268062e142570f97cfba327f14e3153d1d4d8f6a4f84e59b72940ee87ecdb9",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xss3SfGpiR5nhJYsJ7gdd1qiNGxcsr5NX78rmGBDtND": {
+  "ticker": "SPOT",
+  "equity": "547ef6a2ea7db9baf50788876d3c062facaecfc896d898f37ba12efd0a13383a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsMnix8kbE6B6q6VDNTDizLCCP2WpYPj4vtFpumqFFG": {
+  "ticker": "SPXC",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
+  "ticker": "SPY",
+  "equity": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
+  "token": "2817b78438c769357182c04346fddaad1178c82f4048828fe0997c3c64624e14",
+  "redemptionRate": "9e916cc00d292da2367646ffd6537d6b8d0c3f15e2d5891ac44aed31291811a9"
+ },
+ "XsSPkcE4GbHiBacr8awTTHpwFBuznazcwEKgdvBCkoz": {
+  "ticker": "SQQQ",
+  "equity": "f207c5d325e44579b12965394d9a4dd988567de635a494694bfb0b46c20a06ec",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs2HTHR5KBVGz9HS1iMakbTs1zXZVRuaLDMApPbabwW": {
+  "ticker": "STE",
+  "equity": "c8688938e7493b4849467d88d1cac1518f13d9cee69742982120439acdf2c83a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH": {
+  "ticker": "STRC",
+  "equity": "27c7bbc9755d847f7fc63620c2edcc6a91d2c0c67a28c7999907b59c505b3c17",
+  "token": "5f5193ed44dd1f4b0732dbffa2e27caf953e16a2d911854c8c3766d8bc609a47",
+  "redemptionRate": "a8b410b2a5f5f49a9da69a1e3a99d9c71ca6807d08cc4a6711f8fc6dd7d06202"
+ },
+ "XsaQGz41BEQkS9xAB44uvUtuXcdLJAXEU1dogEzWMZ8": {
+  "ticker": "STRK",
+  "equity": "cdea273301806de445b481e91a8dbe292ba23fcff8f7dec2053311555a0656c3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XspncLEk5B19BMLwvC26DqNtJxKWWxuBKq9phbCG8ff": {
+  "ticker": "SUIG",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs9F6gJ3H1gp3dcNiZGNQMuWBkaHLVuR7fUaCVrPU1u": {
+  "ticker": "SVRA",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs2p9MnR8wGJHUwtFu86KBHCzDcZJHufCCALZQfU7ty": {
+  "ticker": "SW",
+  "equity": "c7ba1f80f10774038310eb30adc31c69103f9e3030262ef4e0a6ce9d6c44488f",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsqBC5tcVQLYt8wqGCHRnAUUecbRYXoJCReD6w7QEKp": {
+  "ticker": "TBLL",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsBgbNRDujfznQq8P4NLKEkRTbPxUVt4v1xwkDzMMtQ": {
+  "ticker": "TEM",
+  "equity": "79c4582b9dd2d5f9a32c54654f3db995353a0e57a8094bacb8fb55a7190ca9a3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsbe4fwmjVQEWEPkzfyxqNdPUUK7X9dKfTJrZdDbNgx": {
+  "ticker": "TER",
+  "equity": "58ab181e7512766728d2cc3581839bbb913e6cd24457ba422cbe2a33df64416e",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsjXR5jf4d4GNpJXwLvEBTMwK3ZYro2qZGgvUCzyJrx": {
+  "ticker": "TGT",
+  "equity": "13537ceb2df5af0b8cdf8032561b0a71430b51297375bbfdc6ed209df1da0d65",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsTSUDFMukRGiSzCg79RNWXQbmCbBNZisW4GcDXhboo": {
+  "ticker": "TKO",
+  "equity": "6b4b77a7d5582a28d508e5dc6774384551767ae333cdeffb24af61277725e9b1",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsNZ125wJDfhqhdSuGMeVCWgP26pYsY5ZRtiAfKtU2d": {
+  "ticker": "TMF",
+  "equity": "a0904b0b67892909308349c6d7672b05f5505d99e44e047266ffd90370dbdf1a",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8drBWy3Sd5QY3aifG9kt9KFs2K3PGZmx7jWrsrk57": {
+  "ticker": "TMO",
+  "equity": "244fdf268ed7ecfad2cf84529c46d0fcef7a643428ff4ef8b16e8dbb63e0f2d9",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XswCi2U1G6Ppbw1QhG45yKb8UKuR1FKLJrquv2FZSD4": {
+  "ticker": "TMUS",
+  "equity": "0b231ca4307d25e4600067bfb06f576474bcabd74fb50eeaa0906ac1b457f365",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XscE4GUcsYhcyZu5ATiGUMmhxYa1D5fwbpJw4K6K4dp": {
+  "ticker": "TONX",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsjQP3iMAaQ3kQScQKthQpx9ALRbjKAjQtHg6TFomoc": {
+  "ticker": "TQQQ",
+  "equity": "5aa9f82dc2e0f5f8271fd163e980010101517da59f4b72b71c7056a5950b2f9d",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsKkwEmc69VUFMAGPQ8eoxK5d6qyTESzTXjccS6Mpyi": {
+  "ticker": "TREX",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsRrH4fDA27xfyDjpcwefvcBdHCXs34krUuaXGEXzqz": {
+  "ticker": "TRON",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsCMQxyd94mNDqb9uXoxLh6hNFFcBygdBYerEKp2LZy": {
+  "ticker": "TSEM",
+  "equity": "cf3f93bef4432759b7e0224e33604df001963c8660a64551dbd90fd38c3a6a9c",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB": {
+  "ticker": "TSLA",
+  "equity": "16dad506d7db8da01c87581c87ca897a012a153557d4d578c3b9c9e1bc0632f1",
+  "token": "47a156470288850a440df3a6ce85a55917b813a19bb5b31128a33a986566a362",
+  "redemptionRate": "997362625415627e9e3177f6c0d32f200d4a221ccadb3dddab80d6079d03ea24"
+ },
+ "XsWfu1svxj6DPqQZFAinCvtDa1EvgAZGx5qocUkrrA6": {
+  "ticker": "TSLL",
+  "equity": "a773b1d62be85f3e67304462dfd7c7afad5f1d84a75b7ff2166d977ca7990358",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsafvsGtzFqqHgTnA3aPC83EAMkacU5mcGtcSayhpVV": {
+  "ticker": "TSM",
+  "equity": "e722560a66e4ab00522ef20a38fa2ba5d1b41f1c5404723ed895d202a7af7cc4",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XszyRH55GaDt8vYFw8p7KaLT8pedveg4B1QWcxy6VBV": {
+  "ticker": "TT",
+  "equity": "0c9385e9109703f9cef4872dc1d6abaa7a630c1b524757141f79d42159768307",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsqML71RLbyUM3CmY4EYN88zE6BJkpvJACnUKBdGD3x": {
+  "ticker": "T",
+  "equity": "63e9f918ab91507c3574cca011da4dccda30cf54d46124d03b70279142ff81f3",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsAsZLF4MmsvS1sDxRMrUz7REjHfwbC9UAMXSRBqgEB": {
+  "ticker": "UBER",
+  "equity": "c04665f62a0eabf427a834bb5da5f27773ef7422e462d40c7468ef3e4d39d8f1",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XszvaiXGPwvk2nwb3o9C1CX4K6zH8sez11E6uyup6fe": {
+  "ticker": "UNH",
+  "equity": "05380f8817eb1316c0b35ac19c3caa92c9aa9ea6be1555986c46dce97fed6afd",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsq9sEQjYiUTSZ55RrbHAzVfz8HotwFGrqgxkgiv4LB": {
+  "ticker": "URA",
+  "equity": "c22a2dd9ebde1ca2658926fc2579e9e4086c14cb63c789337c86295f09e68de5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xst3tzrmqjzvGXZz2eE2h8CWWWxy4wzp6mXvTuG5Tqt": {
+  "ticker": "URNM",
+  "equity": "62be4863d61681d4b4393cde876fd92696c7c01c2792abcd06c0f3716b06f4bd",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsJJneENiaBPqqcdK1gMsfwi9cbw111azigzRYHoctX": {
+  "ticker": "USAR",
+  "equity": "1bf5216f1a4ec4beb87e22110dbca2a62825bb1216d24a17e913164e4f8ec602",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsXJBom7kFSxA6hc2ArzUwe6o6zyRU1AdHTfvev1HkG": {
+  "ticker": "USO",
+  "equity": "d00bd77d97dc5769de77f96d0e1a79cbf1364e14d0dbf046e221bce2e89710dd",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsYHvpLWfTfqdLkPbCc4eUT21eH521BRTXBypgzpEDH": {
+  "ticker": "UUUU",
+  "equity": "1d27fb8230f11104a8bd4ed3ae44d0d61559261512c6508863d7af2c3f2059af",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xsb9Hu9KkxJxMNoaogz7UYsNS3VHvLCqwT9S1mRyVGE": {
+  "ticker": "UVXY",
+  "equity": "7d9c04b949c64bef946910c9cdf4390737731fca2c5356aa5fe36844bab1cb16",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsnxBb5gE5FL1onApUD67qSC1QyNd2uk5A9QEEnSB5S": {
+  "ticker": "UWMC",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs7UsqobM3EJgMeHwdAbmDBCZH1G5WTCjatpeYcCr8x": {
+  "ticker": "VCX",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsosCAu1L8Ebpr4SdBDV1EboYDRTWCH8j79UnHYzvbN": {
+  "ticker": "VGK",
+  "equity": "0648195b6826d833f3c4eb261c81223a90ceb3a26e86e9b18f6e11f0212cad18",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsLUiVEwYeoneKpgR1C2Q4DBUZhX4xDktSCfQqq8zmn": {
+  "ticker": "VRT",
+  "equity": "84dad6b760396a7904d04a3d83039a3fc18f10819fd97d023ac5535997d70108",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs936JPaWKEXmpu54DZ149GETV7PmsnTqnMWxgcPNAj": {
+  "ticker": "VST",
+  "equity": "665d46c8142ca4486ebcdcfc0bbb913dee5255e0be63b6f971933620a7f69045",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9": {
+  "ticker": "VTI",
+  "equity": "26c67e91769aeba33a09469c705a1863794014dac416e4270661f489309ae862",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsEdDDTcVGJU6nvdRdVnj53eKTrsCkvtrVfXGmUK68V": {
+  "ticker": "VT",
+  "equity": "b167b163565d841b1477cb942bf3b2d28214f3eedf343de7536d6e5b6250d45b",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsNVBwVGqtDqmA2Waoiux5mfykH8nepLK74z3ZoQWK2": {
+  "ticker": "VUG",
+  "equity": "8c64b089d95170429ba39ec229a0a6fc36b267e09c3210fbb9d9eb2d4c203bc5",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsqgsbXwWogGJsNcVZ3TyVouy2MbTkfCFhCGGGcQZ2p": {
+  "ticker": "V",
+  "equity": "c719eb7bab9b2bc060167f1d1680eb34a29c490919072513b545b9785b73ee90",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsLT5v4DAd1kwViPQh3SZiT5kzJfNLxzJxJN1dySZTe": {
+  "ticker": "VXUS",
+  "equity": "48a13d42218646bba8cc114cd394a283b11c0e07dd14a885efd5caec640c5289",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsZUSqxAXKJkEimvD4CoVvEb4WUC92TFgj5zRtBxFeL": {
+  "ticker": "WBD",
+  "equity": "0cb5822ffa7443a58afb6f9d483a9c1a9a1f89737b4b851523ab2bf86d049755",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs4uNhvBDAcp2mz3g9XR5q3vzLgmF1ANWxJgWk2d5u3": {
+  "ticker": "WEN",
+  "equity": "c6101ee4f14af5581a3995438bf0e80a574dd28fd497685988b526ae9ba34749",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs151QeqTCiuKtinzfRATnUESM2xTU6V9Wy8Vy538ci": {
+  "ticker": "WMT",
+  "equity": "327ae981719058e6fb44e132fb4adbf1bd5978b43db0661bfdaefd9bea0c82dc",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsbkEG4hDnNbTAA5DNDaLG9jYPMTK9q19CuNuzhRR8b": {
+  "ticker": "WTW",
+  "equity": "fdc34922e57ee32f16296243d400188a789c48e863904957a47c569ba578fa0c",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsuwUbQSzCJN2wZabD1Gxf1MER2Ypa7hMzVMYB2WawJ": {
+  "ticker": "WULF",
+  "equity": "7717b73c7f19ffb1e6e5da542836fa3464559ec971df475455471433a005e2a6",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsNG7S8TMR3Xqa86GHjgtM8gj6Jkt8f62EvtG29B5yc": {
+  "ticker": "XBI",
+  "equity": "d99fb1c964d9a2a731d34357e3abd4911c52470da6895b8c53c35fcf2ca77b23",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs54CrhmpVp6uxZXwgSTegrRH2kShh88XFPzgf4BExu": {
+  "ticker": "XLE",
+  "equity": "8bf649e08e5a86129c57990556c8eec30e296069b524f4639549282bc5c07bb4",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsaHND8sHyfMfsWPj6kSdd5VwvCayZvjYgKmmcNL5qh": {
+  "ticker": "XOM",
+  "equity": "4a1a12070192e8db9a89ac235bb032342a390dde39389b4ee1ba8e41e7eae5d8",
+  "token": null,
+  "redemptionRate": null
+ },
+ "XsAk6BoV4kBXUM6WXodKyM21CN92G9jArwAzFvbh3LX": {
+  "ticker": "XOP",
+  "equity": "c706cce81639eed699bf23a427ea8742ac6e7cc775b2a8a8e70cba8a49393e42",
+  "token": null,
+  "redemptionRate": null
+ },
+ "Xs8wJQMzTe9wnwdvZwtEVm7BrFER3NUhAm8ZxKShZAL": {
+  "ticker": "XPOF",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB": {
+  "ticker": "ANDURIL",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw": {
+  "ticker": "ANTHROPIC",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PreZad18qfPtbxNpMtMuAuX2zVpvkEU8DnJx56faCWd": {
+  "ticker": "FIGUREAI",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PreLWGkkeqG1s4HEfFZSy9moCrJ7btsHuUtfcCeoRua": {
+  "ticker": "KALSHI",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": {
+  "ticker": "NEURALINK",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": {
+  "ticker": "OPENAI",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": {
+  "ticker": "POLYMARKET",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PreANxuXjsy2pvisWWMNB6YaJNzr7681wJJr2rHsfTh": {
+  "ticker": "SPACEX",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PreWi2b3q65FccFqNkouSgfA1zY6PE7qcqWwrw8ZJYk": {
+  "ticker": "TEST",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ },
+ "PreC1KtJ1sBPPqaeeqL6Qb15GTLCYVvyYEwxhdfTwfx": {
+  "ticker": "XAI",
+  "equity": null,
+  "token": null,
+  "redemptionRate": null
+ }
+}

@@ -28,3 +28,35 @@ export function isAddress(input: string): boolean {
   const decoded = base58Decode(input.trim())
   return decoded !== null && decoded.length === 32
 }
+
+const ENCODE_ALPHABET = ALPHABET
+
+/** Encode bytes as base58. Needed to ask an RPC to match raw bytes in an account. */
+export function base58Encode(bytes: Uint8Array): string {
+  const digits: number[] = [0]
+  for (const byte of bytes) {
+    let carry = byte
+    for (let i = 0; i < digits.length; i++) {
+      carry += digits[i] << 8
+      digits[i] = carry % 58
+      carry = (carry / 58) | 0
+    }
+    while (carry > 0) {
+      digits.push(carry % 58)
+      carry = (carry / 58) | 0
+    }
+  }
+  let out = ''
+  for (let i = 0; i < bytes.length && bytes[i] === 0; i++) out += '1'
+  for (let i = digits.length - 1; i >= 0; i--) out += ENCODE_ALPHABET[digits[i]]
+  return out
+}
+
+/** Decode base64 to bytes in both Node and the browser. */
+export function base64Decode(input: string): Uint8Array {
+  if (typeof Buffer !== 'undefined') return new Uint8Array(Buffer.from(input, 'base64'))
+  const binary = atob(input)
+  const out = new Uint8Array(binary.length)
+  for (let i = 0; i < binary.length; i++) out[i] = binary.charCodeAt(i)
+  return out
+}
