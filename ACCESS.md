@@ -22,7 +22,9 @@ Examples that fail: `fallback: none`, `fallback: skip that feature`, `fallback: 
 ## Accounts and keys
 
 - [x] Solana mainnet RPC — needed for: every verdict (reads the mint account) — how: https://api.mainnet-beta.solana.com — cost: free — eta: none, measured working 2026-09-20 — fallback: the public RPC IS the fallback; a Helius key (already held, used by ~/Projects/redline) is the upgrade for rate limits, and the page states which endpoint answered
-- [x] Pyth price data — needed for: the real share price next to the token price — how: https://hermes.pyth.network (keyless HTTP) — cost: free — eta: none — fallback: cached price snapshot committed to the repo, banner reads "prices as of <timestamp>, live feed unreachable"
+- [x] Pyth price data — needed for: the real share price next to the token price — how: Pyth's own PriceUpdateV2 accounts read off Solana via public RPC (program rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ, keyless, TESTED 2026-09-21) — cost: free — eta: none — fallback: the feed catalogue at https://hermes.pyth.network/v2/price_feeds is still keyless, and every price carries its publish time so a stale posting is shown as stale rather than presented as live
+  - NOTE 2026-09-21: Hermes' *price* endpoints (/v2/updates/price/latest and /api/latest_price_feeds) now answer 401 unauthorized without an account. This is why the on-chain read is the primary path, not the fallback. No key is used anywhere in the build.
+- [x] Live token price — needed for: what a venue actually pays for the token — how: https://lite-api.jup.ag/swap/v1/quote (keyless HTTP, TESTED 2026-09-21) — cost: free — eta: none — fallback: the issuer's own published price, labelled as the issuer's number
 - [x] PreStocks public API — needed for: mark price vs token price on pre-IPO names — how: https://prestocks.com/api/prestocks — cost: free, no key — eta: none, measured 200 OK / 5802 bytes on 2026-09-20 — fallback: committed snapshot of the same JSON, banner reads "offline catalog"
 - [x] hackathons.solana.com account — needed for: filing the entry — how: already registered as alexmustapha11 — cost: free — eta: none — fallback: none needed, account exists
 
