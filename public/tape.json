@@ -1,7 +1,7 @@
 {
- "builtAt": 1789945265,
+ "builtAt": 1790034097,
  "endpoint": "https://api.mainnet-beta.solana.com",
- "tokens": 30,
+ "tokens": 265,
  "authorities": [
   "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
   "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
@@ -10,28 +10,6 @@
   "WV9PJN7XTmTLVwbutCLFxp8TyePee6Xq5mRq6Fti5Wc"
  ],
  "changes": [
-  {
-   "signature": "52L7Q5ko1EmC1zm1Hz9qDkf3RCyrkoCTHmKEQR3ACrz7QjrxLXo7K3YSdQevAR71N2qXJG5mMnsYiLszWyD4rLGT",
-   "blockTime": 1789871109,
-   "mint": "Xs54CrhmpVp6uxZXwgSTegrRH2kShh88XFPzgf4BExu",
-   "action": "updateMultiplier",
-   "label": "Balances rescaled",
-   "detail": "Every balance was multiplied by 1.005010474242, effective immediately.",
-   "unmapped": false,
-   "signer": "S7vYFFWH6BjJyEsdrPQpqpYTqLTrPRK6KW3VwsJuRaS",
-   "symbol": null
-  },
-  {
-   "signature": "66CzTFZ9LJ6mCTN4fzduzwE9DkrsXh9FsQRWnRbEWuBmJTYiW3Bk1EMP2QMD7ELHy2oYY8Rg4N7LUQFcYNbNiobW",
-   "blockTime": 1789838855,
-   "mint": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
-   "action": "updateMultiplier",
-   "label": "Balances rescaled",
-   "detail": "Every balance was multiplied by 1.0027250296551051, effective immediately.",
-   "unmapped": false,
-   "signer": "S7vYFFWH6BjJyEsdrPQpqpYTqLTrPRK6KW3VwsJuRaS",
-   "symbol": "QQQx"
-  },
   {
    "signature": "3jHo3hTXst3tndUpkSJnVhScCPzV7qDHh9hgzVRJGQ9TZQS6GENZuND36oJuTz1oTTKv14zr25Mg9GSuZHPFjACT",
    "blockTime": 1789803781,
@@ -239,7 +217,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BABAx"
   },
   {
    "signature": "5ddt3JpvCVG4P4dHREsiJW76h3asRzg3KZhd2fu6G6uSoE8bstny1rkcVrKdK7GQbSACMk2EMm4rCAV8qHcK2ckx",
@@ -250,7 +228,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BABAx"
   },
   {
    "signature": "5ddt3JpvCVG4P4dHREsiJW76h3asRzg3KZhd2fu6G6uSoE8bstny1rkcVrKdK7GQbSACMk2EMm4rCAV8qHcK2ckx",
@@ -261,7 +239,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BABAx"
   },
   {
    "signature": "5ddt3JpvCVG4P4dHREsiJW76h3asRzg3KZhd2fu6G6uSoE8bstny1rkcVrKdK7GQbSACMk2EMm4rCAV8qHcK2ckx",
@@ -272,7 +250,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BABAx"
   },
   {
    "signature": "32z2GYuqd7DorWiH8PX3ToCh8ZiHhGBoz2fVwUJyYbSEkCjyLnC9enufBDYLapWGUrVgj2vMXVTHfRcKF7nC4pH8",
@@ -283,7 +261,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHLDx"
   },
   {
    "signature": "32z2GYuqd7DorWiH8PX3ToCh8ZiHhGBoz2fVwUJyYbSEkCjyLnC9enufBDYLapWGUrVgj2vMXVTHfRcKF7nC4pH8",
@@ -294,7 +272,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHLDx"
   },
   {
    "signature": "32z2GYuqd7DorWiH8PX3ToCh8ZiHhGBoz2fVwUJyYbSEkCjyLnC9enufBDYLapWGUrVgj2vMXVTHfRcKF7nC4pH8",
@@ -305,7 +283,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHLDx"
   },
   {
    "signature": "32z2GYuqd7DorWiH8PX3ToCh8ZiHhGBoz2fVwUJyYbSEkCjyLnC9enufBDYLapWGUrVgj2vMXVTHfRcKF7nC4pH8",
@@ -316,7 +294,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHLDx"
   },
   {
    "signature": "5ZUnLiQagpMwK6ipDwqk39LTiJp4wk8DV3KkueswJVEtUF8r5iqgdmwKdegdwHh1CsGrazptAeyKsdwJpUkTFLVJ",
@@ -327,7 +305,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BIDUx"
   },
   {
    "signature": "5ZUnLiQagpMwK6ipDwqk39LTiJp4wk8DV3KkueswJVEtUF8r5iqgdmwKdegdwHh1CsGrazptAeyKsdwJpUkTFLVJ",
@@ -338,7 +316,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BIDUx"
   },
   {
    "signature": "5ZUnLiQagpMwK6ipDwqk39LTiJp4wk8DV3KkueswJVEtUF8r5iqgdmwKdegdwHh1CsGrazptAeyKsdwJpUkTFLVJ",
@@ -349,7 +327,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BIDUx"
   },
   {
    "signature": "5ZUnLiQagpMwK6ipDwqk39LTiJp4wk8DV3KkueswJVEtUF8r5iqgdmwKdegdwHh1CsGrazptAeyKsdwJpUkTFLVJ",
@@ -360,7 +338,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BIDUx"
   },
   {
    "signature": "5fYyZ1bmTYphXAhhojDZ6FTbjvWbt2DuamZ8aU4QTYHM4wbS5Ux3N64rrbJ51x77u5uZygZ7xXZPYw2aWJW7Q4k3",
@@ -371,7 +349,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "INFQx"
   },
   {
    "signature": "5fYyZ1bmTYphXAhhojDZ6FTbjvWbt2DuamZ8aU4QTYHM4wbS5Ux3N64rrbJ51x77u5uZygZ7xXZPYw2aWJW7Q4k3",
@@ -382,7 +360,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "INFQx"
   },
   {
    "signature": "5fYyZ1bmTYphXAhhojDZ6FTbjvWbt2DuamZ8aU4QTYHM4wbS5Ux3N64rrbJ51x77u5uZygZ7xXZPYw2aWJW7Q4k3",
@@ -393,7 +371,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "INFQx"
   },
   {
    "signature": "5fYyZ1bmTYphXAhhojDZ6FTbjvWbt2DuamZ8aU4QTYHM4wbS5Ux3N64rrbJ51x77u5uZygZ7xXZPYw2aWJW7Q4k3",
@@ -404,7 +382,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "INFQx"
   },
   {
    "signature": "2TB1JCAzL4SMEuqwFxUiunnGCAfXiyXwa29yNdYkfDnww6EG67Ph7JqELSk5j7QD9eyxvcVA9KeWAFAEgoprFjLw",
@@ -415,7 +393,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PDDx"
   },
   {
    "signature": "2TB1JCAzL4SMEuqwFxUiunnGCAfXiyXwa29yNdYkfDnww6EG67Ph7JqELSk5j7QD9eyxvcVA9KeWAFAEgoprFjLw",
@@ -426,7 +404,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PDDx"
   },
   {
    "signature": "2TB1JCAzL4SMEuqwFxUiunnGCAfXiyXwa29yNdYkfDnww6EG67Ph7JqELSk5j7QD9eyxvcVA9KeWAFAEgoprFjLw",
@@ -437,7 +415,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PDDx"
   },
   {
    "signature": "2TB1JCAzL4SMEuqwFxUiunnGCAfXiyXwa29yNdYkfDnww6EG67Ph7JqELSk5j7QD9eyxvcVA9KeWAFAEgoprFjLw",
@@ -448,7 +426,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PDDx"
   },
   {
    "signature": "3EK2kqTuLd9nFF1cry796tvkRD2e1jRPCrqncX7uXf3pRYVfhWmDWk4vSrZiiVC74kyHoy1xzRHc57M1CJDjri4M",
@@ -459,7 +437,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PBx"
   },
   {
    "signature": "3EK2kqTuLd9nFF1cry796tvkRD2e1jRPCrqncX7uXf3pRYVfhWmDWk4vSrZiiVC74kyHoy1xzRHc57M1CJDjri4M",
@@ -470,7 +448,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PBx"
   },
   {
    "signature": "3EK2kqTuLd9nFF1cry796tvkRD2e1jRPCrqncX7uXf3pRYVfhWmDWk4vSrZiiVC74kyHoy1xzRHc57M1CJDjri4M",
@@ -481,7 +459,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PBx"
   },
   {
    "signature": "3EK2kqTuLd9nFF1cry796tvkRD2e1jRPCrqncX7uXf3pRYVfhWmDWk4vSrZiiVC74kyHoy1xzRHc57M1CJDjri4M",
@@ -492,7 +470,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PBx"
   },
   {
    "signature": "5q7SFeX4SKN8YSU1LgY9qsdtnQU4XeToR2apqnCyXsxPw9LWHDfywt84rJwuKpscw5odcYne5sj4EBQsEz2GqKS4",
@@ -503,7 +481,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QNTx"
   },
   {
    "signature": "5q7SFeX4SKN8YSU1LgY9qsdtnQU4XeToR2apqnCyXsxPw9LWHDfywt84rJwuKpscw5odcYne5sj4EBQsEz2GqKS4",
@@ -514,7 +492,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QNTx"
   },
   {
    "signature": "5q7SFeX4SKN8YSU1LgY9qsdtnQU4XeToR2apqnCyXsxPw9LWHDfywt84rJwuKpscw5odcYne5sj4EBQsEz2GqKS4",
@@ -525,7 +503,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QNTx"
   },
   {
    "signature": "5q7SFeX4SKN8YSU1LgY9qsdtnQU4XeToR2apqnCyXsxPw9LWHDfywt84rJwuKpscw5odcYne5sj4EBQsEz2GqKS4",
@@ -536,7 +514,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QNTx"
   },
   {
    "signature": "4apPCrDMpk4TEGhN7hyUjZRMcviG9qEHFzD5bGP6y7uRncYKpEqgsCA57sf6rq2AejRA4vYRKLPwrXJZXZWCWTXw",
@@ -547,7 +525,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QYLDx"
   },
   {
    "signature": "4apPCrDMpk4TEGhN7hyUjZRMcviG9qEHFzD5bGP6y7uRncYKpEqgsCA57sf6rq2AejRA4vYRKLPwrXJZXZWCWTXw",
@@ -558,7 +536,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QYLDx"
   },
   {
    "signature": "4apPCrDMpk4TEGhN7hyUjZRMcviG9qEHFzD5bGP6y7uRncYKpEqgsCA57sf6rq2AejRA4vYRKLPwrXJZXZWCWTXw",
@@ -569,7 +547,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QYLDx"
   },
   {
    "signature": "4apPCrDMpk4TEGhN7hyUjZRMcviG9qEHFzD5bGP6y7uRncYKpEqgsCA57sf6rq2AejRA4vYRKLPwrXJZXZWCWTXw",
@@ -580,7 +558,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "QYLDx"
   },
   {
    "signature": "5w2upzZ5CcSvjEjDiBkgd6qtBfgyqTV2VGQuUAL7exYKv5Nc5QyGi7F5ot21WmAmdPe8eJxG2F3Q9FjbHpE7nhYX",
@@ -591,7 +569,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SONYx"
   },
   {
    "signature": "5w2upzZ5CcSvjEjDiBkgd6qtBfgyqTV2VGQuUAL7exYKv5Nc5QyGi7F5ot21WmAmdPe8eJxG2F3Q9FjbHpE7nhYX",
@@ -602,7 +580,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SONYx"
   },
   {
    "signature": "5w2upzZ5CcSvjEjDiBkgd6qtBfgyqTV2VGQuUAL7exYKv5Nc5QyGi7F5ot21WmAmdPe8eJxG2F3Q9FjbHpE7nhYX",
@@ -613,7 +591,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SONYx"
   },
   {
    "signature": "5w2upzZ5CcSvjEjDiBkgd6qtBfgyqTV2VGQuUAL7exYKv5Nc5QyGi7F5ot21WmAmdPe8eJxG2F3Q9FjbHpE7nhYX",
@@ -624,7 +602,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SONYx"
   },
   {
    "signature": "4Mv1i92x1jTmiysu4UHrVVMWP4zbpL5KKjprKDvPePWdp48tWdWh9sGACQTPgDqWDy1BrCHij4VsGHbPCy2mGhPq",
@@ -635,7 +613,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MFPx"
   },
   {
    "signature": "4Mv1i92x1jTmiysu4UHrVVMWP4zbpL5KKjprKDvPePWdp48tWdWh9sGACQTPgDqWDy1BrCHij4VsGHbPCy2mGhPq",
@@ -646,7 +624,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MFPx"
   },
   {
    "signature": "4Mv1i92x1jTmiysu4UHrVVMWP4zbpL5KKjprKDvPePWdp48tWdWh9sGACQTPgDqWDy1BrCHij4VsGHbPCy2mGhPq",
@@ -657,7 +635,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MFPx"
   },
   {
    "signature": "4Mv1i92x1jTmiysu4UHrVVMWP4zbpL5KKjprKDvPePWdp48tWdWh9sGACQTPgDqWDy1BrCHij4VsGHbPCy2mGhPq",
@@ -668,7 +646,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MFPx"
   },
   {
    "signature": "5ioSrG5yK4S6XinJK2TB7xcVhcjBH5vhmRgRNm6NnueCWCmXa7Nm56ZbWipXP5rNSL6HV3aBctPmLRWGASo6ajd1",
@@ -679,7 +657,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCRx"
   },
   {
    "signature": "5ioSrG5yK4S6XinJK2TB7xcVhcjBH5vhmRgRNm6NnueCWCmXa7Nm56ZbWipXP5rNSL6HV3aBctPmLRWGASo6ajd1",
@@ -690,7 +668,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCRx"
   },
   {
    "signature": "5ioSrG5yK4S6XinJK2TB7xcVhcjBH5vhmRgRNm6NnueCWCmXa7Nm56ZbWipXP5rNSL6HV3aBctPmLRWGASo6ajd1",
@@ -701,7 +679,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCRx"
   },
   {
    "signature": "5ioSrG5yK4S6XinJK2TB7xcVhcjBH5vhmRgRNm6NnueCWCmXa7Nm56ZbWipXP5rNSL6HV3aBctPmLRWGASo6ajd1",
@@ -712,7 +690,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCRx"
   },
   {
    "signature": "64LtepaZmdKTV5BjbY6a925C7DNPz6HoUXFLL4S4gG48QPNzNDHCTwd5A24Rcxd67KwUNHiQhN5G3Vpf1Meq4J17",
@@ -723,7 +701,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LLYVKx"
   },
   {
    "signature": "64LtepaZmdKTV5BjbY6a925C7DNPz6HoUXFLL4S4gG48QPNzNDHCTwd5A24Rcxd67KwUNHiQhN5G3Vpf1Meq4J17",
@@ -734,7 +712,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LLYVKx"
   },
   {
    "signature": "64LtepaZmdKTV5BjbY6a925C7DNPz6HoUXFLL4S4gG48QPNzNDHCTwd5A24Rcxd67KwUNHiQhN5G3Vpf1Meq4J17",
@@ -745,7 +723,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LLYVKx"
   },
   {
    "signature": "64LtepaZmdKTV5BjbY6a925C7DNPz6HoUXFLL4S4gG48QPNzNDHCTwd5A24Rcxd67KwUNHiQhN5G3Vpf1Meq4J17",
@@ -756,7 +734,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LLYVKx"
   },
   {
    "signature": "3UjB5RTfw2aenJaigZAnncaJFk4DsLBRC5Fr3oCW5rGZTnVsnnP1GyLtS3exTXBXhsxbRdQ7aE9qwzafbfKcHSA9",
@@ -767,7 +745,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AEHRx"
   },
   {
    "signature": "3UjB5RTfw2aenJaigZAnncaJFk4DsLBRC5Fr3oCW5rGZTnVsnnP1GyLtS3exTXBXhsxbRdQ7aE9qwzafbfKcHSA9",
@@ -778,7 +756,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AEHRx"
   },
   {
    "signature": "3UjB5RTfw2aenJaigZAnncaJFk4DsLBRC5Fr3oCW5rGZTnVsnnP1GyLtS3exTXBXhsxbRdQ7aE9qwzafbfKcHSA9",
@@ -789,7 +767,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AEHRx"
   },
   {
    "signature": "3UjB5RTfw2aenJaigZAnncaJFk4DsLBRC5Fr3oCW5rGZTnVsnnP1GyLtS3exTXBXhsxbRdQ7aE9qwzafbfKcHSA9",
@@ -800,7 +778,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AEHRx"
   },
   {
    "signature": "r1r1eh3HLLAo7mhKYVSX7bULs2pe4jwn22UustRpd6yvqJiyNgyv6a8UXHeRgntD8JDHsDs4csXLM4v7mfPafGA",
@@ -811,7 +789,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TREXx"
   },
   {
    "signature": "r1r1eh3HLLAo7mhKYVSX7bULs2pe4jwn22UustRpd6yvqJiyNgyv6a8UXHeRgntD8JDHsDs4csXLM4v7mfPafGA",
@@ -822,7 +800,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TREXx"
   },
   {
    "signature": "r1r1eh3HLLAo7mhKYVSX7bULs2pe4jwn22UustRpd6yvqJiyNgyv6a8UXHeRgntD8JDHsDs4csXLM4v7mfPafGA",
@@ -833,7 +811,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TREXx"
   },
   {
    "signature": "r1r1eh3HLLAo7mhKYVSX7bULs2pe4jwn22UustRpd6yvqJiyNgyv6a8UXHeRgntD8JDHsDs4csXLM4v7mfPafGA",
@@ -844,7 +822,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TREXx"
   },
   {
    "signature": "2okzyRiayFZLLS47N1nn8DMSZhfmBscWAKjGCjhbSB8Ri41Qm3dvBFzg2vWH4xkERJV1MQZvJpSUsyw2tRdCXsf4",
@@ -855,7 +833,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NTESx"
   },
   {
    "signature": "2okzyRiayFZLLS47N1nn8DMSZhfmBscWAKjGCjhbSB8Ri41Qm3dvBFzg2vWH4xkERJV1MQZvJpSUsyw2tRdCXsf4",
@@ -866,7 +844,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NTESx"
   },
   {
    "signature": "2okzyRiayFZLLS47N1nn8DMSZhfmBscWAKjGCjhbSB8Ri41Qm3dvBFzg2vWH4xkERJV1MQZvJpSUsyw2tRdCXsf4",
@@ -877,7 +855,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NTESx"
   },
   {
    "signature": "2okzyRiayFZLLS47N1nn8DMSZhfmBscWAKjGCjhbSB8Ri41Qm3dvBFzg2vWH4xkERJV1MQZvJpSUsyw2tRdCXsf4",
@@ -888,7 +866,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NTESx"
   },
   {
    "signature": "LNiVaJ25JwVfi5dTH1RMAYYUB7bmetR7U2yahJGSPmponJHPL6Vc5kNDLrcxJr7guVF8R6yGeWVNtegRB5iYBdL",
@@ -899,7 +877,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "APTVx"
   },
   {
    "signature": "LNiVaJ25JwVfi5dTH1RMAYYUB7bmetR7U2yahJGSPmponJHPL6Vc5kNDLrcxJr7guVF8R6yGeWVNtegRB5iYBdL",
@@ -910,7 +888,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "APTVx"
   },
   {
    "signature": "LNiVaJ25JwVfi5dTH1RMAYYUB7bmetR7U2yahJGSPmponJHPL6Vc5kNDLrcxJr7guVF8R6yGeWVNtegRB5iYBdL",
@@ -921,7 +899,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "APTVx"
   },
   {
    "signature": "LNiVaJ25JwVfi5dTH1RMAYYUB7bmetR7U2yahJGSPmponJHPL6Vc5kNDLrcxJr7guVF8R6yGeWVNtegRB5iYBdL",
@@ -932,7 +910,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "APTVx"
   },
   {
    "signature": "5GpNuktAf6LD6dcFzJhkqLUx7XyH9JkhsRu3KU1dXxKdQTfYL19JjiDJLoaeipZ8BEdh9Tixz4cm6WCc8csnqsYq",
@@ -943,7 +921,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TKOx"
   },
   {
    "signature": "5GpNuktAf6LD6dcFzJhkqLUx7XyH9JkhsRu3KU1dXxKdQTfYL19JjiDJLoaeipZ8BEdh9Tixz4cm6WCc8csnqsYq",
@@ -954,7 +932,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TKOx"
   },
   {
    "signature": "5GpNuktAf6LD6dcFzJhkqLUx7XyH9JkhsRu3KU1dXxKdQTfYL19JjiDJLoaeipZ8BEdh9Tixz4cm6WCc8csnqsYq",
@@ -965,7 +943,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TKOx"
   },
   {
    "signature": "5GpNuktAf6LD6dcFzJhkqLUx7XyH9JkhsRu3KU1dXxKdQTfYL19JjiDJLoaeipZ8BEdh9Tixz4cm6WCc8csnqsYq",
@@ -976,7 +954,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TKOx"
   },
   {
    "signature": "3rNXKARJQjo7VcLWeMfCDM9TkX8ZfVhy56YhFFUBeKBcYs7mg2QBGpicTpAmUvBYTjgoCptpfczyB3kzpmiQbBbF",
@@ -987,7 +965,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWZx"
   },
   {
    "signature": "3rNXKARJQjo7VcLWeMfCDM9TkX8ZfVhy56YhFFUBeKBcYs7mg2QBGpicTpAmUvBYTjgoCptpfczyB3kzpmiQbBbF",
@@ -998,7 +976,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWZx"
   },
   {
    "signature": "3rNXKARJQjo7VcLWeMfCDM9TkX8ZfVhy56YhFFUBeKBcYs7mg2QBGpicTpAmUvBYTjgoCptpfczyB3kzpmiQbBbF",
@@ -1009,7 +987,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWZx"
   },
   {
    "signature": "3rNXKARJQjo7VcLWeMfCDM9TkX8ZfVhy56YhFFUBeKBcYs7mg2QBGpicTpAmUvBYTjgoCptpfczyB3kzpmiQbBbF",
@@ -1020,7 +998,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWZx"
   },
   {
    "signature": "4txfXf3HgfuQLjZMF2dfqDRQ5h1L755h6agmGDq27oMkRecPJyqd2kUs3qbaRhZnAAUTAkRNcoDj5AwyRACD9Yj2",
@@ -1031,7 +1009,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CARTx"
   },
   {
    "signature": "4txfXf3HgfuQLjZMF2dfqDRQ5h1L755h6agmGDq27oMkRecPJyqd2kUs3qbaRhZnAAUTAkRNcoDj5AwyRACD9Yj2",
@@ -1042,7 +1020,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CARTx"
   },
   {
    "signature": "4txfXf3HgfuQLjZMF2dfqDRQ5h1L755h6agmGDq27oMkRecPJyqd2kUs3qbaRhZnAAUTAkRNcoDj5AwyRACD9Yj2",
@@ -1053,7 +1031,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CARTx"
   },
   {
    "signature": "4txfXf3HgfuQLjZMF2dfqDRQ5h1L755h6agmGDq27oMkRecPJyqd2kUs3qbaRhZnAAUTAkRNcoDj5AwyRACD9Yj2",
@@ -1064,7 +1042,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CARTx"
   },
   {
    "signature": "2ZqcV3B3uw7Sah83nfdkjA5BA4Y4EFQaMTnw8iyfAbcKmnhMrurcJRF3sY8aUxDoAZ3vCsEvs1JWq1yY7PeF4ApZ",
@@ -1075,7 +1053,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ESTCx"
   },
   {
    "signature": "2ZqcV3B3uw7Sah83nfdkjA5BA4Y4EFQaMTnw8iyfAbcKmnhMrurcJRF3sY8aUxDoAZ3vCsEvs1JWq1yY7PeF4ApZ",
@@ -1086,7 +1064,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ESTCx"
   },
   {
    "signature": "2ZqcV3B3uw7Sah83nfdkjA5BA4Y4EFQaMTnw8iyfAbcKmnhMrurcJRF3sY8aUxDoAZ3vCsEvs1JWq1yY7PeF4ApZ",
@@ -1097,7 +1075,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ESTCx"
   },
   {
    "signature": "2ZqcV3B3uw7Sah83nfdkjA5BA4Y4EFQaMTnw8iyfAbcKmnhMrurcJRF3sY8aUxDoAZ3vCsEvs1JWq1yY7PeF4ApZ",
@@ -1108,7 +1086,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ESTCx"
   },
   {
    "signature": "5jZQJMYpqeVPavWvLisjCr73uaREeNnudDSJ1qvMjg6TGkwLTk4SbA11G8Ta42UcwEzGThsRWn3khHn9ZzqVf4aj",
@@ -1119,7 +1097,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RBCx"
   },
   {
    "signature": "5jZQJMYpqeVPavWvLisjCr73uaREeNnudDSJ1qvMjg6TGkwLTk4SbA11G8Ta42UcwEzGThsRWn3khHn9ZzqVf4aj",
@@ -1130,7 +1108,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RBCx"
   },
   {
    "signature": "5jZQJMYpqeVPavWvLisjCr73uaREeNnudDSJ1qvMjg6TGkwLTk4SbA11G8Ta42UcwEzGThsRWn3khHn9ZzqVf4aj",
@@ -1141,7 +1119,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RBCx"
   },
   {
    "signature": "5jZQJMYpqeVPavWvLisjCr73uaREeNnudDSJ1qvMjg6TGkwLTk4SbA11G8Ta42UcwEzGThsRWn3khHn9ZzqVf4aj",
@@ -1152,7 +1130,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RBCx"
   },
   {
    "signature": "3rfcLukBEd8CFzyi8rhCp5xp1rX3JPSM6gzUvK7G7QEvTAjKbLhgubyqQhX1NS2CzmzoHkZtta3yWPWWFgNdbJPv",
@@ -1163,7 +1141,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BBx"
   },
   {
    "signature": "3rfcLukBEd8CFzyi8rhCp5xp1rX3JPSM6gzUvK7G7QEvTAjKbLhgubyqQhX1NS2CzmzoHkZtta3yWPWWFgNdbJPv",
@@ -1174,7 +1152,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BBx"
   },
   {
    "signature": "3rfcLukBEd8CFzyi8rhCp5xp1rX3JPSM6gzUvK7G7QEvTAjKbLhgubyqQhX1NS2CzmzoHkZtta3yWPWWFgNdbJPv",
@@ -1185,7 +1163,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BBx"
   },
   {
    "signature": "3rfcLukBEd8CFzyi8rhCp5xp1rX3JPSM6gzUvK7G7QEvTAjKbLhgubyqQhX1NS2CzmzoHkZtta3yWPWWFgNdbJPv",
@@ -1196,7 +1174,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BBx"
   },
   {
    "signature": "2ZkUtB8GMU5fBsZRELHA6FiCeKggo6HwH7wqR9HP9U7M2tsEKavyY29zmC5VWaWHBNYDLo5Adx8dohpdp5nUqBu8",
@@ -1251,7 +1229,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PURRx"
   },
   {
    "signature": "2rxWD8FdVnyubaqFzjrquWcBy5PsD1DW2YBw1Z4PinQvSEWmRdsdeidcZiMUKenx7mSQU9x43hvFe9JK6JWeZXH1",
@@ -1262,7 +1240,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PURRx"
   },
   {
    "signature": "2rxWD8FdVnyubaqFzjrquWcBy5PsD1DW2YBw1Z4PinQvSEWmRdsdeidcZiMUKenx7mSQU9x43hvFe9JK6JWeZXH1",
@@ -1273,7 +1251,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PURRx"
   },
   {
    "signature": "2rxWD8FdVnyubaqFzjrquWcBy5PsD1DW2YBw1Z4PinQvSEWmRdsdeidcZiMUKenx7mSQU9x43hvFe9JK6JWeZXH1",
@@ -1284,7 +1262,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PURRx"
   },
   {
    "signature": "2RyAy5FumCntMJKemCgbXbsiJKooQJCusjUPnDa7hs9szLXof4S7N6VYtHREq9nyLo9wmTdjPKMzuGga2tpn6eex",
@@ -1295,7 +1273,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OSCRx"
   },
   {
    "signature": "2RyAy5FumCntMJKemCgbXbsiJKooQJCusjUPnDa7hs9szLXof4S7N6VYtHREq9nyLo9wmTdjPKMzuGga2tpn6eex",
@@ -1306,7 +1284,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OSCRx"
   },
   {
    "signature": "2RyAy5FumCntMJKemCgbXbsiJKooQJCusjUPnDa7hs9szLXof4S7N6VYtHREq9nyLo9wmTdjPKMzuGga2tpn6eex",
@@ -1317,7 +1295,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OSCRx"
   },
   {
    "signature": "2RyAy5FumCntMJKemCgbXbsiJKooQJCusjUPnDa7hs9szLXof4S7N6VYtHREq9nyLo9wmTdjPKMzuGga2tpn6eex",
@@ -1328,7 +1306,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OSCRx"
   },
   {
    "signature": "5UWifzmdNFHBPQn4yzsUJ6VZh1YdBuKcyEBxDYvbBiCcq1weRXtmjm7pxGEU7gDViezFbJVNZzPPN2JnCKk7m6mv",
@@ -1339,7 +1317,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSLLx"
   },
   {
    "signature": "5UWifzmdNFHBPQn4yzsUJ6VZh1YdBuKcyEBxDYvbBiCcq1weRXtmjm7pxGEU7gDViezFbJVNZzPPN2JnCKk7m6mv",
@@ -1350,7 +1328,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSLLx"
   },
   {
    "signature": "5UWifzmdNFHBPQn4yzsUJ6VZh1YdBuKcyEBxDYvbBiCcq1weRXtmjm7pxGEU7gDViezFbJVNZzPPN2JnCKk7m6mv",
@@ -1361,7 +1339,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSLLx"
   },
   {
    "signature": "5UWifzmdNFHBPQn4yzsUJ6VZh1YdBuKcyEBxDYvbBiCcq1weRXtmjm7pxGEU7gDViezFbJVNZzPPN2JnCKk7m6mv",
@@ -1372,7 +1350,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSLLx"
   },
   {
    "signature": "61AU13FRkX73r8qMw7LVapgNFqe77P2YN9tamgsdLabit5DrGuMjqfpKdXJRK3oZvLNcLHBYpG9Z3S3BGwCULzeM",
@@ -1383,7 +1361,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ALLEx"
   },
   {
    "signature": "61AU13FRkX73r8qMw7LVapgNFqe77P2YN9tamgsdLabit5DrGuMjqfpKdXJRK3oZvLNcLHBYpG9Z3S3BGwCULzeM",
@@ -1394,7 +1372,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ALLEx"
   },
   {
    "signature": "61AU13FRkX73r8qMw7LVapgNFqe77P2YN9tamgsdLabit5DrGuMjqfpKdXJRK3oZvLNcLHBYpG9Z3S3BGwCULzeM",
@@ -1405,7 +1383,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ALLEx"
   },
   {
    "signature": "61AU13FRkX73r8qMw7LVapgNFqe77P2YN9tamgsdLabit5DrGuMjqfpKdXJRK3oZvLNcLHBYpG9Z3S3BGwCULzeM",
@@ -1416,7 +1394,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ALLEx"
   },
   {
    "signature": "5oMmWKeBCRFyiieYsgEqBuw8KW5iZvQcFNMiKK9kYamwWta39ujWTJqrLyskCUhn36LH1Zff75roh5FCaBvq8mtL",
@@ -1427,7 +1405,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PHMx"
   },
   {
    "signature": "5oMmWKeBCRFyiieYsgEqBuw8KW5iZvQcFNMiKK9kYamwWta39ujWTJqrLyskCUhn36LH1Zff75roh5FCaBvq8mtL",
@@ -1438,7 +1416,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PHMx"
   },
   {
    "signature": "5oMmWKeBCRFyiieYsgEqBuw8KW5iZvQcFNMiKK9kYamwWta39ujWTJqrLyskCUhn36LH1Zff75roh5FCaBvq8mtL",
@@ -1449,7 +1427,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PHMx"
   },
   {
    "signature": "5oMmWKeBCRFyiieYsgEqBuw8KW5iZvQcFNMiKK9kYamwWta39ujWTJqrLyskCUhn36LH1Zff75roh5FCaBvq8mtL",
@@ -1460,7 +1438,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PHMx"
   },
   {
    "signature": "RjUn15iJak5UWYPxZsVbheyAJ6gJ8U4cMqDeKZcnKdqUPiEmDwUu5hXey9Y5P3U6sHhqijaDMVFiqpsYGppMsBA",
@@ -1471,7 +1449,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UVXYx"
   },
   {
    "signature": "RjUn15iJak5UWYPxZsVbheyAJ6gJ8U4cMqDeKZcnKdqUPiEmDwUu5hXey9Y5P3U6sHhqijaDMVFiqpsYGppMsBA",
@@ -1482,7 +1460,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UVXYx"
   },
   {
    "signature": "RjUn15iJak5UWYPxZsVbheyAJ6gJ8U4cMqDeKZcnKdqUPiEmDwUu5hXey9Y5P3U6sHhqijaDMVFiqpsYGppMsBA",
@@ -1493,7 +1471,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UVXYx"
   },
   {
    "signature": "RjUn15iJak5UWYPxZsVbheyAJ6gJ8U4cMqDeKZcnKdqUPiEmDwUu5hXey9Y5P3U6sHhqijaDMVFiqpsYGppMsBA",
@@ -1504,7 +1482,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UVXYx"
   },
   {
    "signature": "YpSSjA5M4DbB3WLHAEhsu2uncAQUsSg7T4mNPgVBGG2Rdxk6JiPBSexWnXAtfvMsivMr9q71nJBqz1uksNGhjpp",
@@ -1515,7 +1493,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NXTx"
   },
   {
    "signature": "YpSSjA5M4DbB3WLHAEhsu2uncAQUsSg7T4mNPgVBGG2Rdxk6JiPBSexWnXAtfvMsivMr9q71nJBqz1uksNGhjpp",
@@ -1526,7 +1504,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NXTx"
   },
   {
    "signature": "YpSSjA5M4DbB3WLHAEhsu2uncAQUsSg7T4mNPgVBGG2Rdxk6JiPBSexWnXAtfvMsivMr9q71nJBqz1uksNGhjpp",
@@ -1537,7 +1515,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NXTx"
   },
   {
    "signature": "YpSSjA5M4DbB3WLHAEhsu2uncAQUsSg7T4mNPgVBGG2Rdxk6JiPBSexWnXAtfvMsivMr9q71nJBqz1uksNGhjpp",
@@ -1548,7 +1526,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NXTx"
   },
   {
    "signature": "5mu78Jhk7vjUQHwHjWesMuUSEbWuN9ahdtAveoye9SxmNbPTvQBY7ZfsxctyvyojjnWHQcRwmRMUUs6L3twu7sFi",
@@ -1559,7 +1537,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SWx"
   },
   {
    "signature": "5mu78Jhk7vjUQHwHjWesMuUSEbWuN9ahdtAveoye9SxmNbPTvQBY7ZfsxctyvyojjnWHQcRwmRMUUs6L3twu7sFi",
@@ -1570,7 +1548,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SWx"
   },
   {
    "signature": "5mu78Jhk7vjUQHwHjWesMuUSEbWuN9ahdtAveoye9SxmNbPTvQBY7ZfsxctyvyojjnWHQcRwmRMUUs6L3twu7sFi",
@@ -1581,7 +1559,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SWx"
   },
   {
    "signature": "5mu78Jhk7vjUQHwHjWesMuUSEbWuN9ahdtAveoye9SxmNbPTvQBY7ZfsxctyvyojjnWHQcRwmRMUUs6L3twu7sFi",
@@ -1592,7 +1570,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SWx"
   },
   {
    "signature": "2hRDwnm2rb6quzwk4P1ggiFdyh8hP76K1n7NpefWAP6du5beX2Nu9MuraeD3a7h2sCd53Bmuc4j7nWy5QC5oMRuR",
@@ -1603,7 +1581,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSEMx"
   },
   {
    "signature": "2hRDwnm2rb6quzwk4P1ggiFdyh8hP76K1n7NpefWAP6du5beX2Nu9MuraeD3a7h2sCd53Bmuc4j7nWy5QC5oMRuR",
@@ -1614,7 +1592,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSEMx"
   },
   {
    "signature": "2hRDwnm2rb6quzwk4P1ggiFdyh8hP76K1n7NpefWAP6du5beX2Nu9MuraeD3a7h2sCd53Bmuc4j7nWy5QC5oMRuR",
@@ -1625,7 +1603,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSEMx"
   },
   {
    "signature": "2hRDwnm2rb6quzwk4P1ggiFdyh8hP76K1n7NpefWAP6du5beX2Nu9MuraeD3a7h2sCd53Bmuc4j7nWy5QC5oMRuR",
@@ -1636,7 +1614,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TSEMx"
   },
   {
    "signature": "2uhtxGjrySUvNzeUJpBUSbg422ZZ2aXizSBSbyya82e8ZqkkMzuLH3duhxZvrdxUWyJJNJq1SWLkefq6HYK9VM2d",
@@ -1647,7 +1625,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MRPx"
   },
   {
    "signature": "2uhtxGjrySUvNzeUJpBUSbg422ZZ2aXizSBSbyya82e8ZqkkMzuLH3duhxZvrdxUWyJJNJq1SWLkefq6HYK9VM2d",
@@ -1658,7 +1636,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MRPx"
   },
   {
    "signature": "2uhtxGjrySUvNzeUJpBUSbg422ZZ2aXizSBSbyya82e8ZqkkMzuLH3duhxZvrdxUWyJJNJq1SWLkefq6HYK9VM2d",
@@ -1669,7 +1647,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MRPx"
   },
   {
    "signature": "2uhtxGjrySUvNzeUJpBUSbg422ZZ2aXizSBSbyya82e8ZqkkMzuLH3duhxZvrdxUWyJJNJq1SWLkefq6HYK9VM2d",
@@ -1680,7 +1658,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MRPx"
   },
   {
    "signature": "XxZqPixFmMJKfsutjCMD9jzBTS4DSx9QSFP1JwawqFXKE6M9Z9kAdFtwcLXXNRxiT2pptH3BjD5nvyNC9SnE3u6",
@@ -1691,7 +1669,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "KVYOx"
   },
   {
    "signature": "XxZqPixFmMJKfsutjCMD9jzBTS4DSx9QSFP1JwawqFXKE6M9Z9kAdFtwcLXXNRxiT2pptH3BjD5nvyNC9SnE3u6",
@@ -1702,7 +1680,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "KVYOx"
   },
   {
    "signature": "XxZqPixFmMJKfsutjCMD9jzBTS4DSx9QSFP1JwawqFXKE6M9Z9kAdFtwcLXXNRxiT2pptH3BjD5nvyNC9SnE3u6",
@@ -1713,7 +1691,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "KVYOx"
   },
   {
    "signature": "XxZqPixFmMJKfsutjCMD9jzBTS4DSx9QSFP1JwawqFXKE6M9Z9kAdFtwcLXXNRxiT2pptH3BjD5nvyNC9SnE3u6",
@@ -1724,7 +1702,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "KVYOx"
   },
   {
    "signature": "vMK16N8TFrzhjWEh1h9nbvuLDdvDi4o5TPS4zLV23EeiuDRQmUuA9TeV5jpK4wG1EogCaosmQgxg5nATRsz2iBA",
@@ -1735,7 +1713,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SIMOx"
   },
   {
    "signature": "vMK16N8TFrzhjWEh1h9nbvuLDdvDi4o5TPS4zLV23EeiuDRQmUuA9TeV5jpK4wG1EogCaosmQgxg5nATRsz2iBA",
@@ -1746,7 +1724,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SIMOx"
   },
   {
    "signature": "vMK16N8TFrzhjWEh1h9nbvuLDdvDi4o5TPS4zLV23EeiuDRQmUuA9TeV5jpK4wG1EogCaosmQgxg5nATRsz2iBA",
@@ -1757,7 +1735,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SIMOx"
   },
   {
    "signature": "vMK16N8TFrzhjWEh1h9nbvuLDdvDi4o5TPS4zLV23EeiuDRQmUuA9TeV5jpK4wG1EogCaosmQgxg5nATRsz2iBA",
@@ -1768,7 +1746,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SIMOx"
   },
   {
    "signature": "4ZGvB2erYzJRdqK6qcPKxvaEEePLyr8MyHDsh1FDwyNm3xGX62FuHAj8V1a7btZ6C3h3v3bUCTkJnd8bd8UKJrfW",
@@ -1779,7 +1757,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JDx"
   },
   {
    "signature": "4ZGvB2erYzJRdqK6qcPKxvaEEePLyr8MyHDsh1FDwyNm3xGX62FuHAj8V1a7btZ6C3h3v3bUCTkJnd8bd8UKJrfW",
@@ -1790,7 +1768,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JDx"
   },
   {
    "signature": "4ZGvB2erYzJRdqK6qcPKxvaEEePLyr8MyHDsh1FDwyNm3xGX62FuHAj8V1a7btZ6C3h3v3bUCTkJnd8bd8UKJrfW",
@@ -1801,7 +1779,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JDx"
   },
   {
    "signature": "4ZGvB2erYzJRdqK6qcPKxvaEEePLyr8MyHDsh1FDwyNm3xGX62FuHAj8V1a7btZ6C3h3v3bUCTkJnd8bd8UKJrfW",
@@ -1812,7 +1790,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JDx"
   },
   {
    "signature": "4pxjbBrJWPwVm1Jn9H9UNFaRoP3KqMmfmhRoJZUGmXAJXyuFqYeC3aJ1x66ahki19hE7z6pY5wnKzW9Sgoc13hYn",
@@ -1823,7 +1801,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LUNRx"
   },
   {
    "signature": "4pxjbBrJWPwVm1Jn9H9UNFaRoP3KqMmfmhRoJZUGmXAJXyuFqYeC3aJ1x66ahki19hE7z6pY5wnKzW9Sgoc13hYn",
@@ -1834,7 +1812,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LUNRx"
   },
   {
    "signature": "4pxjbBrJWPwVm1Jn9H9UNFaRoP3KqMmfmhRoJZUGmXAJXyuFqYeC3aJ1x66ahki19hE7z6pY5wnKzW9Sgoc13hYn",
@@ -1845,7 +1823,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LUNRx"
   },
   {
    "signature": "4pxjbBrJWPwVm1Jn9H9UNFaRoP3KqMmfmhRoJZUGmXAJXyuFqYeC3aJ1x66ahki19hE7z6pY5wnKzW9Sgoc13hYn",
@@ -1856,7 +1834,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LUNRx"
   },
   {
    "signature": "3mF5qtoYoKMVKFZjEMENwTBAoF3nurUg7HQ4crpPK8LNfFPttVJihkTuLioa97ejcj5aD4YS6EvaUsdsigVWwYtV",
@@ -1867,7 +1845,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWJx"
   },
   {
    "signature": "3mF5qtoYoKMVKFZjEMENwTBAoF3nurUg7HQ4crpPK8LNfFPttVJihkTuLioa97ejcj5aD4YS6EvaUsdsigVWwYtV",
@@ -1878,7 +1856,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWJx"
   },
   {
    "signature": "3mF5qtoYoKMVKFZjEMENwTBAoF3nurUg7HQ4crpPK8LNfFPttVJihkTuLioa97ejcj5aD4YS6EvaUsdsigVWwYtV",
@@ -1889,7 +1867,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWJx"
   },
   {
    "signature": "3mF5qtoYoKMVKFZjEMENwTBAoF3nurUg7HQ4crpPK8LNfFPttVJihkTuLioa97ejcj5aD4YS6EvaUsdsigVWwYtV",
@@ -1900,7 +1878,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWJx"
   },
   {
    "signature": "52pFdHh1qHiWiMEoHGRxzZJDDn6YBhMTTTWxLzC75SRsRFWLAPXAv4U8tmFasf885XSXbJFoeFJjbsJEsJWqVtcn",
@@ -1911,7 +1889,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TMFx"
   },
   {
    "signature": "52pFdHh1qHiWiMEoHGRxzZJDDn6YBhMTTTWxLzC75SRsRFWLAPXAv4U8tmFasf885XSXbJFoeFJjbsJEsJWqVtcn",
@@ -1922,7 +1900,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TMFx"
   },
   {
    "signature": "52pFdHh1qHiWiMEoHGRxzZJDDn6YBhMTTTWxLzC75SRsRFWLAPXAv4U8tmFasf885XSXbJFoeFJjbsJEsJWqVtcn",
@@ -1933,7 +1911,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TMFx"
   },
   {
    "signature": "52pFdHh1qHiWiMEoHGRxzZJDDn6YBhMTTTWxLzC75SRsRFWLAPXAv4U8tmFasf885XSXbJFoeFJjbsJEsJWqVtcn",
@@ -1944,7 +1922,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TMFx"
   },
   {
    "signature": "4n59T2fASaBsY5KRwY9Qvwfc23ZBv5EtJ9RPeck8zffeDm1y9GoaX9UCc1D41VQuwxGRxU173H3qL3ZiZgS68pWQ",
@@ -1955,7 +1933,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RDWx"
   },
   {
    "signature": "4n59T2fASaBsY5KRwY9Qvwfc23ZBv5EtJ9RPeck8zffeDm1y9GoaX9UCc1D41VQuwxGRxU173H3qL3ZiZgS68pWQ",
@@ -1966,7 +1944,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RDWx"
   },
   {
    "signature": "4n59T2fASaBsY5KRwY9Qvwfc23ZBv5EtJ9RPeck8zffeDm1y9GoaX9UCc1D41VQuwxGRxU173H3qL3ZiZgS68pWQ",
@@ -1977,7 +1955,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RDWx"
   },
   {
    "signature": "4n59T2fASaBsY5KRwY9Qvwfc23ZBv5EtJ9RPeck8zffeDm1y9GoaX9UCc1D41VQuwxGRxU173H3qL3ZiZgS68pWQ",
@@ -1988,7 +1966,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RDWx"
   },
   {
    "signature": "61e9ShFrv7j7eCbZg17u6iQCx1EDdorBki2vWQ12mc4sayDQ3LkH2RvPDrhC5trtXRSPaQ12A5ueZEwof8UAdFw7",
@@ -1999,7 +1977,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYTEx"
   },
   {
    "signature": "61e9ShFrv7j7eCbZg17u6iQCx1EDdorBki2vWQ12mc4sayDQ3LkH2RvPDrhC5trtXRSPaQ12A5ueZEwof8UAdFw7",
@@ -2010,7 +1988,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYTEx"
   },
   {
    "signature": "61e9ShFrv7j7eCbZg17u6iQCx1EDdorBki2vWQ12mc4sayDQ3LkH2RvPDrhC5trtXRSPaQ12A5ueZEwof8UAdFw7",
@@ -2021,7 +1999,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYTEx"
   },
   {
    "signature": "61e9ShFrv7j7eCbZg17u6iQCx1EDdorBki2vWQ12mc4sayDQ3LkH2RvPDrhC5trtXRSPaQ12A5ueZEwof8UAdFw7",
@@ -2032,7 +2010,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYTEx"
   },
   {
    "signature": "4LgfEXUtttqRNKrGCnStZ28JaGVyE4eQp8H77ZtUHadxdf1D2Tjtzpohu6JgyFmMkUDtcQMArUC33X4EGot4G6gV",
@@ -2043,7 +2021,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKDDx"
   },
   {
    "signature": "4LgfEXUtttqRNKrGCnStZ28JaGVyE4eQp8H77ZtUHadxdf1D2Tjtzpohu6JgyFmMkUDtcQMArUC33X4EGot4G6gV",
@@ -2054,7 +2032,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKDDx"
   },
   {
    "signature": "4LgfEXUtttqRNKrGCnStZ28JaGVyE4eQp8H77ZtUHadxdf1D2Tjtzpohu6JgyFmMkUDtcQMArUC33X4EGot4G6gV",
@@ -2065,7 +2043,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKDDx"
   },
   {
    "signature": "4LgfEXUtttqRNKrGCnStZ28JaGVyE4eQp8H77ZtUHadxdf1D2Tjtzpohu6JgyFmMkUDtcQMArUC33X4EGot4G6gV",
@@ -2076,7 +2054,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKDDx"
   },
   {
    "signature": "3paEvAfARsgZTdiUjh4LNgoy4Gyc9pBLFiJLSNMo8BwdLxRTVxQ33q2RwV6y5ddHsvX7doHfiVyuwT8appUSGDB6",
@@ -2087,7 +2065,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MWHx"
   },
   {
    "signature": "3paEvAfARsgZTdiUjh4LNgoy4Gyc9pBLFiJLSNMo8BwdLxRTVxQ33q2RwV6y5ddHsvX7doHfiVyuwT8appUSGDB6",
@@ -2098,7 +2076,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MWHx"
   },
   {
    "signature": "3paEvAfARsgZTdiUjh4LNgoy4Gyc9pBLFiJLSNMo8BwdLxRTVxQ33q2RwV6y5ddHsvX7doHfiVyuwT8appUSGDB6",
@@ -2109,7 +2087,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MWHx"
   },
   {
    "signature": "3paEvAfARsgZTdiUjh4LNgoy4Gyc9pBLFiJLSNMo8BwdLxRTVxQ33q2RwV6y5ddHsvX7doHfiVyuwT8appUSGDB6",
@@ -2120,7 +2098,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "MWHx"
   },
   {
    "signature": "5EaYWQWDhWoFqaVQqj8WLqoNut6R2i8xfWxosM9221T7ro4RraYgYxjGW6Qjo3T3vEZNw11x3pvYfcZHm49rBCmV",
@@ -2131,7 +2109,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHOPx"
   },
   {
    "signature": "5EaYWQWDhWoFqaVQqj8WLqoNut6R2i8xfWxosM9221T7ro4RraYgYxjGW6Qjo3T3vEZNw11x3pvYfcZHm49rBCmV",
@@ -2142,7 +2120,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHOPx"
   },
   {
    "signature": "5EaYWQWDhWoFqaVQqj8WLqoNut6R2i8xfWxosM9221T7ro4RraYgYxjGW6Qjo3T3vEZNw11x3pvYfcZHm49rBCmV",
@@ -2153,7 +2131,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHOPx"
   },
   {
    "signature": "5EaYWQWDhWoFqaVQqj8WLqoNut6R2i8xfWxosM9221T7ro4RraYgYxjGW6Qjo3T3vEZNw11x3pvYfcZHm49rBCmV",
@@ -2164,7 +2142,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SHOPx"
   },
   {
    "signature": "3eAvDgvEqUqX5PYvY2LLDiWA1bSEB5gvie7b3BTrtyM3juemiEBXF37R1wNKkALhA9qR6hjDVvcjpzwfu68f3jg1",
@@ -2175,7 +2153,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "URNMx"
   },
   {
    "signature": "3eAvDgvEqUqX5PYvY2LLDiWA1bSEB5gvie7b3BTrtyM3juemiEBXF37R1wNKkALhA9qR6hjDVvcjpzwfu68f3jg1",
@@ -2186,7 +2164,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "URNMx"
   },
   {
    "signature": "3eAvDgvEqUqX5PYvY2LLDiWA1bSEB5gvie7b3BTrtyM3juemiEBXF37R1wNKkALhA9qR6hjDVvcjpzwfu68f3jg1",
@@ -2197,7 +2175,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "URNMx"
   },
   {
    "signature": "3eAvDgvEqUqX5PYvY2LLDiWA1bSEB5gvie7b3BTrtyM3juemiEBXF37R1wNKkALhA9qR6hjDVvcjpzwfu68f3jg1",
@@ -2208,7 +2186,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "URNMx"
   },
   {
    "signature": "3Mf2GqysKhwQucJnkNfic666QFsvxRTpE6CM8AijnzZqokkMS75vX5t9758c9TjLXJtGpN2yZfLs4fHdTmV8NMTW",
@@ -2219,7 +2197,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "POETx"
   },
   {
    "signature": "3Mf2GqysKhwQucJnkNfic666QFsvxRTpE6CM8AijnzZqokkMS75vX5t9758c9TjLXJtGpN2yZfLs4fHdTmV8NMTW",
@@ -2230,7 +2208,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "POETx"
   },
   {
    "signature": "3Mf2GqysKhwQucJnkNfic666QFsvxRTpE6CM8AijnzZqokkMS75vX5t9758c9TjLXJtGpN2yZfLs4fHdTmV8NMTW",
@@ -2241,7 +2219,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "POETx"
   },
   {
    "signature": "3Mf2GqysKhwQucJnkNfic666QFsvxRTpE6CM8AijnzZqokkMS75vX5t9758c9TjLXJtGpN2yZfLs4fHdTmV8NMTW",
@@ -2252,7 +2230,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "POETx"
   },
   {
    "signature": "2RViiQgzTLsBPLWTAr7THRnxNZYzUB3adKvHHs6agwTAEsHaDrBkNVHkrhCQxmviFwDFfn3aaU4amgYriTU5W924",
@@ -2263,7 +2241,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLYx"
   },
   {
    "signature": "2RViiQgzTLsBPLWTAr7THRnxNZYzUB3adKvHHs6agwTAEsHaDrBkNVHkrhCQxmviFwDFfn3aaU4amgYriTU5W924",
@@ -2274,7 +2252,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLYx"
   },
   {
    "signature": "2RViiQgzTLsBPLWTAr7THRnxNZYzUB3adKvHHs6agwTAEsHaDrBkNVHkrhCQxmviFwDFfn3aaU4amgYriTU5W924",
@@ -2285,7 +2263,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLYx"
   },
   {
    "signature": "2RViiQgzTLsBPLWTAr7THRnxNZYzUB3adKvHHs6agwTAEsHaDrBkNVHkrhCQxmviFwDFfn3aaU4amgYriTU5W924",
@@ -2296,7 +2274,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLYx"
   },
   {
    "signature": "53Zy6YJEquzRjhqccA7a7rdjyGpYPvzgnoSSjj1wmky49Mt2cuSZCtepiJmgqiZbqzz8o1S5bzoRwgD5uaijBUPi",
@@ -2307,7 +2285,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BTDRx"
   },
   {
    "signature": "53Zy6YJEquzRjhqccA7a7rdjyGpYPvzgnoSSjj1wmky49Mt2cuSZCtepiJmgqiZbqzz8o1S5bzoRwgD5uaijBUPi",
@@ -2318,7 +2296,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BTDRx"
   },
   {
    "signature": "53Zy6YJEquzRjhqccA7a7rdjyGpYPvzgnoSSjj1wmky49Mt2cuSZCtepiJmgqiZbqzz8o1S5bzoRwgD5uaijBUPi",
@@ -2329,7 +2307,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BTDRx"
   },
   {
    "signature": "53Zy6YJEquzRjhqccA7a7rdjyGpYPvzgnoSSjj1wmky49Mt2cuSZCtepiJmgqiZbqzz8o1S5bzoRwgD5uaijBUPi",
@@ -2340,7 +2318,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BTDRx"
   },
   {
    "signature": "55qXQ2ZWgZhdD1q6Lytp9e7Wvifbh8pEftKen1zA7G9UkPbQLpLfAZRWGjo17z6Bho9eJKx1xfpnu8jMwVeSDCJD",
@@ -2351,7 +2329,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLUTx"
   },
   {
    "signature": "55qXQ2ZWgZhdD1q6Lytp9e7Wvifbh8pEftKen1zA7G9UkPbQLpLfAZRWGjo17z6Bho9eJKx1xfpnu8jMwVeSDCJD",
@@ -2362,7 +2340,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLUTx"
   },
   {
    "signature": "55qXQ2ZWgZhdD1q6Lytp9e7Wvifbh8pEftKen1zA7G9UkPbQLpLfAZRWGjo17z6Bho9eJKx1xfpnu8jMwVeSDCJD",
@@ -2373,7 +2351,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLUTx"
   },
   {
    "signature": "55qXQ2ZWgZhdD1q6Lytp9e7Wvifbh8pEftKen1zA7G9UkPbQLpLfAZRWGjo17z6Bho9eJKx1xfpnu8jMwVeSDCJD",
@@ -2384,7 +2362,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLUTx"
   },
   {
    "signature": "5MMvuxmECCw99fCTouH2dEDTyoeyaqGV1s1cex7wmTaAhYFBV5bUodPTvwYjs9N3XrVtamYPAy4gPAfhbvStCf4y",
@@ -2395,7 +2373,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAVAx"
   },
   {
    "signature": "5MMvuxmECCw99fCTouH2dEDTyoeyaqGV1s1cex7wmTaAhYFBV5bUodPTvwYjs9N3XrVtamYPAy4gPAfhbvStCf4y",
@@ -2406,7 +2384,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAVAx"
   },
   {
    "signature": "5MMvuxmECCw99fCTouH2dEDTyoeyaqGV1s1cex7wmTaAhYFBV5bUodPTvwYjs9N3XrVtamYPAy4gPAfhbvStCf4y",
@@ -2417,7 +2395,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAVAx"
   },
   {
    "signature": "5MMvuxmECCw99fCTouH2dEDTyoeyaqGV1s1cex7wmTaAhYFBV5bUodPTvwYjs9N3XrVtamYPAy4gPAfhbvStCf4y",
@@ -2428,7 +2406,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAVAx"
   },
   {
    "signature": "5qBXDRKDNt5NFTc4oTZzK8ABY1oAyfkAC8xfC4JFkn2F5CRLUuoAah37GfoWNga8ZtPVH6SurTJvvT5PnM3Du1BY",
@@ -2439,7 +2417,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BAOSx"
   },
   {
    "signature": "5qBXDRKDNt5NFTc4oTZzK8ABY1oAyfkAC8xfC4JFkn2F5CRLUuoAah37GfoWNga8ZtPVH6SurTJvvT5PnM3Du1BY",
@@ -2450,7 +2428,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BAOSx"
   },
   {
    "signature": "5qBXDRKDNt5NFTc4oTZzK8ABY1oAyfkAC8xfC4JFkn2F5CRLUuoAah37GfoWNga8ZtPVH6SurTJvvT5PnM3Du1BY",
@@ -2461,7 +2439,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BAOSx"
   },
   {
    "signature": "5qBXDRKDNt5NFTc4oTZzK8ABY1oAyfkAC8xfC4JFkn2F5CRLUuoAah37GfoWNga8ZtPVH6SurTJvvT5PnM3Du1BY",
@@ -2472,7 +2450,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BAOSx"
   },
   {
    "signature": "5p9qxm6KBf6T3Ewx632TnPuTSyBQzN9dqxrWwFKzhHpwhnbVMpyTdkcHbRzeaeJ9PZFp3X7NteNEGaEU5qxQ2Au3",
@@ -2483,7 +2461,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKUUx"
   },
   {
    "signature": "5p9qxm6KBf6T3Ewx632TnPuTSyBQzN9dqxrWwFKzhHpwhnbVMpyTdkcHbRzeaeJ9PZFp3X7NteNEGaEU5qxQ2Au3",
@@ -2494,7 +2472,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKUUx"
   },
   {
    "signature": "5p9qxm6KBf6T3Ewx632TnPuTSyBQzN9dqxrWwFKzhHpwhnbVMpyTdkcHbRzeaeJ9PZFp3X7NteNEGaEU5qxQ2Au3",
@@ -2505,7 +2483,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKUUx"
   },
   {
    "signature": "5p9qxm6KBf6T3Ewx632TnPuTSyBQzN9dqxrWwFKzhHpwhnbVMpyTdkcHbRzeaeJ9PZFp3X7NteNEGaEU5qxQ2Au3",
@@ -2516,7 +2494,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SKUUx"
   },
   {
    "signature": "5jJMVTBaEeLVeMRxHqCvmWiuG5FiqNuogfvuK38Fp7DJ8qKGr4M41WUKn5Fp3A8NTD4RyNT94cQjprM2LYijMyef",
@@ -2527,7 +2505,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BGx"
   },
   {
    "signature": "5jJMVTBaEeLVeMRxHqCvmWiuG5FiqNuogfvuK38Fp7DJ8qKGr4M41WUKn5Fp3A8NTD4RyNT94cQjprM2LYijMyef",
@@ -2538,7 +2516,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BGx"
   },
   {
    "signature": "5jJMVTBaEeLVeMRxHqCvmWiuG5FiqNuogfvuK38Fp7DJ8qKGr4M41WUKn5Fp3A8NTD4RyNT94cQjprM2LYijMyef",
@@ -2549,7 +2527,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BGx"
   },
   {
    "signature": "5jJMVTBaEeLVeMRxHqCvmWiuG5FiqNuogfvuK38Fp7DJ8qKGr4M41WUKn5Fp3A8NTD4RyNT94cQjprM2LYijMyef",
@@ -2560,7 +2538,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BGx"
   },
   {
    "signature": "2axu3wcbKVJd3SNK9o2X2HFpNNEevinXbmvQc4zYgNebHZQahbVdVhcUuHRSwojP7HTEAfJz81oSmXyh1fwVwH6o",
@@ -2571,7 +2549,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "USOx"
   },
   {
    "signature": "2axu3wcbKVJd3SNK9o2X2HFpNNEevinXbmvQc4zYgNebHZQahbVdVhcUuHRSwojP7HTEAfJz81oSmXyh1fwVwH6o",
@@ -2582,7 +2560,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "USOx"
   },
   {
    "signature": "2axu3wcbKVJd3SNK9o2X2HFpNNEevinXbmvQc4zYgNebHZQahbVdVhcUuHRSwojP7HTEAfJz81oSmXyh1fwVwH6o",
@@ -2593,7 +2571,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "USOx"
   },
   {
    "signature": "2axu3wcbKVJd3SNK9o2X2HFpNNEevinXbmvQc4zYgNebHZQahbVdVhcUuHRSwojP7HTEAfJz81oSmXyh1fwVwH6o",
@@ -2604,7 +2582,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "USOx"
   },
   {
    "signature": "3rEDHcB9rHYeDqGfBVFfc6kuZzqZasH9J2ZW77m8DZNZMacSdfqKcocaVut1BMmX9iCtnR4Rc4PhmtdvFGkV9yaJ",
@@ -2615,7 +2593,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RAMx"
   },
   {
    "signature": "3rEDHcB9rHYeDqGfBVFfc6kuZzqZasH9J2ZW77m8DZNZMacSdfqKcocaVut1BMmX9iCtnR4Rc4PhmtdvFGkV9yaJ",
@@ -2626,7 +2604,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RAMx"
   },
   {
    "signature": "3rEDHcB9rHYeDqGfBVFfc6kuZzqZasH9J2ZW77m8DZNZMacSdfqKcocaVut1BMmX9iCtnR4Rc4PhmtdvFGkV9yaJ",
@@ -2637,7 +2615,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RAMx"
   },
   {
    "signature": "3rEDHcB9rHYeDqGfBVFfc6kuZzqZasH9J2ZW77m8DZNZMacSdfqKcocaVut1BMmX9iCtnR4Rc4PhmtdvFGkV9yaJ",
@@ -2648,7 +2626,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RAMx"
   },
   {
    "signature": "2gWdW7CoU5U3GoZEghAnqJpDjvuqa3yVwyUSUUfBSHso3DLsXwB5tV3r8YXak1fk2dzzFEUoPgZqcqV7F4fZKKYn",
@@ -2659,7 +2637,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XBIx"
   },
   {
    "signature": "2gWdW7CoU5U3GoZEghAnqJpDjvuqa3yVwyUSUUfBSHso3DLsXwB5tV3r8YXak1fk2dzzFEUoPgZqcqV7F4fZKKYn",
@@ -2670,7 +2648,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XBIx"
   },
   {
    "signature": "2gWdW7CoU5U3GoZEghAnqJpDjvuqa3yVwyUSUUfBSHso3DLsXwB5tV3r8YXak1fk2dzzFEUoPgZqcqV7F4fZKKYn",
@@ -2681,7 +2659,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XBIx"
   },
   {
    "signature": "2gWdW7CoU5U3GoZEghAnqJpDjvuqa3yVwyUSUUfBSHso3DLsXwB5tV3r8YXak1fk2dzzFEUoPgZqcqV7F4fZKKYn",
@@ -2692,7 +2670,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XBIx"
   },
   {
    "signature": "5rxNcvNJ1GUBueegdv6P78jUdn2dGDrXmwLLvnCEF6J8oZrnhezxP4grkWj2yvk7SgsaAL73TJjya6ycre4H9Vhi",
@@ -2703,7 +2681,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JAZZx"
   },
   {
    "signature": "5rxNcvNJ1GUBueegdv6P78jUdn2dGDrXmwLLvnCEF6J8oZrnhezxP4grkWj2yvk7SgsaAL73TJjya6ycre4H9Vhi",
@@ -2714,7 +2692,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JAZZx"
   },
   {
    "signature": "5rxNcvNJ1GUBueegdv6P78jUdn2dGDrXmwLLvnCEF6J8oZrnhezxP4grkWj2yvk7SgsaAL73TJjya6ycre4H9Vhi",
@@ -2725,7 +2703,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JAZZx"
   },
   {
    "signature": "5rxNcvNJ1GUBueegdv6P78jUdn2dGDrXmwLLvnCEF6J8oZrnhezxP4grkWj2yvk7SgsaAL73TJjya6ycre4H9Vhi",
@@ -2736,7 +2714,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JAZZx"
   },
   {
    "signature": "Trun5dYkcrfSkftoFuH97xY8Ggf1AqYp6uNWihKXBuLS24Cf1YBmS7QVUMXSNC9Uus4vvBe1kbGHuGLdUknxzE9",
@@ -2747,7 +2725,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OUSTx"
   },
   {
    "signature": "Trun5dYkcrfSkftoFuH97xY8Ggf1AqYp6uNWihKXBuLS24Cf1YBmS7QVUMXSNC9Uus4vvBe1kbGHuGLdUknxzE9",
@@ -2758,7 +2736,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OUSTx"
   },
   {
    "signature": "Trun5dYkcrfSkftoFuH97xY8Ggf1AqYp6uNWihKXBuLS24Cf1YBmS7QVUMXSNC9Uus4vvBe1kbGHuGLdUknxzE9",
@@ -2769,7 +2747,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OUSTx"
   },
   {
    "signature": "Trun5dYkcrfSkftoFuH97xY8Ggf1AqYp6uNWihKXBuLS24Cf1YBmS7QVUMXSNC9Uus4vvBe1kbGHuGLdUknxzE9",
@@ -2780,7 +2758,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "OUSTx"
   },
   {
    "signature": "CMw7bCC1UKhcPYt58H9jj9dJjmQ2hduZ7uVtjzKnUbVefLCh7h3fpVsWGnepu8svjEiLi48Zoczyicd4B4Axjqw",
@@ -2791,7 +2769,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYBx"
   },
   {
    "signature": "CMw7bCC1UKhcPYt58H9jj9dJjmQ2hduZ7uVtjzKnUbVefLCh7h3fpVsWGnepu8svjEiLi48Zoczyicd4B4Axjqw",
@@ -2802,7 +2780,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYBx"
   },
   {
    "signature": "CMw7bCC1UKhcPYt58H9jj9dJjmQ2hduZ7uVtjzKnUbVefLCh7h3fpVsWGnepu8svjEiLi48Zoczyicd4B4Axjqw",
@@ -2813,7 +2791,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYBx"
   },
   {
    "signature": "CMw7bCC1UKhcPYt58H9jj9dJjmQ2hduZ7uVtjzKnUbVefLCh7h3fpVsWGnepu8svjEiLi48Zoczyicd4B4Axjqw",
@@ -2824,7 +2802,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "LYBx"
   },
   {
    "signature": "2CJNHtrmFRg4pfb2DKGs7EhhTY1QbadN2quSChgSrJ1FFRiBANenZyibgsybYiqjcbLm1s6DU5BSc5NkbyCVN2cJ",
@@ -2835,7 +2813,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PENGx"
   },
   {
    "signature": "2CJNHtrmFRg4pfb2DKGs7EhhTY1QbadN2quSChgSrJ1FFRiBANenZyibgsybYiqjcbLm1s6DU5BSc5NkbyCVN2cJ",
@@ -2846,7 +2824,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PENGx"
   },
   {
    "signature": "2CJNHtrmFRg4pfb2DKGs7EhhTY1QbadN2quSChgSrJ1FFRiBANenZyibgsybYiqjcbLm1s6DU5BSc5NkbyCVN2cJ",
@@ -2857,7 +2835,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PENGx"
   },
   {
    "signature": "2CJNHtrmFRg4pfb2DKGs7EhhTY1QbadN2quSChgSrJ1FFRiBANenZyibgsybYiqjcbLm1s6DU5BSc5NkbyCVN2cJ",
@@ -2868,7 +2846,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PENGx"
   },
   {
    "signature": "2DmSKjBxTPsDGPEommuop6D9XcJPcfhpMAgMHZvzWmGxiFYRrPf7GFu3ZiHzQTbEztmKTdTipRwGeGaEX34ecQtS",
@@ -2879,7 +2857,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "WTWx"
   },
   {
    "signature": "2DmSKjBxTPsDGPEommuop6D9XcJPcfhpMAgMHZvzWmGxiFYRrPf7GFu3ZiHzQTbEztmKTdTipRwGeGaEX34ecQtS",
@@ -2890,7 +2868,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "WTWx"
   },
   {
    "signature": "2DmSKjBxTPsDGPEommuop6D9XcJPcfhpMAgMHZvzWmGxiFYRrPf7GFu3ZiHzQTbEztmKTdTipRwGeGaEX34ecQtS",
@@ -2901,7 +2879,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "WTWx"
   },
   {
    "signature": "2DmSKjBxTPsDGPEommuop6D9XcJPcfhpMAgMHZvzWmGxiFYRrPf7GFu3ZiHzQTbEztmKTdTipRwGeGaEX34ecQtS",
@@ -2912,7 +2890,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "WTWx"
   },
   {
    "signature": "g3seEPfRZT6yCaAEeiGHANHfUtkSwnYJyJCUvbkq5BH5iN5fc6buWPeYGW76DNwRyiNkccXZJA9tJd9e1iq6Nmo",
@@ -2923,7 +2901,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FWDIx"
   },
   {
    "signature": "g3seEPfRZT6yCaAEeiGHANHfUtkSwnYJyJCUvbkq5BH5iN5fc6buWPeYGW76DNwRyiNkccXZJA9tJd9e1iq6Nmo",
@@ -2934,7 +2912,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FWDIx"
   },
   {
    "signature": "g3seEPfRZT6yCaAEeiGHANHfUtkSwnYJyJCUvbkq5BH5iN5fc6buWPeYGW76DNwRyiNkccXZJA9tJd9e1iq6Nmo",
@@ -2945,7 +2923,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FWDIx"
   },
   {
    "signature": "g3seEPfRZT6yCaAEeiGHANHfUtkSwnYJyJCUvbkq5BH5iN5fc6buWPeYGW76DNwRyiNkccXZJA9tJd9e1iq6Nmo",
@@ -2956,7 +2934,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FWDIx"
   },
   {
    "signature": "4mW4G6YBLK91SLdhPj4qFczz5AgEjF8r3N8xWax4YMWWvwfdriksqJ1ifU5iB3PdtZiu7mvnqGNzGr7nGTkHE4SE",
@@ -2967,7 +2945,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPXCx"
   },
   {
    "signature": "4mW4G6YBLK91SLdhPj4qFczz5AgEjF8r3N8xWax4YMWWvwfdriksqJ1ifU5iB3PdtZiu7mvnqGNzGr7nGTkHE4SE",
@@ -2978,7 +2956,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPXCx"
   },
   {
    "signature": "4mW4G6YBLK91SLdhPj4qFczz5AgEjF8r3N8xWax4YMWWvwfdriksqJ1ifU5iB3PdtZiu7mvnqGNzGr7nGTkHE4SE",
@@ -2989,7 +2967,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPXCx"
   },
   {
    "signature": "4mW4G6YBLK91SLdhPj4qFczz5AgEjF8r3N8xWax4YMWWvwfdriksqJ1ifU5iB3PdtZiu7mvnqGNzGr7nGTkHE4SE",
@@ -3000,7 +2978,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPXCx"
   },
   {
    "signature": "42VyTJdQD5VWfQDJAPKtiJQpPoA4tXHFoWbzE9haxEtqcHFtH5sPUVSgKZKcuQDKYs2FkgQ4Zg6LsVgzB2DYTZbJ",
@@ -3011,7 +2989,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UWMCx"
   },
   {
    "signature": "42VyTJdQD5VWfQDJAPKtiJQpPoA4tXHFoWbzE9haxEtqcHFtH5sPUVSgKZKcuQDKYs2FkgQ4Zg6LsVgzB2DYTZbJ",
@@ -3022,7 +3000,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UWMCx"
   },
   {
    "signature": "42VyTJdQD5VWfQDJAPKtiJQpPoA4tXHFoWbzE9haxEtqcHFtH5sPUVSgKZKcuQDKYs2FkgQ4Zg6LsVgzB2DYTZbJ",
@@ -3033,7 +3011,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UWMCx"
   },
   {
    "signature": "42VyTJdQD5VWfQDJAPKtiJQpPoA4tXHFoWbzE9haxEtqcHFtH5sPUVSgKZKcuQDKYs2FkgQ4Zg6LsVgzB2DYTZbJ",
@@ -3044,7 +3022,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "UWMCx"
   },
   {
    "signature": "3v4x9hxxHv2y9RJXNm5dKurYmMejsquBDaZsdqTqcszdHrWjdi5SbFjgpjLKk7in8zK6xpdjF47U9N7snN8KKNv9",
@@ -3055,7 +3033,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SQQQx"
   },
   {
    "signature": "3v4x9hxxHv2y9RJXNm5dKurYmMejsquBDaZsdqTqcszdHrWjdi5SbFjgpjLKk7in8zK6xpdjF47U9N7snN8KKNv9",
@@ -3066,7 +3044,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SQQQx"
   },
   {
    "signature": "3v4x9hxxHv2y9RJXNm5dKurYmMejsquBDaZsdqTqcszdHrWjdi5SbFjgpjLKk7in8zK6xpdjF47U9N7snN8KKNv9",
@@ -3077,7 +3055,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SQQQx"
   },
   {
    "signature": "3v4x9hxxHv2y9RJXNm5dKurYmMejsquBDaZsdqTqcszdHrWjdi5SbFjgpjLKk7in8zK6xpdjF47U9N7snN8KKNv9",
@@ -3088,7 +3066,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SQQQx"
   },
   {
    "signature": "3QbkqfysQatGKivExSz2BmdfYP6LaxPpQXsYXNURcxgT1MteN1aDZTZKFBZP3kcFifrJDC76HNj5GEYfVJKhYQNq",
@@ -3099,7 +3077,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FIGRx"
   },
   {
    "signature": "3QbkqfysQatGKivExSz2BmdfYP6LaxPpQXsYXNURcxgT1MteN1aDZTZKFBZP3kcFifrJDC76HNj5GEYfVJKhYQNq",
@@ -3110,7 +3088,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FIGRx"
   },
   {
    "signature": "3QbkqfysQatGKivExSz2BmdfYP6LaxPpQXsYXNURcxgT1MteN1aDZTZKFBZP3kcFifrJDC76HNj5GEYfVJKhYQNq",
@@ -3121,7 +3099,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FIGRx"
   },
   {
    "signature": "3QbkqfysQatGKivExSz2BmdfYP6LaxPpQXsYXNURcxgT1MteN1aDZTZKFBZP3kcFifrJDC76HNj5GEYfVJKhYQNq",
@@ -3132,7 +3110,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FIGRx"
   },
   {
    "signature": "4xTzYrdGDmU4ihj9Dur7NCr9bNhD7Uf2vF6bmCU7DjzvnLeDDH5u4eyZ13QspcMvekNgwjqrmD6cuEvDiZyxUMTs",
@@ -3143,7 +3121,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPCHx"
   },
   {
    "signature": "4xTzYrdGDmU4ihj9Dur7NCr9bNhD7Uf2vF6bmCU7DjzvnLeDDH5u4eyZ13QspcMvekNgwjqrmD6cuEvDiZyxUMTs",
@@ -3154,7 +3132,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPCHx"
   },
   {
    "signature": "4xTzYrdGDmU4ihj9Dur7NCr9bNhD7Uf2vF6bmCU7DjzvnLeDDH5u4eyZ13QspcMvekNgwjqrmD6cuEvDiZyxUMTs",
@@ -3165,7 +3143,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPCHx"
   },
   {
    "signature": "4xTzYrdGDmU4ihj9Dur7NCr9bNhD7Uf2vF6bmCU7DjzvnLeDDH5u4eyZ13QspcMvekNgwjqrmD6cuEvDiZyxUMTs",
@@ -3176,7 +3154,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPCHx"
   },
   {
    "signature": "5QnJWiJwTFWcdk2uxYnGVTvxEST53dK3a8oC82eaShDb6Vhiy71kEL1HjFXoZ6LAkr9eSXgtiPUwnZ5XrMciiw1L",
@@ -3187,7 +3165,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GPROx"
   },
   {
    "signature": "5QnJWiJwTFWcdk2uxYnGVTvxEST53dK3a8oC82eaShDb6Vhiy71kEL1HjFXoZ6LAkr9eSXgtiPUwnZ5XrMciiw1L",
@@ -3198,7 +3176,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GPROx"
   },
   {
    "signature": "5QnJWiJwTFWcdk2uxYnGVTvxEST53dK3a8oC82eaShDb6Vhiy71kEL1HjFXoZ6LAkr9eSXgtiPUwnZ5XrMciiw1L",
@@ -3209,7 +3187,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GPROx"
   },
   {
    "signature": "5QnJWiJwTFWcdk2uxYnGVTvxEST53dK3a8oC82eaShDb6Vhiy71kEL1HjFXoZ6LAkr9eSXgtiPUwnZ5XrMciiw1L",
@@ -3220,7 +3198,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GPROx"
   },
   {
    "signature": "2hvRGpBXGNmiNgVhSoaszLamKNvYckWhqN8yHPG48MKS3JZYkqHrP8uwJwaXCQP1CXY5aVFy6m8dvAsP4EfwgcU1",
@@ -3231,7 +3209,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ARQQx"
   },
   {
    "signature": "2hvRGpBXGNmiNgVhSoaszLamKNvYckWhqN8yHPG48MKS3JZYkqHrP8uwJwaXCQP1CXY5aVFy6m8dvAsP4EfwgcU1",
@@ -3242,7 +3220,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ARQQx"
   },
   {
    "signature": "2hvRGpBXGNmiNgVhSoaszLamKNvYckWhqN8yHPG48MKS3JZYkqHrP8uwJwaXCQP1CXY5aVFy6m8dvAsP4EfwgcU1",
@@ -3253,7 +3231,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ARQQx"
   },
   {
    "signature": "2hvRGpBXGNmiNgVhSoaszLamKNvYckWhqN8yHPG48MKS3JZYkqHrP8uwJwaXCQP1CXY5aVFy6m8dvAsP4EfwgcU1",
@@ -3264,7 +3242,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ARQQx"
   },
   {
    "signature": "46RVfHQTQfCCmWXCyEmAFWjJ4M8223VRNGtkXZhGnfRmUg6bo7RwP6WxzjGjpMtDQgoZXr1wMicf7rNHbbde6KVG",
@@ -3275,7 +3253,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAPRx"
   },
   {
    "signature": "46RVfHQTQfCCmWXCyEmAFWjJ4M8223VRNGtkXZhGnfRmUg6bo7RwP6WxzjGjpMtDQgoZXr1wMicf7rNHbbde6KVG",
@@ -3286,7 +3264,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAPRx"
   },
   {
    "signature": "46RVfHQTQfCCmWXCyEmAFWjJ4M8223VRNGtkXZhGnfRmUg6bo7RwP6WxzjGjpMtDQgoZXr1wMicf7rNHbbde6KVG",
@@ -3297,7 +3275,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAPRx"
   },
   {
    "signature": "46RVfHQTQfCCmWXCyEmAFWjJ4M8223VRNGtkXZhGnfRmUg6bo7RwP6WxzjGjpMtDQgoZXr1wMicf7rNHbbde6KVG",
@@ -3308,7 +3286,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CAPRx"
   },
   {
    "signature": "4x9xhvrdkuA5g5vEgTB5muQfiRp1MQpHaqHTtBqfcgZsWD7nEXs4NUvAVYcAeoTuzPbP2GutoAqYB21scXKqgAo2",
@@ -3319,7 +3297,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PNRx"
   },
   {
    "signature": "4x9xhvrdkuA5g5vEgTB5muQfiRp1MQpHaqHTtBqfcgZsWD7nEXs4NUvAVYcAeoTuzPbP2GutoAqYB21scXKqgAo2",
@@ -3330,7 +3308,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PNRx"
   },
   {
    "signature": "4x9xhvrdkuA5g5vEgTB5muQfiRp1MQpHaqHTtBqfcgZsWD7nEXs4NUvAVYcAeoTuzPbP2GutoAqYB21scXKqgAo2",
@@ -3341,7 +3319,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PNRx"
   },
   {
    "signature": "4x9xhvrdkuA5g5vEgTB5muQfiRp1MQpHaqHTtBqfcgZsWD7nEXs4NUvAVYcAeoTuzPbP2GutoAqYB21scXKqgAo2",
@@ -3352,7 +3330,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "PNRx"
   },
   {
    "signature": "5BFfKrcW3UvKcYU3NNc618GE7FXKeXw3iKizFUiNgShZ7jiNZDgg8D3mLvNyfkrG4LoJTmZwuWPs3hVuxyae8d7L",
@@ -3363,7 +3341,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RKTx"
   },
   {
    "signature": "5BFfKrcW3UvKcYU3NNc618GE7FXKeXw3iKizFUiNgShZ7jiNZDgg8D3mLvNyfkrG4LoJTmZwuWPs3hVuxyae8d7L",
@@ -3374,7 +3352,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RKTx"
   },
   {
    "signature": "5BFfKrcW3UvKcYU3NNc618GE7FXKeXw3iKizFUiNgShZ7jiNZDgg8D3mLvNyfkrG4LoJTmZwuWPs3hVuxyae8d7L",
@@ -3385,7 +3363,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RKTx"
   },
   {
    "signature": "5BFfKrcW3UvKcYU3NNc618GE7FXKeXw3iKizFUiNgShZ7jiNZDgg8D3mLvNyfkrG4LoJTmZwuWPs3hVuxyae8d7L",
@@ -3396,7 +3374,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RKTx"
   },
   {
    "signature": "2zP1razLorJXnEFLXANMgQTEMprskSxxqcqa7H34p46MwfA5YvCcCuRJHRvxw9X6yzRxfESRwfn8Fw61grQJxuDv",
@@ -3407,7 +3385,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCx"
   },
   {
    "signature": "2zP1razLorJXnEFLXANMgQTEMprskSxxqcqa7H34p46MwfA5YvCcCuRJHRvxw9X6yzRxfESRwfn8Fw61grQJxuDv",
@@ -3418,7 +3396,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCx"
   },
   {
    "signature": "2zP1razLorJXnEFLXANMgQTEMprskSxxqcqa7H34p46MwfA5YvCcCuRJHRvxw9X6yzRxfESRwfn8Fw61grQJxuDv",
@@ -3429,7 +3407,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCx"
   },
   {
    "signature": "2zP1razLorJXnEFLXANMgQTEMprskSxxqcqa7H34p46MwfA5YvCcCuRJHRvxw9X6yzRxfESRwfn8Fw61grQJxuDv",
@@ -3440,7 +3418,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AMCx"
   },
   {
    "signature": "23FVJnLAAZWpNDvwzxcLEZHDGHZHiEKXtdAcmdPKeh3hJfDgyoFVYBe8FrHwAeagbxam2WdeAzvjvd6cjP28nkLG",
@@ -3451,7 +3429,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DOCSx"
   },
   {
    "signature": "23FVJnLAAZWpNDvwzxcLEZHDGHZHiEKXtdAcmdPKeh3hJfDgyoFVYBe8FrHwAeagbxam2WdeAzvjvd6cjP28nkLG",
@@ -3462,7 +3440,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DOCSx"
   },
   {
    "signature": "23FVJnLAAZWpNDvwzxcLEZHDGHZHiEKXtdAcmdPKeh3hJfDgyoFVYBe8FrHwAeagbxam2WdeAzvjvd6cjP28nkLG",
@@ -3473,7 +3451,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DOCSx"
   },
   {
    "signature": "23FVJnLAAZWpNDvwzxcLEZHDGHZHiEKXtdAcmdPKeh3hJfDgyoFVYBe8FrHwAeagbxam2WdeAzvjvd6cjP28nkLG",
@@ -3484,7 +3462,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DOCSx"
   },
   {
    "signature": "4ny2bqPyyGJriz8SDG3E9wtzoYXGLaUmErn6AeVSMREs1qh2B9gEqKs2SwbeizKCUHsBFqvkBWLTQauwTCsw9WQS",
@@ -3495,7 +3473,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NVDLx"
   },
   {
    "signature": "4ny2bqPyyGJriz8SDG3E9wtzoYXGLaUmErn6AeVSMREs1qh2B9gEqKs2SwbeizKCUHsBFqvkBWLTQauwTCsw9WQS",
@@ -3506,7 +3484,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NVDLx"
   },
   {
    "signature": "4ny2bqPyyGJriz8SDG3E9wtzoYXGLaUmErn6AeVSMREs1qh2B9gEqKs2SwbeizKCUHsBFqvkBWLTQauwTCsw9WQS",
@@ -3517,7 +3495,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NVDLx"
   },
   {
    "signature": "4ny2bqPyyGJriz8SDG3E9wtzoYXGLaUmErn6AeVSMREs1qh2B9gEqKs2SwbeizKCUHsBFqvkBWLTQauwTCsw9WQS",
@@ -3528,7 +3506,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NVDLx"
   },
   {
    "signature": "4wsCt4sS9tH4TekcwYoaYnMMCzXvLYCUSU5aPjHmZMvpeu7BKepMo5xvTGY774QYAp85d4W1bmKANFdZ3QZ4khtk",
@@ -3539,7 +3517,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RPRXx"
   },
   {
    "signature": "4wsCt4sS9tH4TekcwYoaYnMMCzXvLYCUSU5aPjHmZMvpeu7BKepMo5xvTGY774QYAp85d4W1bmKANFdZ3QZ4khtk",
@@ -3550,7 +3528,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RPRXx"
   },
   {
    "signature": "4wsCt4sS9tH4TekcwYoaYnMMCzXvLYCUSU5aPjHmZMvpeu7BKepMo5xvTGY774QYAp85d4W1bmKANFdZ3QZ4khtk",
@@ -3561,7 +3539,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RPRXx"
   },
   {
    "signature": "4wsCt4sS9tH4TekcwYoaYnMMCzXvLYCUSU5aPjHmZMvpeu7BKepMo5xvTGY774QYAp85d4W1bmKANFdZ3QZ4khtk",
@@ -3572,7 +3550,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "RPRXx"
   },
   {
    "signature": "5pt2Si8ZumhshRc6g2RNbY82EHwhke3a148Rvp2YGgSDs39PQktLv6afQpKRrt1zTrfUuUoXCTGoCAJbC2a1y9pZ",
@@ -3583,7 +3561,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GRMNx"
   },
   {
    "signature": "5pt2Si8ZumhshRc6g2RNbY82EHwhke3a148Rvp2YGgSDs39PQktLv6afQpKRrt1zTrfUuUoXCTGoCAJbC2a1y9pZ",
@@ -3594,7 +3572,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GRMNx"
   },
   {
    "signature": "5pt2Si8ZumhshRc6g2RNbY82EHwhke3a148Rvp2YGgSDs39PQktLv6afQpKRrt1zTrfUuUoXCTGoCAJbC2a1y9pZ",
@@ -3605,7 +3583,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GRMNx"
   },
   {
    "signature": "5pt2Si8ZumhshRc6g2RNbY82EHwhke3a148Rvp2YGgSDs39PQktLv6afQpKRrt1zTrfUuUoXCTGoCAJbC2a1y9pZ",
@@ -3616,7 +3594,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "GRMNx"
   },
   {
    "signature": "4ag11pCY66cLvZ5wr4ydKD9cUybj21EDkDYfVAc8uuSgSbdt4GVHS3pr9GBPdm29zuG9PDW7PAhz8773bpGJ5Pzv",
@@ -3627,7 +3605,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRDOx"
   },
   {
    "signature": "4ag11pCY66cLvZ5wr4ydKD9cUybj21EDkDYfVAc8uuSgSbdt4GVHS3pr9GBPdm29zuG9PDW7PAhz8773bpGJ5Pzv",
@@ -3638,7 +3616,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRDOx"
   },
   {
    "signature": "4ag11pCY66cLvZ5wr4ydKD9cUybj21EDkDYfVAc8uuSgSbdt4GVHS3pr9GBPdm29zuG9PDW7PAhz8773bpGJ5Pzv",
@@ -3649,7 +3627,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRDOx"
   },
   {
    "signature": "4ag11pCY66cLvZ5wr4ydKD9cUybj21EDkDYfVAc8uuSgSbdt4GVHS3pr9GBPdm29zuG9PDW7PAhz8773bpGJ5Pzv",
@@ -3660,7 +3638,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRDOx"
   },
   {
    "signature": "627bAGGsj9uFGy2KZnCMmeqJFGCCWk812esTdtiRyAVqKuJ11Axem7SBpXhH1Cu7Rt5GqCTMjnVpPCf1cWhYu5ah",
@@ -3671,7 +3649,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BILIx"
   },
   {
    "signature": "627bAGGsj9uFGy2KZnCMmeqJFGCCWk812esTdtiRyAVqKuJ11Axem7SBpXhH1Cu7Rt5GqCTMjnVpPCf1cWhYu5ah",
@@ -3682,7 +3660,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BILIx"
   },
   {
    "signature": "627bAGGsj9uFGy2KZnCMmeqJFGCCWk812esTdtiRyAVqKuJ11Axem7SBpXhH1Cu7Rt5GqCTMjnVpPCf1cWhYu5ah",
@@ -3693,7 +3671,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BILIx"
   },
   {
    "signature": "627bAGGsj9uFGy2KZnCMmeqJFGCCWk812esTdtiRyAVqKuJ11Axem7SBpXhH1Cu7Rt5GqCTMjnVpPCf1cWhYu5ah",
@@ -3704,7 +3682,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "BILIx"
   },
   {
    "signature": "65bDLExKNnjZBjjtAoCCN9BopyCMo9661xbZmduxWDZiNE5zsNWjMp897pahD1YcbaExaH967GW893mjZa9CtukQ",
@@ -3715,7 +3693,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CHYMx"
   },
   {
    "signature": "65bDLExKNnjZBjjtAoCCN9BopyCMo9661xbZmduxWDZiNE5zsNWjMp897pahD1YcbaExaH967GW893mjZa9CtukQ",
@@ -3726,7 +3704,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CHYMx"
   },
   {
    "signature": "65bDLExKNnjZBjjtAoCCN9BopyCMo9661xbZmduxWDZiNE5zsNWjMp897pahD1YcbaExaH967GW893mjZa9CtukQ",
@@ -3737,7 +3715,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CHYMx"
   },
   {
    "signature": "65bDLExKNnjZBjjtAoCCN9BopyCMo9661xbZmduxWDZiNE5zsNWjMp897pahD1YcbaExaH967GW893mjZa9CtukQ",
@@ -3748,7 +3726,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CHYMx"
   },
   {
    "signature": "4TqtWERgLwEwqvKR2eDvbpwPcZaGNPmYEuYeydrpbzT4fcpcyRYQWh5xzUf1XgvgEBypA8bC9vbvmUPtcbyAJvv",
@@ -3759,7 +3737,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ACGLx"
   },
   {
    "signature": "4TqtWERgLwEwqvKR2eDvbpwPcZaGNPmYEuYeydrpbzT4fcpcyRYQWh5xzUf1XgvgEBypA8bC9vbvmUPtcbyAJvv",
@@ -3770,7 +3748,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ACGLx"
   },
   {
    "signature": "4TqtWERgLwEwqvKR2eDvbpwPcZaGNPmYEuYeydrpbzT4fcpcyRYQWh5xzUf1XgvgEBypA8bC9vbvmUPtcbyAJvv",
@@ -3781,7 +3759,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ACGLx"
   },
   {
    "signature": "4TqtWERgLwEwqvKR2eDvbpwPcZaGNPmYEuYeydrpbzT4fcpcyRYQWh5xzUf1XgvgEBypA8bC9vbvmUPtcbyAJvv",
@@ -3792,7 +3770,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ACGLx"
   },
   {
    "signature": "3Yi2Dt6GqEhMEVE1wF1MSyLruFpV2s3JDyZd3LvEFnFMzGb3uSBGTgPkcjJrbNxa8g8SuoEGKXbF5hTNb4u5kBwp",
@@ -3803,7 +3781,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AUx"
   },
   {
    "signature": "3Yi2Dt6GqEhMEVE1wF1MSyLruFpV2s3JDyZd3LvEFnFMzGb3uSBGTgPkcjJrbNxa8g8SuoEGKXbF5hTNb4u5kBwp",
@@ -3814,7 +3792,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AUx"
   },
   {
    "signature": "3Yi2Dt6GqEhMEVE1wF1MSyLruFpV2s3JDyZd3LvEFnFMzGb3uSBGTgPkcjJrbNxa8g8SuoEGKXbF5hTNb4u5kBwp",
@@ -3825,7 +3803,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AUx"
   },
   {
    "signature": "3Yi2Dt6GqEhMEVE1wF1MSyLruFpV2s3JDyZd3LvEFnFMzGb3uSBGTgPkcjJrbNxa8g8SuoEGKXbF5hTNb4u5kBwp",
@@ -3836,7 +3814,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AUx"
   },
   {
    "signature": "6mVtwf8LUCSxuyW64fFVpHPHiyNgDSmxPjHPw1envKSKJLENfRx9BrbvD251z1Jn3pbpR42TkXsnJFjJQKfmfyy",
@@ -3847,7 +3825,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CCLx"
   },
   {
    "signature": "6mVtwf8LUCSxuyW64fFVpHPHiyNgDSmxPjHPw1envKSKJLENfRx9BrbvD251z1Jn3pbpR42TkXsnJFjJQKfmfyy",
@@ -3858,7 +3836,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CCLx"
   },
   {
    "signature": "6mVtwf8LUCSxuyW64fFVpHPHiyNgDSmxPjHPw1envKSKJLENfRx9BrbvD251z1Jn3pbpR42TkXsnJFjJQKfmfyy",
@@ -3869,7 +3847,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CCLx"
   },
   {
    "signature": "6mVtwf8LUCSxuyW64fFVpHPHiyNgDSmxPjHPw1envKSKJLENfRx9BrbvD251z1Jn3pbpR42TkXsnJFjJQKfmfyy",
@@ -3880,7 +3858,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CCLx"
   },
   {
    "signature": "5wxa2nTnBnwthZ5JTPJnrx5aPN42iN8AmN7Qb4p4v6rL2AkuVsmzMRfFWLLriCdy9K8LVgv2q5f5NwdkV2QqBRLe",
@@ -3891,7 +3869,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ANx"
   },
   {
    "signature": "5wxa2nTnBnwthZ5JTPJnrx5aPN42iN8AmN7Qb4p4v6rL2AkuVsmzMRfFWLLriCdy9K8LVgv2q5f5NwdkV2QqBRLe",
@@ -3902,7 +3880,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ANx"
   },
   {
    "signature": "5wxa2nTnBnwthZ5JTPJnrx5aPN42iN8AmN7Qb4p4v6rL2AkuVsmzMRfFWLLriCdy9K8LVgv2q5f5NwdkV2QqBRLe",
@@ -3913,7 +3891,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ANx"
   },
   {
    "signature": "5wxa2nTnBnwthZ5JTPJnrx5aPN42iN8AmN7Qb4p4v6rL2AkuVsmzMRfFWLLriCdy9K8LVgv2q5f5NwdkV2QqBRLe",
@@ -3924,7 +3902,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "ANx"
   },
   {
    "signature": "3ZYbyiNqvWo34zgj2KA1Qd99GhDkbydfMgzDV5pFZvcHBSt4aeWaK9A3ciUDCw6DDSmEhTeFcZQT6xA3tBxJaBzQ",
@@ -3935,7 +3913,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DTMx"
   },
   {
    "signature": "3ZYbyiNqvWo34zgj2KA1Qd99GhDkbydfMgzDV5pFZvcHBSt4aeWaK9A3ciUDCw6DDSmEhTeFcZQT6xA3tBxJaBzQ",
@@ -3946,7 +3924,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DTMx"
   },
   {
    "signature": "3ZYbyiNqvWo34zgj2KA1Qd99GhDkbydfMgzDV5pFZvcHBSt4aeWaK9A3ciUDCw6DDSmEhTeFcZQT6xA3tBxJaBzQ",
@@ -3957,7 +3935,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DTMx"
   },
   {
    "signature": "3ZYbyiNqvWo34zgj2KA1Qd99GhDkbydfMgzDV5pFZvcHBSt4aeWaK9A3ciUDCw6DDSmEhTeFcZQT6xA3tBxJaBzQ",
@@ -3968,7 +3946,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "DTMx"
   },
   {
    "signature": "Qsu86jqsHDsvGVpVmMstzjPMYRK6E1RgEf2ty3gM31YQHRBDdUNxEJ6rBPGK9Bxdjn1hgHSuD4H72UA1egGEg9i",
@@ -3979,7 +3957,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWTx"
   },
   {
    "signature": "Qsu86jqsHDsvGVpVmMstzjPMYRK6E1RgEf2ty3gM31YQHRBDdUNxEJ6rBPGK9Bxdjn1hgHSuD4H72UA1egGEg9i",
@@ -3990,7 +3968,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWTx"
   },
   {
    "signature": "Qsu86jqsHDsvGVpVmMstzjPMYRK6E1RgEf2ty3gM31YQHRBDdUNxEJ6rBPGK9Bxdjn1hgHSuD4H72UA1egGEg9i",
@@ -4001,7 +3979,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWTx"
   },
   {
    "signature": "Qsu86jqsHDsvGVpVmMstzjPMYRK6E1RgEf2ty3gM31YQHRBDdUNxEJ6rBPGK9Bxdjn1hgHSuD4H72UA1egGEg9i",
@@ -4012,7 +3990,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "EWTx"
   },
   {
    "signature": "2qNMv3YkcbWNG1GwS2LAuoNA7qzZLFxdiQ3EomtvfBnT5fTvnKn1NxsU2QwhiHX9Dg84MQxX2RPcfTtKbJy9rbNG",
@@ -4023,7 +4001,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NUx"
   },
   {
    "signature": "2qNMv3YkcbWNG1GwS2LAuoNA7qzZLFxdiQ3EomtvfBnT5fTvnKn1NxsU2QwhiHX9Dg84MQxX2RPcfTtKbJy9rbNG",
@@ -4034,7 +4012,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NUx"
   },
   {
    "signature": "2qNMv3YkcbWNG1GwS2LAuoNA7qzZLFxdiQ3EomtvfBnT5fTvnKn1NxsU2QwhiHX9Dg84MQxX2RPcfTtKbJy9rbNG",
@@ -4045,7 +4023,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NUx"
   },
   {
    "signature": "2qNMv3YkcbWNG1GwS2LAuoNA7qzZLFxdiQ3EomtvfBnT5fTvnKn1NxsU2QwhiHX9Dg84MQxX2RPcfTtKbJy9rbNG",
@@ -4056,7 +4034,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "NUx"
   },
   {
    "signature": "bHjPUsE8QgMGDWk8CWGqD3rtbn8gbRWGNrT2k6skEXy9rPKdpmemmMMRHjwZTPp3HzLYY4VFhGShC22U9wX64HL",
@@ -4067,7 +4045,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "STEx"
   },
   {
    "signature": "bHjPUsE8QgMGDWk8CWGqD3rtbn8gbRWGNrT2k6skEXy9rPKdpmemmMMRHjwZTPp3HzLYY4VFhGShC22U9wX64HL",
@@ -4078,7 +4056,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "STEx"
   },
   {
    "signature": "bHjPUsE8QgMGDWk8CWGqD3rtbn8gbRWGNrT2k6skEXy9rPKdpmemmMMRHjwZTPp3HzLYY4VFhGShC22U9wX64HL",
@@ -4089,7 +4067,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "STEx"
   },
   {
    "signature": "bHjPUsE8QgMGDWk8CWGqD3rtbn8gbRWGNrT2k6skEXy9rPKdpmemmMMRHjwZTPp3HzLYY4VFhGShC22U9wX64HL",
@@ -4100,7 +4078,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "STEx"
   },
   {
    "signature": "2CoegBR1bKpCN3hTM92nZvoK3uKSTzcdZsd888NCUjhgKV9tT8FGEQxHjx9ConynmKofgme4AbUjR9235ZN2vcag",
@@ -4111,7 +4089,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLEXx"
   },
   {
    "signature": "2CoegBR1bKpCN3hTM92nZvoK3uKSTzcdZsd888NCUjhgKV9tT8FGEQxHjx9ConynmKofgme4AbUjR9235ZN2vcag",
@@ -4122,7 +4100,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLEXx"
   },
   {
    "signature": "2CoegBR1bKpCN3hTM92nZvoK3uKSTzcdZsd888NCUjhgKV9tT8FGEQxHjx9ConynmKofgme4AbUjR9235ZN2vcag",
@@ -4133,7 +4111,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLEXx"
   },
   {
    "signature": "2CoegBR1bKpCN3hTM92nZvoK3uKSTzcdZsd888NCUjhgKV9tT8FGEQxHjx9ConynmKofgme4AbUjR9235ZN2vcag",
@@ -4144,7 +4122,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FLEXx"
   },
   {
    "signature": "5doePeXqgJrB5JFAHao1444N2hCQiEyZB4iDmbFzRsXKNeSyZCFisKatSKJho2v9eUsUJ5KKimtUcvrGgwEFS1AS",
@@ -4155,7 +4133,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRHx"
   },
   {
    "signature": "5doePeXqgJrB5JFAHao1444N2hCQiEyZB4iDmbFzRsXKNeSyZCFisKatSKJho2v9eUsUJ5KKimtUcvrGgwEFS1AS",
@@ -4166,7 +4144,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRHx"
   },
   {
    "signature": "5doePeXqgJrB5JFAHao1444N2hCQiEyZB4iDmbFzRsXKNeSyZCFisKatSKJho2v9eUsUJ5KKimtUcvrGgwEFS1AS",
@@ -4177,7 +4155,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRHx"
   },
   {
    "signature": "5doePeXqgJrB5JFAHao1444N2hCQiEyZB4iDmbFzRsXKNeSyZCFisKatSKJho2v9eUsUJ5KKimtUcvrGgwEFS1AS",
@@ -4188,7 +4166,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CRHx"
   },
   {
    "signature": "3wBtuJWE5ZpuyUJZV48HzqF3u2BKh5eJYUEsy1npmutPLawzrYoAGNh8sb75QWYP1qvZVWQLqWKq8yxRvs4jdLUT",
@@ -4199,7 +4177,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CBx"
   },
   {
    "signature": "3wBtuJWE5ZpuyUJZV48HzqF3u2BKh5eJYUEsy1npmutPLawzrYoAGNh8sb75QWYP1qvZVWQLqWKq8yxRvs4jdLUT",
@@ -4210,7 +4188,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CBx"
   },
   {
    "signature": "3wBtuJWE5ZpuyUJZV48HzqF3u2BKh5eJYUEsy1npmutPLawzrYoAGNh8sb75QWYP1qvZVWQLqWKq8yxRvs4jdLUT",
@@ -4221,7 +4199,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CBx"
   },
   {
    "signature": "3wBtuJWE5ZpuyUJZV48HzqF3u2BKh5eJYUEsy1npmutPLawzrYoAGNh8sb75QWYP1qvZVWQLqWKq8yxRvs4jdLUT",
@@ -4232,7 +4210,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CBx"
   },
   {
    "signature": "593XQHixfchAGnBCBXwHsLUshhqUFj9A3Zk2aLLMmNmkk3iW391ByW4Dbtuvx9CSgFgD2MHuMErBh5nNwXuHTm4M",
@@ -4243,7 +4221,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AONx"
   },
   {
    "signature": "593XQHixfchAGnBCBXwHsLUshhqUFj9A3Zk2aLLMmNmkk3iW391ByW4Dbtuvx9CSgFgD2MHuMErBh5nNwXuHTm4M",
@@ -4254,7 +4232,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AONx"
   },
   {
    "signature": "593XQHixfchAGnBCBXwHsLUshhqUFj9A3Zk2aLLMmNmkk3iW391ByW4Dbtuvx9CSgFgD2MHuMErBh5nNwXuHTm4M",
@@ -4265,7 +4243,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AONx"
   },
   {
    "signature": "593XQHixfchAGnBCBXwHsLUshhqUFj9A3Zk2aLLMmNmkk3iW391ByW4Dbtuvx9CSgFgD2MHuMErBh5nNwXuHTm4M",
@@ -4276,7 +4254,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "AONx"
   },
   {
    "signature": "38qca8FVXsJM4KHFhRKjRQwqBiXXPSCtTKiSDmvtEXLkNZN1HBiQ6vEAUT5dJM6bHgFcJPY6oqW56UncJHYGHpYU",
@@ -4287,7 +4265,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FTIx"
   },
   {
    "signature": "38qca8FVXsJM4KHFhRKjRQwqBiXXPSCtTKiSDmvtEXLkNZN1HBiQ6vEAUT5dJM6bHgFcJPY6oqW56UncJHYGHpYU",
@@ -4298,7 +4276,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FTIx"
   },
   {
    "signature": "38qca8FVXsJM4KHFhRKjRQwqBiXXPSCtTKiSDmvtEXLkNZN1HBiQ6vEAUT5dJM6bHgFcJPY6oqW56UncJHYGHpYU",
@@ -4309,7 +4287,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FTIx"
   },
   {
    "signature": "38qca8FVXsJM4KHFhRKjRQwqBiXXPSCtTKiSDmvtEXLkNZN1HBiQ6vEAUT5dJM6bHgFcJPY6oqW56UncJHYGHpYU",
@@ -4320,7 +4298,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "FTIx"
   },
   {
    "signature": "3f9KeGwqPYWj48DD6iYAwzkEQ5ascJ63JoxvkWbAPvQshqYqEzFhBVHR7guGbBZp7QpVppEFffsZah9ZZTLK954A",
@@ -4331,7 +4309,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPOTx"
   },
   {
    "signature": "3f9KeGwqPYWj48DD6iYAwzkEQ5ascJ63JoxvkWbAPvQshqYqEzFhBVHR7guGbBZp7QpVppEFffsZah9ZZTLK954A",
@@ -4342,7 +4320,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPOTx"
   },
   {
    "signature": "3f9KeGwqPYWj48DD6iYAwzkEQ5ascJ63JoxvkWbAPvQshqYqEzFhBVHR7guGbBZp7QpVppEFffsZah9ZZTLK954A",
@@ -4353,7 +4331,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPOTx"
   },
   {
    "signature": "3f9KeGwqPYWj48DD6iYAwzkEQ5ascJ63JoxvkWbAPvQshqYqEzFhBVHR7guGbBZp7QpVppEFffsZah9ZZTLK954A",
@@ -4364,7 +4342,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SPOTx"
   },
   {
    "signature": "WZdwJg5Zipyo5B4mqZXDnnq15AAuRC3c7XPP69sCoueB9T6mbMyiL6JXfpnvMWVKedwn91ATEfVbMkDfqF3V6A3",
@@ -4375,7 +4353,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JCIx"
   },
   {
    "signature": "WZdwJg5Zipyo5B4mqZXDnnq15AAuRC3c7XPP69sCoueB9T6mbMyiL6JXfpnvMWVKedwn91ATEfVbMkDfqF3V6A3",
@@ -4386,7 +4364,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JCIx"
   },
   {
    "signature": "WZdwJg5Zipyo5B4mqZXDnnq15AAuRC3c7XPP69sCoueB9T6mbMyiL6JXfpnvMWVKedwn91ATEfVbMkDfqF3V6A3",
@@ -4397,7 +4375,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JCIx"
   },
   {
    "signature": "WZdwJg5Zipyo5B4mqZXDnnq15AAuRC3c7XPP69sCoueB9T6mbMyiL6JXfpnvMWVKedwn91ATEfVbMkDfqF3V6A3",
@@ -4408,7 +4386,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "JCIx"
   },
   {
    "signature": "3D1qkk6ad5rFukCksMx8iWs3W2YywB83SvbVjbo3qmakDyUbmj2vt6Pb3XQfydKVBn1NWffgChHbZyzANfYCNpvC",
@@ -4419,7 +4397,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TTx"
   },
   {
    "signature": "3D1qkk6ad5rFukCksMx8iWs3W2YywB83SvbVjbo3qmakDyUbmj2vt6Pb3XQfydKVBn1NWffgChHbZyzANfYCNpvC",
@@ -4430,7 +4408,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TTx"
   },
   {
    "signature": "3D1qkk6ad5rFukCksMx8iWs3W2YywB83SvbVjbo3qmakDyUbmj2vt6Pb3XQfydKVBn1NWffgChHbZyzANfYCNpvC",
@@ -4441,7 +4419,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TTx"
   },
   {
    "signature": "3D1qkk6ad5rFukCksMx8iWs3W2YywB83SvbVjbo3qmakDyUbmj2vt6Pb3XQfydKVBn1NWffgChHbZyzANfYCNpvC",
@@ -4452,7 +4430,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "TTx"
   },
   {
    "signature": "4FWpvkd5eaw7CPi45nWZU5C3Pyorj8P2giJ6dX1Lb1S23wb4pinLkousrAWBtiTqmcLG8C2WMDjUZsWU8WQKVGUq",
@@ -4463,7 +4441,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CURRx"
   },
   {
    "signature": "4FWpvkd5eaw7CPi45nWZU5C3Pyorj8P2giJ6dX1Lb1S23wb4pinLkousrAWBtiTqmcLG8C2WMDjUZsWU8WQKVGUq",
@@ -4474,7 +4452,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CURRx"
   },
   {
    "signature": "4FWpvkd5eaw7CPi45nWZU5C3Pyorj8P2giJ6dX1Lb1S23wb4pinLkousrAWBtiTqmcLG8C2WMDjUZsWU8WQKVGUq",
@@ -4485,7 +4463,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CURRx"
   },
   {
    "signature": "4FWpvkd5eaw7CPi45nWZU5C3Pyorj8P2giJ6dX1Lb1S23wb4pinLkousrAWBtiTqmcLG8C2WMDjUZsWU8WQKVGUq",
@@ -4496,7 +4474,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "CURRx"
   },
   {
    "signature": "FJuheRKG4ia7JNZhRXRfRTdg9cGackHtBhfXc9Hgr5r3HE12q7UVcMmbdoX43fovvjA53AAa1Vaj43wLh1LpMKN",
@@ -4507,7 +4485,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SLBx"
   },
   {
    "signature": "FJuheRKG4ia7JNZhRXRfRTdg9cGackHtBhfXc9Hgr5r3HE12q7UVcMmbdoX43fovvjA53AAa1Vaj43wLh1LpMKN",
@@ -4518,7 +4496,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SLBx"
   },
   {
    "signature": "FJuheRKG4ia7JNZhRXRfRTdg9cGackHtBhfXc9Hgr5r3HE12q7UVcMmbdoX43fovvjA53AAa1Vaj43wLh1LpMKN",
@@ -4529,7 +4507,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SLBx"
   },
   {
    "signature": "FJuheRKG4ia7JNZhRXRfRTdg9cGackHtBhfXc9Hgr5r3HE12q7UVcMmbdoX43fovvjA53AAa1Vaj43wLh1LpMKN",
@@ -4540,7 +4518,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SLBx"
   },
   {
    "signature": "2uvdcge2HYjm2XG12XNG8EXYPixLnYRcch9iM1SpLfRWHBhEgDKrPUnXzPvvJwpuZNiTniG6SeqSQFFAmbHzvh5h",
@@ -4551,7 +4529,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SVRAx"
   },
   {
    "signature": "2uvdcge2HYjm2XG12XNG8EXYPixLnYRcch9iM1SpLfRWHBhEgDKrPUnXzPvvJwpuZNiTniG6SeqSQFFAmbHzvh5h",
@@ -4562,7 +4540,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SVRAx"
   },
   {
    "signature": "2uvdcge2HYjm2XG12XNG8EXYPixLnYRcch9iM1SpLfRWHBhEgDKrPUnXzPvvJwpuZNiTniG6SeqSQFFAmbHzvh5h",
@@ -4573,7 +4551,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SVRAx"
   },
   {
    "signature": "2uvdcge2HYjm2XG12XNG8EXYPixLnYRcch9iM1SpLfRWHBhEgDKrPUnXzPvvJwpuZNiTniG6SeqSQFFAmbHzvh5h",
@@ -4584,7 +4562,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "SVRAx"
   },
   {
    "signature": "2HGfdpwLpbGLyPNm748HrQJS9HLyBzKPwSpeqSFoZ9DjeLTfARZwVvz1mGbTnNg27rJW3x2hq7AcvqUmzNcfo6vZ",
@@ -4595,7 +4573,7 @@
    "detail": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq was made permanent delegate at launch.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XPOFx"
   },
   {
    "signature": "2HGfdpwLpbGLyPNm748HrQJS9HLyBzKPwSpeqSFoZ9DjeLTfARZwVvz1mGbTnNg27rJW3x2hq7AcvqUmzNcfo6vZ",
@@ -4606,7 +4584,7 @@
    "detail": "The issuer called initializeScaledUiAmountConfig on this token.",
    "unmapped": true,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XPOFx"
   },
   {
    "signature": "2HGfdpwLpbGLyPNm748HrQJS9HLyBzKPwSpeqSFoZ9DjeLTfARZwVvz1mGbTnNg27rJW3x2hq7AcvqUmzNcfo6vZ",
@@ -4617,7 +4595,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XPOFx"
   },
   {
    "signature": "2HGfdpwLpbGLyPNm748HrQJS9HLyBzKPwSpeqSFoZ9DjeLTfARZwVvz1mGbTnNg27rJW3x2hq7AcvqUmzNcfo6vZ",
@@ -4628,7 +4606,7 @@
    "detail": "Transfers now call no program.",
    "unmapped": false,
    "signer": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
-   "symbol": null
+   "symbol": "XPOFx"
   },
   {
    "signature": "5sEDkyX8BGoVdg5Y2Q5uaW6Gr9wMSfjXYZ73h7tjrjYjWyQx6yPfdvg9NaRmDdUG6aUErveitTybEJkYKVy5WD7v",
@@ -5068,7 +5046,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ANETx"
   },
   {
    "signature": "5PKjXq2Sd7nBUiC7XvDLurUEq4KfBpQDEcUoks4zwsBFesgG1wQLrrPG1SyFAD1pAMfBcYDxMcYgARghT7FmFuLy",
@@ -5079,7 +5057,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "LRCXx"
   },
   {
    "signature": "5PKjXq2Sd7nBUiC7XvDLurUEq4KfBpQDEcUoks4zwsBFesgG1wQLrrPG1SyFAD1pAMfBcYDxMcYgARghT7FmFuLy",
@@ -5090,7 +5068,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SMHx"
   },
   {
    "signature": "5PKjXq2Sd7nBUiC7XvDLurUEq4KfBpQDEcUoks4zwsBFesgG1wQLrrPG1SyFAD1pAMfBcYDxMcYgARghT7FmFuLy",
@@ -5101,7 +5079,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "AMATx"
   },
   {
    "signature": "4uF48QD4QQo9a4WxNiuxZzZANxoKKC9CfR7ececxN7CSczDh3oGkE5UWBrdD9Q7ARVDCeyxiR5vgVXBAZMhneeYu",
@@ -5145,7 +5123,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VGKx"
   },
   {
    "signature": "4uF48QD4QQo9a4WxNiuxZzZANxoKKC9CfR7ececxN7CSczDh3oGkE5UWBrdD9Q7ARVDCeyxiR5vgVXBAZMhneeYu",
@@ -5156,7 +5134,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PWRx"
   },
   {
    "signature": "4uF48QD4QQo9a4WxNiuxZzZANxoKKC9CfR7ececxN7CSczDh3oGkE5UWBrdD9Q7ARVDCeyxiR5vgVXBAZMhneeYu",
@@ -5178,7 +5156,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VXUSx"
   },
   {
    "signature": "4uF48QD4QQo9a4WxNiuxZzZANxoKKC9CfR7ececxN7CSczDh3oGkE5UWBrdD9Q7ARVDCeyxiR5vgVXBAZMhneeYu",
@@ -5189,7 +5167,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VRTx"
   },
   {
    "signature": "4uF48QD4QQo9a4WxNiuxZzZANxoKKC9CfR7ececxN7CSczDh3oGkE5UWBrdD9Q7ARVDCeyxiR5vgVXBAZMhneeYu",
@@ -5200,7 +5178,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "UUUUx"
   },
   {
    "signature": "4uF48QD4QQo9a4WxNiuxZzZANxoKKC9CfR7ececxN7CSczDh3oGkE5UWBrdD9Q7ARVDCeyxiR5vgVXBAZMhneeYu",
@@ -5211,7 +5189,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "USARx"
   },
   {
    "signature": "2gdjDU4fxyrixp61DyBUooea4fsURG9gbuaNaCBUp85Bq63dSTvtjgeQDcwAjtNGC9vZA2HLDHVw7Y8vV4mjdWZx",
@@ -5222,7 +5200,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BKNGx"
   },
   {
    "signature": "2gdjDU4fxyrixp61DyBUooea4fsURG9gbuaNaCBUp85Bq63dSTvtjgeQDcwAjtNGC9vZA2HLDHVw7Y8vV4mjdWZx",
@@ -5255,7 +5233,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SCHFx"
   },
   {
    "signature": "2gdjDU4fxyrixp61DyBUooea4fsURG9gbuaNaCBUp85Bq63dSTvtjgeQDcwAjtNGC9vZA2HLDHVw7Y8vV4mjdWZx",
@@ -5266,7 +5244,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "IEMGx"
   },
   {
    "signature": "2gdjDU4fxyrixp61DyBUooea4fsURG9gbuaNaCBUp85Bq63dSTvtjgeQDcwAjtNGC9vZA2HLDHVw7Y8vV4mjdWZx",
@@ -5277,7 +5255,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "STRKx"
   },
   {
    "signature": "2gdjDU4fxyrixp61DyBUooea4fsURG9gbuaNaCBUp85Bq63dSTvtjgeQDcwAjtNGC9vZA2HLDHVw7Y8vV4mjdWZx",
@@ -5321,7 +5299,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VTx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5332,7 +5310,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MUx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5343,7 +5321,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "HSDTx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5354,7 +5332,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "RIOTx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5365,7 +5343,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MARAx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5376,7 +5354,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TONXx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5387,7 +5365,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TMUSx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5398,7 +5376,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "WENx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5409,7 +5387,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SPGIx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5420,7 +5398,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MNSTx"
   },
   {
    "signature": "4LCMZfs55qpWfJgMRR4K4StGzrJDHUjXzWAmFWWWyzMkS2xrLpVeeWi5fmJxy5f4hyrKmeWd83ZckbGTrjFSgLc8",
@@ -5431,7 +5409,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TSMx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5442,7 +5420,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PYPLx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5453,7 +5431,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CLSKx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5464,7 +5442,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "FUFUx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5475,7 +5453,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "EBAYx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5486,7 +5464,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "LULUx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5497,7 +5475,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PLx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5508,7 +5486,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "AMDx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5519,7 +5497,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "COSTx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5530,7 +5508,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ASTSx"
   },
   {
    "signature": "3fcmd67a96nM7LHNUL3cTzQHh8iBFFMDB9ULWc4CphWQhVokear9PqF4y6rWPFN34Qb7VaK8we9H3Zp7WtqXdaWR",
@@ -5541,7 +5519,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "HDx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5552,7 +5530,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BLKx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5563,7 +5541,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SMRx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5574,7 +5552,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ABTx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5585,7 +5563,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SNDKx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5596,7 +5574,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "EXPEx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5607,7 +5585,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SPCEx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5618,7 +5596,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "UBERx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5629,7 +5607,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TGTx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5640,7 +5618,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SBETx"
   },
   {
    "signature": "3nbtyk8UbxG6Umq9JNwe2aYVAvs23XtYhuMwB3SKMHb7wVVpjj6Cr4iWgcdG54j8LmmC4fAEjftboBfBVYR8vwqL",
@@ -5651,7 +5629,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "DUOLx"
   },
   {
    "signature": "23C8MS6vsdKcDgUboUKCSM8K64sBArqAXUjKHCxAeXBP9wDAZmp92DMrW96i78cW2EopPZyy2TMvNu8tskG9kzxs",
@@ -5662,7 +5640,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "AVGOx"
   },
   {
    "signature": "23C8MS6vsdKcDgUboUKCSM8K64sBArqAXUjKHCxAeXBP9wDAZmp92DMrW96i78cW2EopPZyy2TMvNu8tskG9kzxs",
@@ -5684,7 +5662,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "NVOx"
   },
   {
    "signature": "23C8MS6vsdKcDgUboUKCSM8K64sBArqAXUjKHCxAeXBP9wDAZmp92DMrW96i78cW2EopPZyy2TMvNu8tskG9kzxs",
@@ -5695,7 +5673,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MAx"
   },
   {
    "signature": "23C8MS6vsdKcDgUboUKCSM8K64sBArqAXUjKHCxAeXBP9wDAZmp92DMrW96i78cW2EopPZyy2TMvNu8tskG9kzxs",
@@ -5739,7 +5717,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PANWx"
   },
   {
    "signature": "23C8MS6vsdKcDgUboUKCSM8K64sBArqAXUjKHCxAeXBP9wDAZmp92DMrW96i78cW2EopPZyy2TMvNu8tskG9kzxs",
@@ -5750,7 +5728,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MOOx"
   },
   {
    "signature": "23C8MS6vsdKcDgUboUKCSM8K64sBArqAXUjKHCxAeXBP9wDAZmp92DMrW96i78cW2EopPZyy2TMvNu8tskG9kzxs",
@@ -5761,7 +5739,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "IWMx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5772,7 +5750,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "JNJx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5783,7 +5761,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ORCLx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5805,7 +5783,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CRMx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5816,7 +5794,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "WMTx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5827,7 +5805,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PMx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5849,7 +5827,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "UNHx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5860,7 +5838,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "LLYx"
   },
   {
    "signature": "2bNmXvrPsZBLLxRJp6qfpHqoB2o5hRa2aKb5PqsUuVFSeZwh8LwskmmBmdUa3g74AsYMT4NUxL3wXdrqXBSxFrdv",
@@ -5871,7 +5849,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ADBEx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5882,7 +5860,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MDTx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5893,7 +5871,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PFEx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5904,7 +5882,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "IBMx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5915,7 +5893,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "GSx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5926,7 +5904,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "AMBRx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5937,7 +5915,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "DELLx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5948,7 +5926,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "LINx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5959,7 +5937,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VTIx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5970,7 +5948,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TQQQx"
   },
   {
    "signature": "4HE3GZa5cF9GRKHMPiUR1V8C5bV9gQL1HKgchuXahwbPVV1c93GPREaKoxydVFARc5UmD6bvvCzgFcGaj6vzbEc2",
@@ -5981,7 +5959,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "HONx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -5992,7 +5970,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CSCOx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6003,7 +5981,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PGx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6014,7 +5992,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MRKx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6025,7 +6003,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "XOPx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6036,7 +6014,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CVXx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6058,7 +6036,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "NFLXx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6069,7 +6047,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VUGx"
   },
   {
    "signature": "4FLy45s3ERA2jXvuaMi8AeHfKxLjyjtJshK1yJZ2kHnJ8THwtgnwGdcCjiCgNUzXAjjPat3vQD7noCBQBSX22944",
@@ -6091,7 +6069,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "DHRx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6102,7 +6080,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SLMTx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6113,7 +6091,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VCXx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6124,7 +6102,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "OKLOx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6135,7 +6113,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "XOMx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6146,7 +6124,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BTGOx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6157,7 +6135,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "JPMx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6168,7 +6146,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CRWDx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6190,7 +6168,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PEPx"
   },
   {
    "signature": "2U8e1gVB7G7mCZEyUj7yMgieMbyrJVL1McoJUf2qVEHv9EGu9YosFu2hyoY6sxNVbBSdyWTG7kLciAQcFJwWmZps",
@@ -6201,7 +6179,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ITAx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6212,7 +6190,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PPLTx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6223,7 +6201,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "COPXx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6234,7 +6212,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "RKLBx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6245,7 +6223,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "HUTx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6256,7 +6234,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "PALLx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6267,7 +6245,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CORZx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6278,7 +6256,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "FIGx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6289,7 +6267,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "FGDLx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6300,7 +6278,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "GLXYx"
   },
   {
    "signature": "462uYrPPqdp69X7ahLTPmgLmjSztAr2rsmCJyvk6zgJTwrN1PjqTQ1ynQCmNGJkfij3ogpMoEAWS2mqJzq6rVRac",
@@ -6311,7 +6289,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SLVx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6322,7 +6300,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TEMx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6333,7 +6311,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "URAx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6344,7 +6322,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "RBLXx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6355,7 +6333,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "APLDx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6366,7 +6344,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SGOVx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6377,7 +6355,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "WULFx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6388,7 +6366,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "AXPx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6399,7 +6377,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "Tx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6410,7 +6388,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TRONx"
   },
   {
    "signature": "yQmqL6FRHWMoHcrpZinashnKSNRs5jk1AfBM17bW9FzDRUckhWgPcY1Y99CADa5meAu9tD3JmZy2WKp6njazhZn",
@@ -6421,7 +6399,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "KRAQx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6432,7 +6410,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "IJRx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6443,7 +6421,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "VSTx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6454,7 +6432,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "WBDx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6465,7 +6443,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "LITEx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6476,7 +6454,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ACNx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6487,7 +6465,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BRK.Bx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6498,7 +6476,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CMCSAx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6509,7 +6487,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "AZNx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6520,7 +6498,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TERx"
   },
   {
    "signature": "56tEpGAGXHhFwvq4g3nonaEDy2KxtUbKwuorvsL92wPovZgtaf1afwYDpy6fPPaxnwe89mg6MNt383vgi4LBv3HL",
@@ -6531,7 +6509,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "XLEx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6542,7 +6520,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BACx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6553,7 +6531,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BLSHx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6564,7 +6542,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "CEGx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6575,7 +6553,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TBLLx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6586,7 +6564,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BMNRx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6597,7 +6575,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "OPENx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6608,7 +6586,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SUIGx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6619,7 +6597,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ABBVx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6630,7 +6608,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "APPx"
   },
   {
    "signature": "5WGViY2bBw9w6k6kC6c4G6WLHnuCtqfkTeoHShLDcwDUpiScSgcWnY2bTNFtcfzU92BQagD5AhwotzurAF7ahpdt",
@@ -6641,7 +6619,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ASMLx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6652,7 +6630,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "SMCIx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6663,7 +6641,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "KLACx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6674,7 +6652,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "ETNx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6685,7 +6663,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "GEVx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6696,7 +6674,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "TMOx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6707,7 +6685,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "MRVLx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6718,7 +6696,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "DFDVx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6729,7 +6707,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "INTCx"
   },
   {
    "signature": "3mPZN3NYVqbTeAu961Z4iU8ToEydYBwQMFUyXoQNGW8e8xR6J6BYx79ymsw74DWgHfbUb8wTPN1kHC5mevRAuJPy",
@@ -6751,7 +6729,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "Vx"
   },
   {
    "signature": "2C7cEL5Xk8FJRgvJU4XoMLfdNkaG4qe2BP7GznBq75uSUEJarxkChkCcks1dMECfyvLgnNthvLYGQVajTcu9vhiR",
@@ -6762,7 +6740,7 @@
    "detail": "The mintTokens was changed to 7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj.",
    "unmapped": false,
    "signer": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
-   "symbol": null
+   "symbol": "BTBTx"
   }
  ]
 }
