@@ -98,7 +98,7 @@
         {/if}
         {#if entry}<div>{entry.unlisted ? 'not listed on any venue we found' : 'listed'}</div>{/if}
         {#if servedBy}<div>read from {new URL(servedBy).host}</div>{/if}
-        <div class="status" style="justify-content:flex-end">
+        <div class="status meta-status">
           <span class="beat" aria-hidden="true"></span>
           <span>read {timeOf(terms.readAt)}</span>
         </div>

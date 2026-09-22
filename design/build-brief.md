@@ -24,6 +24,26 @@ Research it answers to: `ai/design-research.md`. Surfaces it must cover: `ai/sur
   line 5 allows exactly three shadows and none of them is a row marker, and a 612-row table
   that lifts under the pointer is worse, not better. Colour-alone hover is accepted here and
   nowhere else. Link hover changes both colour and border colour, as §9 specifies.
+- **Field labels are 12px, not the 11px this brief first specified.** The design QA gate
+  sets a 12px floor for any type, uppercase-with-tracking included, and 11px was below it.
+  Changed in `app.css` and in §3 above on 2026-09-22.
+- **`--ink-3` moved from `#8A8271` to `#756E5D`.** Measured at 3.47:1 against `--paper`,
+  the old value failed WCAG AA for body text; the new one is 4.61:1. It is the lightest
+  value on this hue that clears 4.5:1, so the label greys are as quiet as they can legally be.
+- **The spacing ladder is this project's own, not the skill's default.** `4/8/12/16/20/28/34/
+  52/78/104` is a ~1.45 ratio and carries the filing's denser rhythm; the skill's
+  `4/8/12/16/24/32/48/64/96/128` produced section gaps too wide for a record. Every value in
+  the stylesheet sits on this ladder, plus the two row paddings §4 names.
+- **The design QA script's liveness check (check 4) fails and is overridden, deliberately.**
+  `~/System/scripts/design-qa.sh` counts layered gradients, `box-shadow`-with-`rgba` lines and
+  the words `noise|grain|feTurbulence`. It is calibrated for a dark theme. This page's shadows
+  are all `box-shadow:var(--lift-N)`, so the rgba sits in the token definition and the grep
+  misses it; its texture is an SVG cross-hatch tile at 0.035 on `.texture`, above the skill's
+  own 0.03 floor, but it is not called "noise". Against the skill's own eight-item dead-page
+  checklist at most two items are true (flat base colour outside the column; no background
+  gradient), and the gate fires at three. The accent focus ring is `--mark-32` (0.32, floor
+  0.08), three shadow tiers are in use, the beat dot animates and every figure on the page is
+  live. The script is left unmodified.
 - **`/record` and `/all` each carry a filter the brief did not specify.** 612 rows and 265
   rows are not readable without one. Copy: `Filter by token, change or mint` and
   `Filter by symbol, name or issuer`.
@@ -85,7 +105,7 @@ where a term actually changed, or on a focus/hover affordance. It never decorate
 | `--t-body` | `17px` / lh `1.55` / ls `-.011em` / sans | power names, record actions |
 | `--t-prose` | `15px` / lh `1.5` / sans | the explanatory column, `max-width:62ch` |
 | `--t-data` | `12.5px` / lh `1.7` / mono | addresses, signatures, dates |
-| `--t-field` | `11px` / lh `1` / ls `.09em` / uppercase / mono | field labels only |
+| `--t-field` | `12px` / lh `1` / ls `.09em` / uppercase / mono | field labels only |
 
 Global: `-webkit-font-smoothing:antialiased`, `text-rendering:optimizeLegibility`,
 `font-variant-numeric:tabular-nums` on `body`. Inputs are 16px minimum.
@@ -97,6 +117,8 @@ field. Never an eyebrow above a heading.**
 ## 4. Spacing scale
 
 `4 / 8 / 12 / 16 / 20 / 28 / 34 / 52 / 78 / 104px`. No value off this scale.
+(This is not the design skill's default `4/8/12/16/24/32/48/64/96/128` ladder — see the
+deviation recorded in §0.)
 Section spacing 52px between blocks within a page, 78px between major sections.
 Row padding 17px vertical on power rows, 15px on record rows. Panel padding 20px 22px.
 
