@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toll — Direction 3: The Control Room</title>
+<style>
+:root{
+  /* 5-layer dark ladder, never #000 */
+  --l0:#0B0C0B; --l1:#111412; --l2:#171B18; --l3:#1E2420; --l4:#272E29;
+  --line:rgba(236,244,238,.09); --line-2:rgba(236,244,238,.05);
+  --ink:#E8EEEA; --ink-2:rgba(232,238,234,.66); --ink-3:rgba(232,238,234,.40);
+  --mark:#5FD39A;
+  --mark-55:rgba(95,211,154,.55); --mark-32:rgba(95,211,154,.32); --mark-12:rgba(95,211,154,.12); --mark-06:rgba(95,211,154,.06);
+  --r-xs:3px; --r-sm:6px; --r-md:10px; --r-lg:16px; --r-full:999px;
+  /* CF-5: declared philosophy = pure-glow (dark world), elevation via bg steps */
+  --glow-1:0 0 0 1px var(--line), 0 0 24px -12px rgba(95,211,154,.30);
+  --glow-2:0 0 0 1px var(--line), 0 0 44px -16px rgba(95,211,154,.42), inset 0 1px 0 rgba(255,255,255,.045);
+  --glow-3:0 0 0 1px var(--mark-32), 0 0 60px -14px rgba(95,211,154,.55), inset 0 1px 0 rgba(255,255,255,.06);
+  --t-fast:120ms cubic-bezier(.23,1,.32,1);
+  --t-mid:210ms cubic-bezier(.23,1,.32,1);
+  --sans:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--l0); color:var(--ink); font:400 15px/1.6 var(--sans);
+  -webkit-font-smoothing:antialiased; font-variant-numeric:tabular-nums; min-height:100dvh}
+body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+  background:
+    radial-gradient(760px 420px at 16% -6%, rgba(95,211,154,.13), transparent 62%),
+    radial-gradient(640px 500px at 92% 8%, rgba(95,211,154,.09), transparent 66%)}
+body::after{content:""; position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.05; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{position:relative; z-index:1; max-width:1240px; margin:0 auto; padding:0 26px 70px}
+
+header{display:flex; align-items:center; gap:16px; padding:22px 0; border-bottom:1px solid var(--line-2)}
+.word{font:600 17px/1 var(--sans); letter-spacing:-.025em}
+.word b{color:var(--mark)}
+nav{margin-left:auto; display:flex; gap:24px}
+nav a{font-size:13.5px; color:var(--ink-2); text-decoration:none; transition:color var(--t-fast)}
+@media (hover:hover){nav a:hover{color:var(--mark)}}
+nav a:focus-visible{outline:none; box-shadow:0 0 0 3px var(--mark-32); border-radius:var(--r-xs)}
+.field{font:500 10.5px/1 var(--mono); letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3)}
+
+.status{display:flex; align-items:center; gap:9px; padding:18px 0 0}
+.status .dot{width:7px; height:7px; border-radius:var(--r-full); background:var(--mark); animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(95,211,154,.45)}55%{box-shadow:0 0 0 8px rgba(95,211,154,0)}}
+.status span{font:400 12.5px/1 var(--mono); color:var(--ink-2)}
+.status span i{font-style:normal; color:var(--ink)}
+
+/* asymmetric 62/38 split — not a card grid */
+.top{display:grid; grid-template-columns:minmax(0,1.62fr) minmax(0,1fr); gap:26px; padding:22px 0 0; align-items:stretch}
+.panel{background:linear-gradient(180deg,var(--l2),var(--l1)); border-radius:var(--r-lg); box-shadow:var(--glow-2); padding:28px 30px}
+.panel.lead{box-shadow:var(--glow-3)}
+h1{margin:0; font:600 clamp(40px,5.4vw,68px)/0.96 var(--sans); letter-spacing:-.036em}
+.nm{font-size:16px; color:var(--ink-2); padding-top:8px}
+.hash{font:400 11.5px/1.6 var(--mono); color:var(--ink-3); padding-top:10px; word-break:break-all}
+.say{margin:22px 0 0; font:400 clamp(18px,2.1vw,24px)/1.4 var(--sans); letter-spacing:-.018em; max-width:32ch}
+.say b{color:var(--mark); font-weight:600}
+.say b.bad{color:#FF8A6B}
+
+.gauge{display:flex; flex-direction:column; justify-content:space-between}
+.gauge .big{font:600 clamp(46px,6vw,76px)/1 var(--sans); letter-spacing:-.045em; color:#FF8A6B; padding-top:6px}
+.gauge .track{position:relative; height:10px; border-radius:var(--r-full); background:var(--l4); overflow:hidden; margin-top:20px; box-shadow:inset 0 1px 2px rgba(0,0,0,.5)}
+.gauge .kept{position:absolute; inset:0 1.99% 0 0; background:linear-gradient(90deg,var(--mark-55),var(--mark)); box-shadow:0 0 18px -2px var(--mark-55)}
+.gauge .foot{display:flex; justify-content:space-between; padding-top:10px; font:400 12px/1 var(--mono); color:var(--ink-2)}
+
+.grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 34px; padding:12px 0 0}
+.pw{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline; padding:13px 0; border-bottom:1px solid var(--line-2); transition:background var(--t-fast)}
+@media (hover:hover){.pw:hover{background:var(--mark-06)}}
+.pw .x{font:500 10px/1.5 var(--mono); letter-spacing:.1em; color:#FF8A6B}
+.pw.no .x{color:var(--ink-3)}
+.pw .n{font-size:15px; letter-spacing:-.011em}
+.pw.no .n{color:var(--ink-3)}
+.pw .src{grid-column:2; font:400 10.5px/1.5 var(--mono); color:var(--ink-3)}
+
+.section{padding:48px 0 0}
+.section > .field{display:block; padding-bottom:12px; border-bottom:1px solid var(--line)}
+.one{margin-top:18px; padding:18px 20px; background:var(--l3); border-radius:var(--r-md); box-shadow:var(--glow-1); border-left:3px solid var(--mark)}
+.one p{margin:7px 0 0; font-size:14.5px; color:var(--ink-2)}
+.one code{font:400 12.5px var(--mono); background:var(--mark-12); color:var(--mark); padding:2px 6px; border-radius:var(--r-xs)}
+
+.rec{display:grid; grid-template-columns:150px minmax(0,190px) minmax(0,1fr) auto; gap:18px; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--line-2); transition:background var(--t-fast)}
+@media (hover:hover){.rec:hover{background:var(--mark-06)}}
+.rec time{font:400 12px/1.5 var(--mono); color:var(--ink-3)}
+.rec .act{font-size:15px; letter-spacing:-.01em}
+.rec.hi .act{color:var(--mark)}
+.rec .det{font-size:14px; color:var(--ink-2)}
+.rec a{font:400 11px/1.5 var(--mono); color:var(--ink-3); text-decoration:none; transition:color var(--t-fast)}
+@media (hover:hover){.rec a:hover{color:var(--mark)}}
+.rec a:focus-visible{outline:none; box-shadow:0 0 0 3px var(--mark-32)}
+
+.ask{display:flex; margin-top:20px; max-width:700px; background:var(--l2); border-radius:var(--r-md); box-shadow:var(--glow-1); transition:box-shadow var(--t-mid)}
+.ask:focus-within{box-shadow:var(--glow-3)}
+.ask input{flex:1; border:0; background:transparent; padding:16px 18px; font:400 16px/1 var(--mono); color:var(--ink)}
+.ask input:focus{outline:none}
+.ask input::placeholder{color:var(--ink-3)}
+.ask button{border:0; background:var(--mark); color:#07120C; font:600 14.5px/1 var(--sans); padding:0 24px; min-height:48px; cursor:pointer;
+  border-radius:0 var(--r-md) var(--r-md) 0;
+  transition:transform 80ms cubic-bezier(.23,1,.32,1), box-shadow var(--t-fast)}
+@media (hover:hover){.ask button:hover{transform:translateY(-1px); box-shadow:0 0 26px -4px var(--mark-55)}}
+.ask button:active{transform:scale(.97)}
+.ask button:focus-visible{outline:none; box-shadow:0 0 0 3px var(--mark-32)}
+footer{margin-top:52px; padding-top:20px; border-top:1px solid var(--line-2); font-size:13px; color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition-duration:1ms!important}}
+@media (max-width:900px){.top{grid-template-columns:1fr} .grid{grid-template-columns:1fr} .rec{grid-template-columns:1fr; gap:4px}
+  .wrap{padding:0 16px 50px} .panel{padding:22px 18px} .ask{flex-direction:column} .ask button{border-radius:0 0 var(--r-md) var(--r-md); padding:15px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="word">Toll<b>.</b></div>
+    <nav><a href="#">265 tokens</a><a href="#">The record</a><a href="#">Method</a></nav>
+  </header>
+
+  <div class="status"><span class="dot"></span><span>Reading Solana · epoch <i>1039</i> · <i>612</i> recorded changes · <i>265</i> tokens tracked</span></div>
+
+  <div class="top">
+    <div class="panel lead">
+      <h1>ANDURIL</h1>
+      <div class="nm">Anduril Industries, tokenised by PreStocks</div>
+      <div class="hash">PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB</div>
+      <p class="say">Trades <b>0.53% above</b> the issuer's own mark, but a round trip costs <b class="bad">1.99%</b>. Buying and selling back leaves you <b class="bad">1.47% down</b> even if the price never moves.</p>
+    </div>
+    <div class="panel gauge">
+      <div>
+        <span class="field">Cost of a round trip</span>
+        <div class="big">1.99%</div>
+      </div>
+      <div>
+        <div class="track"><div class="kept"></div></div>
+        <div class="foot"><span>98.01 yours</span><span>1.99 toll</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <span class="field">Powers held over this token — six of eight</span>
+    <div class="grid">
+      <div class="pw"><span class="x">HELD</span><span class="n">Take your tokens</span><span class="src">permanentDelegate.delegate</span></div>
+      <div class="pw"><span class="x">HELD</span><span class="n">Stop all transfers</span><span class="src">pausableConfig.authority</span></div>
+      <div class="pw"><span class="x">HELD</span><span class="n">Freeze your account</span><span class="src">freezeAuthority</span></div>
+      <div class="pw"><span class="x">HELD</span><span class="n">Rewrite your balance</span><span class="src">scaledUiAmountConfig.authority</span></div>
+      <div class="pw"><span class="x">HELD</span><span class="n">Change the toll</span><span class="src">transferFeeConfig.authority</span></div>
+      <div class="pw"><span class="x">HELD</span><span class="n">Create more tokens</span><span class="src">mintAuthority</span></div>
+      <div class="pw no"><span class="x">none</span><span class="n">Decide who may hold it</span><span class="src">defaultAccountState</span></div>
+      <div class="pw no"><span class="x">none</span><span class="n">Run code on every transfer</span><span class="src">transferHook.programId</span></div>
+    </div>
+    <div class="one">
+      <span class="field">All six sit at one address</span>
+      <p><code>WV9PJN7XTmTLVwbutCLFxp8TyePee6Xq5mRq6Fti5Wc</code> holds every power above. There is no second signer between it and your balance.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <span class="field">Recorded changes — 6 of 612</span>
+    <div class="rec hi"><time>19 Sep 2026 07:43</time><span class="act">Toll changed</span><span class="det">The transfer fee was set to 1%.</span><a href="#">3jHo3hTXst3tnd ↗</a></div>
+    <div class="rec"><time>19 Sep 2026 07:15</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">29k1JBcsNXs7oe ↗</a></div>
+    <div class="rec"><time>15 Sep 2026 06:54</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">5hnZJiTvuXDbDK ↗</a></div>
+    <div class="rec"><time>12 Sep 2026 18:47</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">2DJ6ePVvS14nzB ↗</a></div>
+    <div class="rec"><time>11 Sep 2026 15:52</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">3NpemC3aK5jBNE ↗</a></div>
+    <div class="rec hi"><time>08 Sep 2026 16:24</time><span class="act">Toll changed</span><span class="det">The transfer fee was set to 0.5%.</span><a href="#">5RroCLX1Kspgrw ↗</a></div>
+  </section>
+
+  <section class="section">
+    <span class="field">Check another token</span>
+    <form class="ask" onsubmit="return false">
+      <input placeholder="Paste a token address" aria-label="Token address">
+      <button>Read the mint</button>
+    </form>
+  </section>
+
+  <footer>Every figure read from Solana on request. Prices: Jupiter routed across live pools, and PreStocks' own published mark — the issuer's own number, not an independent price.</footer>
+</div>
+</body>
+</html>

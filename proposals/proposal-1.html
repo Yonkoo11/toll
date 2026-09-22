@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toll — Direction 1: The Filing</title>
+<style>
+:root{
+  /* one ground, tinted (ER-1). never #ffffff */
+  --paper:#F6F4EF; --paper-2:#FBFAF7; --rule:#DED8CC; --rule-soft:#E8E3D9;
+  --ink:#16140F; --ink-2:#514B3E; --ink-3:#8A8271;
+  /* ONE brand colour. variety from opacity derivatives only */
+  --mark:#B4331A;
+  --mark-55:rgba(180,51,26,.55); --mark-32:rgba(180,51,26,.32);
+  --mark-12:rgba(180,51,26,.12); --mark-06:rgba(180,51,26,.06);
+  --r-xs:2px; --r-sm:4px; --r-md:8px; --r-lg:14px; --r-full:999px;
+  /* CF-5: declared philosophy = soft-elevation ladder (light world) */
+  --lift-1:0 1px 2px rgba(22,20,15,.06), 0 0 0 1px rgba(22,20,15,.04);
+  --lift-2:0 2px 4px rgba(22,20,15,.05), 0 8px 24px -8px rgba(22,20,15,.14), 0 0 0 1px rgba(22,20,15,.05);
+  --lift-3:0 4px 8px rgba(22,20,15,.06), 0 18px 48px -14px rgba(22,20,15,.20), 0 0 0 1px rgba(22,20,15,.06);
+  --t-fast:110ms cubic-bezier(.23,1,.32,1);
+  --t-mid:190ms cubic-bezier(.23,1,.32,1);
+  --serif:"Iowan Old Style",Baskerville,"Palatino Linotype",Palatino,Georgia,serif;
+  --sans:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --col:1180px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font:400 16px/1.55 var(--sans);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  font-variant-numeric:tabular-nums;
+}
+/* ER-5: texture as an inline SVG tile, fixed so it never scrolls */
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:0; opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72'%3E%3Cpath d='M36 30v12M30 36h12' stroke='%2316140F' stroke-width='1'/%3E%3C/svg%3E");
+}
+.page{position:relative; z-index:1; max-width:var(--col); margin:0 auto; padding:0 28px}
+/* STRIPE STEAL: hairline column rules, full height, no cards */
+.page::before,.page::after{
+  content:""; position:fixed; top:0; bottom:0; width:1px; background:var(--rule-soft); z-index:0;
+}
+.page::before{left:max(28px,calc(50vw - var(--col)/2 + 28px))}
+.page::after{right:max(28px,calc(50vw - var(--col)/2 + 28px))}
+
+header{display:flex; align-items:baseline; gap:20px; padding:26px 0 0; border-bottom:1px solid var(--rule); padding-bottom:16px}
+.word{font:700 19px/1 var(--sans); letter-spacing:-.03em}
+.word span{color:var(--mark)}
+nav{margin-left:auto; display:flex; gap:26px}
+nav a{color:var(--ink-2); text-decoration:none; font-size:14px; padding:4px 0; border-bottom:1px solid transparent; transition:color var(--t-fast),border-color var(--t-fast)}
+@media (hover:hover){nav a:hover{color:var(--ink); border-bottom-color:var(--mark-55)}}
+nav a:focus-visible{outline:none; box-shadow:0 0 0 3px var(--mark-32); border-radius:var(--r-xs)}
+
+/* BR-a: uppercase mono label names a data field, never an eyebrow */
+.field{font:500 11px/1 var(--mono); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-3)}
+
+/* STRIPE STEAL: a live figure as the eyebrow, at label size */
+.live{display:flex; align-items:center; gap:9px; padding:18px 0 0}
+.live .dot{width:6px; height:6px; border-radius:var(--r-full); background:var(--mark); box-shadow:0 0 0 0 var(--mark-32); animation:beat 2.6s ease-in-out infinite}
+@keyframes beat{0%,100%{box-shadow:0 0 0 0 rgba(180,51,26,.34)}55%{box-shadow:0 0 0 7px rgba(180,51,26,0)}}
+.live b{font-weight:500; color:var(--ink-2); font-size:13px}
+.live b i{font-style:normal; color:var(--ink); font-variant-numeric:tabular-nums}
+
+.subject{padding:22px 0 8px; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:28px; align-items:end}
+h1{
+  margin:0; font-family:var(--serif); font-weight:400;
+  font-size:clamp(46px,6.6vw,88px); line-height:.94; letter-spacing:-.035em;
+}
+h1 .sym{display:block; color:var(--ink)}
+h1 .nm{display:block; font-size:clamp(20px,2vw,27px); line-height:1.18; letter-spacing:-.015em; color:var(--ink-2); margin-top:12px; font-style:italic}
+.addr{font:400 12px/1.7 var(--mono); color:var(--ink-3); text-align:right; max-width:210px; word-break:break-all}
+
+/* the verdict: the one sentence, set as prose, not in a box */
+.verdict{
+  margin:30px 0 0; padding:0 0 30px; border-bottom:1px solid var(--rule);
+  font-family:var(--serif); font-size:clamp(21px,2.5vw,31px); line-height:1.32; letter-spacing:-.017em;
+  max-width:28ch; color:var(--ink);
+}
+.verdict em{font-style:italic; color:var(--mark)}
+
+/* SIGNATURE ELEMENT — the toll bar, drawn to scale */
+.bar{margin:34px 0 0}
+.bar .track{position:relative; height:54px; border-radius:var(--r-sm); background:var(--paper-2); box-shadow:var(--lift-2); overflow:hidden}
+.bar .kept{position:absolute; inset:0 1.99% 0 0; background:linear-gradient(180deg,rgba(22,20,15,.90),rgba(22,20,15,.80))}
+.bar .lost{position:absolute; top:0; bottom:0; right:0; width:1.99%; background:var(--mark); box-shadow:inset 1px 0 0 rgba(255,255,255,.22)}
+.bar .marks{display:flex; justify-content:space-between; padding-top:10px}
+.bar .marks span{font:400 12.5px/1 var(--mono); color:var(--ink-2)}
+.bar .marks span b{color:var(--mark); font-weight:500}
+
+/* powers — SR-1 rows with hairlines, no cards at all */
+.section{padding:52px 0 0}
+.section > .field{display:block; padding-bottom:14px; border-bottom:1px solid var(--rule)}
+.pow{display:grid; grid-template-columns:22px minmax(0,300px) minmax(0,1fr) auto; gap:20px; align-items:baseline;
+  padding:17px 0; border-bottom:1px solid var(--rule-soft); transition:background var(--t-fast)}
+@media (hover:hover){.pow:hover{background:var(--mark-06)}}
+.pow .tick{font:500 13px/1.4 var(--mono); color:var(--mark)}
+.pow.no .tick{color:var(--ink-3)}
+.pow .what{font-size:17px; letter-spacing:-.011em}
+.pow.no .what{color:var(--ink-3)}
+.pow .why{font-size:14.5px; color:var(--ink-2); line-height:1.5}
+/* SR-3: right-aligned metadata builds the second vertical edge */
+.pow .ev{font:400 11.5px/1.5 var(--mono); color:var(--ink-3); text-align:right; white-space:nowrap}
+
+.holder{margin-top:26px; padding:20px 22px; border-radius:var(--r-md); background:var(--paper-2);
+  box-shadow:var(--lift-1); border-left:3px solid var(--mark)}
+.holder p{margin:8px 0 0; font-size:15.5px; color:var(--ink-2); max-width:62ch}
+.holder code{font:400 13px var(--mono); color:var(--ink); background:var(--mark-12); padding:2px 6px; border-radius:var(--r-xs)}
+
+/* record — dated rows, signature right-aligned */
+.rec{display:grid; grid-template-columns:104px minmax(0,190px) minmax(0,1fr) auto; gap:20px; align-items:baseline;
+  padding:15px 0; border-bottom:1px solid var(--rule-soft)}
+.rec time{font:400 12.5px/1.5 var(--mono); color:var(--ink-3)}
+.rec .act{font-size:15.5px; letter-spacing:-.01em}
+.rec .det{font-size:14.5px; color:var(--ink-2)}
+.rec a{font:400 11.5px/1.5 var(--mono); color:var(--ink-3); text-decoration:none; border-bottom:1px solid var(--rule);
+  transition:color var(--t-fast),border-color var(--t-fast)}
+@media (hover:hover){.rec a:hover{color:var(--mark); border-bottom-color:var(--mark-55)}}
+.rec a:focus-visible{outline:none; box-shadow:0 0 0 3px var(--mark-32)}
+.rec.hi .act{color:var(--mark)}
+
+.ask{display:flex; gap:0; margin:38px 0 0; max-width:660px; border-radius:var(--r-md); background:var(--paper-2); box-shadow:var(--lift-2);
+  transition:box-shadow var(--t-mid),transform var(--t-mid)}
+.ask:focus-within{box-shadow:var(--lift-3), 0 0 0 3px var(--mark-32)}
+.ask input{flex:1; border:0; background:transparent; padding:17px 19px; font:400 16px/1 var(--mono); color:var(--ink); border-radius:var(--r-md) 0 0 var(--r-md)}
+.ask input:focus{outline:none}
+.ask input::placeholder{color:var(--ink-3)}
+.ask button{border:0; background:var(--ink); color:var(--paper); font:500 15px/1 var(--sans); letter-spacing:-.01em;
+  padding:0 26px; border-radius:0 var(--r-md) var(--r-md) 0; cursor:pointer; min-height:48px;
+  transition:transform 80ms cubic-bezier(.23,1,.32,1), box-shadow var(--t-fast), background var(--t-fast)}
+@media (hover:hover){.ask button:hover{background:var(--mark); transform:translateY(-1px); box-shadow:0 6px 16px -6px var(--mark-55)}}
+.ask button:active{transform:scale(.97)}
+.ask button:focus-visible{outline:none; box-shadow:0 0 0 3px var(--mark-32)}
+footer{margin-top:64px; padding:22px 0 46px; border-top:1px solid var(--rule); color:var(--ink-3); font-size:13.5px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition-duration:1ms!important}}
+@media (max-width:780px){
+  .page{padding:0 16px}
+  .subject{grid-template-columns:1fr; gap:12px}
+  .addr{text-align:left; max-width:none}
+  .pow{grid-template-columns:20px 1fr; gap:8px 14px}
+  .pow .why,.pow .ev{grid-column:2; text-align:left}
+  .rec{grid-template-columns:1fr; gap:4px}
+  .ask{flex-direction:column}
+  .ask input{border-radius:var(--r-md) var(--r-md) 0 0}
+  .ask button{border-radius:0 0 var(--r-md) var(--r-md); padding:15px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="word">Toll<span>.</span></div>
+    <nav>
+      <a href="#">All 265 tokens</a><a href="#">The record</a><a href="#">Method</a>
+    </nav>
+  </header>
+
+  <div class="live"><span class="dot"></span><b>Read from Solana <i>3 minutes ago</i> · epoch <i>1039</i> · <i>612</i> recorded changes across <i>265</i> tokens</b></div>
+
+  <div class="subject">
+    <h1><span class="sym">ANDURIL</span><span class="nm">Anduril Industries, tokenised by PreStocks</span></h1>
+    <div class="addr">PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB</div>
+  </div>
+
+  <p class="verdict">It trades <em>0.53% above</em> the issuer's own mark, but a round trip costs <em>1.99%</em>. Buying and selling back leaves you <em>1.47% down</em> even if the price never moves.</p>
+
+  <div class="bar">
+    <span class="field">What 100 comes back as</span>
+    <div class="track" role="img" aria-label="98.01 kept, 1.99 taken as toll">
+      <div class="kept"></div><div class="lost"></div>
+    </div>
+    <div class="marks"><span>98.01 yours</span><span><b>1.99 toll</b></span></div>
+  </div>
+
+  <section class="section">
+    <span class="field">Who can do what to it — read from the mint, six of eight held</span>
+    <div class="pow"><span class="tick">HELD</span><span class="what">Take your tokens</span><span class="why">Can move the token out of any wallet without that wallet agreeing.</span><span class="ev">permanentDelegate.delegate</span></div>
+    <div class="pow"><span class="tick">HELD</span><span class="what">Stop all transfers</span><span class="why">Can halt every transfer of this token at once, for everyone.</span><span class="ev">pausableConfig.authority</span></div>
+    <div class="pow"><span class="tick">HELD</span><span class="what">Freeze your account</span><span class="why">Can freeze one holder's account, leaving the rest trading.</span><span class="ev">freezeAuthority</span></div>
+    <div class="pow"><span class="tick">HELD</span><span class="what">Rewrite your balance</span><span class="why">Can multiply every balance at once. Splits use it; nothing limits it to splits.</span><span class="ev">scaledUiAmountConfig.authority</span></div>
+    <div class="pow"><span class="tick">HELD</span><span class="what">Change the toll</span><span class="why">Sets what every transfer costs. Takes effect one epoch later.</span><span class="ev">transferFeeConfig.authority</span></div>
+    <div class="pow"><span class="tick">HELD</span><span class="what">Create more tokens</span><span class="why">Can issue new supply at any time.</span><span class="ev">mintAuthority</span></div>
+    <div class="pow no"><span class="tick">not held</span><span class="what">Decide who may hold it</span><span class="why">Anyone can hold this token without asking the issuer.</span><span class="ev">defaultAccountState</span></div>
+    <div class="pow no"><span class="tick">not held</span><span class="what">Run code on every transfer</span><span class="why">A hook slot exists but no program is attached, so nothing runs.</span><span class="ev">transferHook.programId</span></div>
+
+    <div class="holder">
+      <span class="field">All six sit at one address</span>
+      <p><code>WV9PJN7XTmTLVwbutCLFxp8TyePee6Xq5mRq6Fti5Wc</code> holds every power listed above. There is no second signer between it and your balance.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <span class="field">What has changed — 6 of 612 recorded events</span>
+    <div class="rec hi"><time>19 Sep 2026</time><span class="act">Toll changed</span><span class="det">The transfer fee was set to 1%.</span><a href="#">3jHo3hTXst3tnd ↗</a></div>
+    <div class="rec"><time>19 Sep 2026</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">29k1JBcsNXs7oe ↗</a></div>
+    <div class="rec"><time>15 Sep 2026</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">5hnZJiTvuXDbDK ↗</a></div>
+    <div class="rec"><time>12 Sep 2026</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">2DJ6ePVvS14nzB ↗</a></div>
+    <div class="rec"><time>11 Sep 2026</time><span class="act">Collected tolls taken</span><span class="det">The issuer swept the fees withheld on the mint into its own account.</span><a href="#">3NpemC3aK5jBNE ↗</a></div>
+    <div class="rec hi"><time>08 Sep 2026</time><span class="act">Toll changed</span><span class="det">The transfer fee was set to 0.5%.</span><a href="#">5RroCLX1Kspgrw ↗</a></div>
+  </section>
+
+  <section class="section">
+    <span class="field">Check another token</span>
+    <form class="ask" onsubmit="return false">
+      <input placeholder="Paste a token address" aria-label="Token address">
+      <button>Read the mint</button>
+    </form>
+  </section>
+
+  <footer>Every figure above was read from Solana on request. Prices: Jupiter, routed across live pools, and PreStocks' own published mark — which is the issuer's own number, not an independent price.</footer>
+</div>
+</body>
+</html>
