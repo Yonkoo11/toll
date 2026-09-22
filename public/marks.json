@@ -1,0 +1,14 @@
+{
+ "fetchedAt": 1790068443,
+ "source": "https://prestocks.com/api/prestocks",
+ "marks": {
+  "ANDURIL": 153.20684486,
+  "ANTHROPIC": 1051.4992833,
+  "FIGUREAI": 182.1067549,
+  "KALSHI": 888.81948276,
+  "NEURALINK": 337.44661235,
+  "OPENAI": 1000.5570812053577,
+  "POLYMARKET": 144.21290482,
+  "SPACEX": 151.51415836747555
+ }
+}

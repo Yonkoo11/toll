@@ -77,9 +77,39 @@ export async function venueQuote(terms: Terms): Promise<Quoted | null> {
  * posting, and its age is part of the answer — for several of these tokens the
  * most recent posting is months old.
  */
-export async function pythOnChain(rpc: Rpc, feedId: string, label: string): Promise<Quoted | null> {
-  const feedBytes = new Uint8Array(feedId.match(/.{2}/g)!.map((b) => parseInt(b, 16)))
+interface PythIndex {
+  builtAt: number
+  accounts: Record<string, string[]>
+}
 
+let pythIndex: Promise<PythIndex | null> | null = null
+
+/** The committed address index. Absent in Node, where the live scan is fine. */
+function loadPythIndex(): Promise<PythIndex | null> {
+  pythIndex ??= fetch('/pyth-accounts.json')
+    .then((r) => (r.ok ? (r.json() as Promise<PythIndex>) : null))
+    .catch(() => null)
+  return pythIndex
+}
+
+/** Every PriceUpdateV2 account carrying this feed, cheaply if the index knows it. */
+async function pythAccounts(rpc: Rpc, feedId: string): Promise<Uint8Array[]> {
+  const known = (await loadPythIndex())?.accounts[feedId]
+  if (known?.length) {
+    // Measured 2026-09-22: solana-rpc.publicnode.com answers 403 to a
+    // getMultipleAccounts of 20 addresses and 200 to one of 5. The index is
+    // already sorted newest first, so the first few are the ones that matter.
+    const res = await rpc.getMultipleAccounts<{ data: [string, string] }>(known.slice(0, 4))
+    const found = (res.value ?? [])
+      .filter(Boolean)
+      .map((a) => base64Decode(a!.data[0]))
+      // The index can go stale. An account that no longer carries this feed is
+      // dropped rather than read, and the live scan below answers instead.
+      .filter((d) => d.length === 134 && feedIdOf(d) === feedId)
+    if (found.length) return found
+  }
+
+  const feedBytes = new Uint8Array(feedId.match(/.{2}/g)!.map((b) => parseInt(b, 16)))
   const accounts = await rpc.call<{ account: { data: [string, string] } }[]>('getProgramAccounts', [
     PYTH_RECEIVER,
     {
@@ -87,11 +117,18 @@ export async function pythOnChain(rpc: Rpc, feedId: string, label: string): Prom
       filters: [{ dataSize: 134 }, { memcmp: { offset: 41, bytes: base58Encode(feedBytes) } }],
     },
   ])
-  if (!accounts?.length) return null
+  return (accounts ?? []).map((a) => base64Decode(a.account.data[0]))
+}
+
+const feedIdOf = (data: Uint8Array) =>
+  [...data.slice(41, 73)].map((b) => b.toString(16).padStart(2, '0')).join('')
+
+export async function pythOnChain(rpc: Rpc, feedId: string, label: string): Promise<Quoted | null> {
+  const datas = await pythAccounts(rpc, feedId)
+  if (!datas.length) return null
 
   let best: { price: number; conf: number; at: number } | null = null
-  for (const entry of accounts) {
-    const data = base64Decode(entry.account.data[0])
+  for (const data of datas) {
     const view = new DataView(data.buffer, data.byteOffset, data.byteLength)
     // PriceUpdateV2: 8 discriminator, 32 write authority, 1 verification level,
     // 32 feed id, then price i64, conf u64, expo i32, publish time i64.
@@ -120,20 +157,54 @@ export async function pythOnChain(rpc: Rpc, feedId: string, label: string): Prom
 
 /** The issuer's own published mark for a token with no public share behind it. */
 export async function issuerMark(symbol: string): Promise<Quoted | null> {
+  if (!symbol) return null
+  const live = await liveMark(symbol)
+  return live ?? (await snapshotMark(symbol))
+}
+
+function quotedMark(symbol: string, value: number, at: number, source: string): Quoted | null {
+  if (!Number.isFinite(value) || value <= 0) return null
+  return {
+    label: `what the issuer says one ${symbol} share is worth`,
+    value,
+    source,
+    at,
+    note: "This is the issuer's own number, not an independent price.",
+  }
+}
+
+async function liveMark(symbol: string): Promise<Quoted | null> {
   try {
     const res = await fetch('https://prestocks.com/api/prestocks')
     if (!res.ok) return null
     const list = (await res.json()) as { symbol: string; markPrice: number }[]
     const row = list.find((t) => t.symbol === symbol)
     if (!row) return null
-    return {
-      label: 'what the issuer says one share is worth',
-      value: Number(row.markPrice),
-      source: "PreStocks' own published mark",
-      at: Math.floor(Date.now() / 1000),
-      note: 'this is the issuer’s own number, not an independent price',
-    }
+    return quotedMark(symbol, Number(row.markPrice), Math.floor(Date.now() / 1000), "PreStocks' own published mark")
   } catch {
+    // PreStocks sends no CORS headers, so this always throws in a browser.
     return null
   }
+}
+
+interface MarkSnapshot {
+  fetchedAt: number
+  source: string
+  marks: Record<string, number>
+}
+
+let snapshot: Promise<MarkSnapshot | null> | null = null
+
+/**
+ * The declared fallback tier: a dated snapshot of the same published marks,
+ * shown with the time it was taken so it is never read as a current price.
+ */
+async function snapshotMark(symbol: string): Promise<Quoted | null> {
+  snapshot ??= fetch('/marks.json')
+    .then((r) => (r.ok ? (r.json() as Promise<MarkSnapshot>) : null))
+    .catch(() => null)
+  const snap = await snapshot
+  const value = snap?.marks[symbol]
+  if (!snap || value === undefined) return null
+  return quotedMark(symbol, value, snap.fetchedAt, "PreStocks' own published mark, from a saved copy")
 }

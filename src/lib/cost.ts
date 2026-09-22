@@ -41,20 +41,27 @@ export interface TrueCost {
 }
 
 const pct = (x: number) => `${(x * 100).toFixed(2)}%`
-const signed = (x: number) => `${x >= 0 ? '+' : ''}${(x * 100).toFixed(2)}%`
+const signed = (x: number) => `${x >= 0 ? '+' : '\u2212'}${(Math.abs(x) * 100).toFixed(2)}%`
 
 export async function trueCost(rpc: Rpc, terms: Terms, feeds: Feeds | null): Promise<TrueCost> {
   // Read every source in parallel; a source that fails is reported as absent,
   // never quietly replaced by another one.
-  const [market, equity, tokenFeed, redemptionRate, mark] = await Promise.all([
+  // The Pyth reads scan the receiver program, which the free endpoints rate-limit
+  // hard when three of them arrive at once. They go one at a time; the HTTP
+  // quotes, which hit different hosts, still run alongside them.
+  const [market, mark] = await Promise.all([
     venueQuote(terms),
-    feeds?.equity ? pythOnChain(rpc, feeds.equity, `what one real ${feeds.ticker} share is worth`) : null,
-    feeds?.token ? pythOnChain(rpc, feeds.token, "Pyth's price for the token itself") : null,
-    feeds?.redemptionRate
-      ? pythOnChain(rpc, feeds.redemptionRate, 'how many shares one token redeems for')
-      : null,
     feeds?.equity ? null : issuerMark(terms.symbol ?? ''),
   ])
+  const equity = feeds?.equity
+    ? await pythOnChain(rpc, feeds.equity, `what one real ${feeds.ticker} share is worth`)
+    : null
+  const tokenFeed = feeds?.token
+    ? await pythOnChain(rpc, feeds.token, "Pyth's price for the token itself")
+    : null
+  const redemptionRate = feeds?.redemptionRate
+    ? await pythOnChain(rpc, feeds.redemptionRate, 'how many shares one token redeems for')
+    : null
 
   const reference = equity ?? mark
   const tollBps = terms.toll?.bps ?? 0

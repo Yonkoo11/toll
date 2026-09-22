@@ -3,6 +3,17 @@
 
 export const DEFAULT_RPC = 'https://api.mainnet-beta.solana.com'
 
+/**
+ * Measured 2026-09-22: api.mainnet-beta.solana.com answers 403 to a request made
+ * from a browser page, while serving the same call fine from Node. The fallback
+ * below is keyless, sends CORS headers and answered the same getAccountInfo.
+ * Whichever endpoint actually served the answer is named on the page.
+ */
+export const FALLBACK_RPCS = [
+  'https://solana-rpc.publicnode.com',
+  'https://solana.api.onfinality.io/public',
+]
+
 export class RpcError extends Error {
   constructor(message: string, readonly kind: 'timeout' | 'network' | 'rpc') {
     super(message)
@@ -11,7 +22,8 @@ export class RpcError extends Error {
 }
 
 export interface RpcOptions {
-  endpoint?: string
+  /** Tried in order; the one that answers is remembered and tried first next time. */
+  endpoint?: string | string[]
   /** Per-attempt timeout. The public endpoint is slow under load. */
   timeoutMs?: number
   /** Attempts per call. The public endpoint rate-limits with HTTP 429. */
@@ -20,58 +32,91 @@ export interface RpcOptions {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
+/**
+ * A courtesy gap between requests to the free endpoints, enforced here rather than
+ * left to every caller. It is not a measured limit: the refusals seen on 2026-09-22
+ * turned out to be a cap on how many accounts one read may ask for, not a rate.
+ */
+const MIN_GAP_MS = 250
+
 export class Rpc {
-  readonly endpoint: string
+  readonly endpoints: string[]
+  /** The endpoint that last served an answer. Null until one has. */
+  answered: string | null = null
   private readonly timeoutMs: number
   private readonly attempts: number
   private id = 0
+  /** One shared queue, so parallel callers still leave a gap between requests. */
+  private queue: Promise<unknown> = Promise.resolve()
+
+  private paced<T>(fn: () => Promise<T>): Promise<T> {
+    const run = this.queue.then(fn, fn)
+    this.queue = run.then(() => sleep(MIN_GAP_MS), () => sleep(MIN_GAP_MS))
+    return run
+  }
 
   constructor(opts: RpcOptions = {}) {
-    this.endpoint = opts.endpoint ?? DEFAULT_RPC
+    const given = opts.endpoint ?? [DEFAULT_RPC, ...FALLBACK_RPCS]
+    this.endpoints = typeof given === 'string' ? [given] : given
     this.timeoutMs = opts.timeoutMs ?? 20_000
-    this.attempts = opts.attempts ?? 4
+    this.attempts = opts.attempts ?? 5
+  }
+
+  /** What to name as the source of an answer. */
+  get endpoint(): string {
+    return this.answered ?? this.endpoints[0]
   }
 
   async call<T>(method: string, params: unknown[]): Promise<T> {
     let last: RpcError | null = null
 
-    for (let attempt = 0; attempt < this.attempts; attempt++) {
-      if (attempt > 0) await sleep(600 * 2 ** (attempt - 1))
+    for (let round = 0; round < this.attempts; round++) {
+      if (round > 0) await sleep(600 * 2 ** (round - 1))
 
-      const controller = new AbortController()
-      const timer = setTimeout(() => controller.abort(), this.timeoutMs)
-      try {
-        const res = await fetch(this.endpoint, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ jsonrpc: '2.0', id: ++this.id, method, params }),
-          signal: controller.signal,
-        })
-        if (res.status === 429) {
-          last = new RpcError('the public Solana endpoint is rate-limiting this request', 'network')
-          continue
+      // Start from whatever answered last, so a refused endpoint is paid for once.
+      const order = this.answered
+        ? [this.answered, ...this.endpoints.filter((e) => e !== this.answered)]
+        : this.endpoints
+
+      for (const endpoint of order) {
+        try {
+          const result = await this.paced(() => this.callOne<T>(endpoint, method, params))
+          this.answered = endpoint
+          return result
+        } catch (err) {
+          const error = err instanceof RpcError ? err : new RpcError(String(err), 'network')
+          if (error.kind === 'rpc') throw error // a real answer: another endpoint will say the same
+          last = error
         }
-        if (!res.ok) {
-          last = new RpcError(`the Solana endpoint answered ${res.status}`, 'network')
-          continue
-        }
-        const body = (await res.json()) as { result?: T; error?: { message: string } }
-        if (body.error) throw new RpcError(body.error.message, 'rpc')
-        return body.result as T
-      } catch (err) {
-        if (err instanceof RpcError) {
-          if (err.kind === 'rpc') throw err // a real answer: retrying will not change it
-          last = err
-        } else if (err instanceof Error && err.name === 'AbortError') {
-          last = new RpcError('the Solana endpoint did not answer in time', 'timeout')
-        } else {
-          last = new RpcError('could not reach the Solana endpoint', 'network')
-        }
-      } finally {
-        clearTimeout(timer)
       }
     }
     throw last ?? new RpcError('could not reach the Solana endpoint', 'network')
+  }
+
+  private async callOne<T>(endpoint: string, method: string, params: unknown[]): Promise<T> {
+    const controller = new AbortController()
+    const timer = setTimeout(() => controller.abort(), this.timeoutMs)
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ jsonrpc: '2.0', id: ++this.id, method, params }),
+        signal: controller.signal,
+      })
+      // 403 and 429 both mean "not now" on the free endpoints: rotate, then retry.
+      if (!res.ok) throw new RpcError(`${endpoint} answered ${res.status}`, 'network')
+      const body = (await res.json()) as { result?: T; error?: { message: string } }
+      if (body.error) throw new RpcError(body.error.message, 'rpc')
+      return body.result as T
+    } catch (err) {
+      if (err instanceof RpcError) throw err
+      if (err instanceof Error && err.name === 'AbortError') {
+        throw new RpcError('the Solana endpoint did not answer in time', 'timeout')
+      }
+      throw new RpcError('could not reach the Solana endpoint', 'network')
+    } finally {
+      clearTimeout(timer)
+    }
   }
 
   getAccountInfo<T>(address: string): Promise<{ value: T | null }> {
