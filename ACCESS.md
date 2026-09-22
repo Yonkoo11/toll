@@ -30,6 +30,29 @@ Examples that fail: `fallback: none`, `fallback: skip that feature`, `fallback: 
 
 (Pyth Pro is a bounty prize, not a dependency. Nothing in the build needs it.)
 
+## Measured 2026-09-22 — what a browser can actually reach
+
+The engine ran against Node all along. Three sources that answer Node refuse a page:
+
+- `https://api.mainnet-beta.solana.com` answers **403 to any request from a browser page**.
+  Fallback, now primary in the browser: `https://solana-rpc.publicnode.com` (keyless, sends
+  CORS headers, tested). Second fallback `https://solana.api.onfinality.io/public` (keyless,
+  CORS, but answering 429 at the time of the test). The client tries them in order, remembers
+  which answered, and the page names it. Six other public endpoints were tried and are
+  unusable from a browser: ankr, helius demo, getblock, blockeden, grove, leorpc.
+- `https://prestocks.com/api/prestocks` sends **no CORS headers**, so a page cannot read it at
+  all. Fallback, now in use: `scripts/build-marks.ts` writes a dated `public/marks.json`, and
+  every figure from it is shown with the time it was taken.
+- `https://solana-rpc.publicnode.com` refuses a `getMultipleAccounts` of **20 addresses** with
+  403 and answers one of **5** with 200. Pyth has no derivable account address, so a price
+  lookup used to scan the receiver program per feed. Fallback, now in use:
+  `scripts/build-pyth-accounts.ts` scans once (11,398 accounts) and commits the four
+  newest-posting accounts per feed; the page verifies the feed id inside each account it opens
+  and scans live if the index is wrong. **64 of the 252 feeds these tokens name have a price
+  account on Solana at all.**
+
+`https://lite-api.jup.ag/swap/v1/quote` answers a browser fine, keyless. No fallback needed.
+
 ## Credits and funding
 
 - [x] None. Every read in this product is keyless and free. No gas is spent: the product writes nothing on chain. — fallback: not applicable, there is nothing to run out of

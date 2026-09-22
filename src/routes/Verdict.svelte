@@ -94,7 +94,7 @@
         <div>epoch {terms.epoch}</div>
         <div>{wholeSupply(terms.rawSupply, terms.decimals, terms.multiplier?.value ?? 1)} in supply</div>
         {#if terms.multiplier && terms.multiplier.value !== 1}
-          <div>one unit displays as {terms.multiplier.value}</div>
+          <div>one unit displays as {terms.multiplier.value.toPrecision(8).replace(/0+$/, '')}</div>
         {/if}
         {#if entry}<div>{entry.unlisted ? 'not listed on any venue we found' : 'listed'}</div>{/if}
         {#if servedBy}<div>read from {new URL(servedBy).host}</div>{/if}

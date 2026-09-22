@@ -19,5 +19,7 @@
 </div>
 <div class="tollmarks data">
   <span class="mid">{keptPct} comes back</span>
-  <span class="held">{lostPct} is the toll</span>
+  <span class:held={lost > 0} class:mid={lost === 0}>
+    {lost > 0 ? `${lostPct} is the toll` : 'no toll on this token'}
+  </span>
 </div>

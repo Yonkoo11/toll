@@ -20,10 +20,12 @@
   <div class="line">
     <span>Put in</span><span class="leader"></span><span class="fig mid">{money(100)}</span>
   </div>
-  <div class="line">
-    <span>Toll on the way in</span><span class="leader"></span>
-    <span class="fig mid">−{money(100 * f)}</span>
-  </div>
+  {#if f > 0}
+    <div class="line">
+      <span>Toll on the way in</span><span class="leader"></span>
+      <span class="fig mid">−{money(100 * f)}</span>
+    </div>
+  {/if}
   {#if premium !== null}
     <div class="line">
       <span>Where it trades against the reference <span class="data muted">({signedPct(premium)})</span></span>
@@ -31,13 +33,20 @@
       <span class="fig mid">{signedAmount(afterIn * premium)}</span>
     </div>
   {/if}
-  <div class="line">
-    <span>Toll on the way out</span><span class="leader"></span>
-    <span class="fig mid">−{money(beforeOut * f)}</span>
-  </div>
+  {#if f > 0}
+    <div class="line">
+      <span>Toll on the way out</span><span class="leader"></span>
+      <span class="fig mid">−{money(beforeOut * f)}</span>
+    </div>
+  {:else}
+    <div class="line">
+      <span>Toll, both ways</span><span class="leader"></span>
+      <span class="fig mid">none — this issuer charges no transfer fee</span>
+    </div>
+  {/if}
   <div class="line total">
     <span>What comes back</span><span class="leader"></span>
-    <span class="fig">{money(result)}</span>
+    <span class="fig" class:unmarked={f === 0}>{money(result)}</span>
   </div>
 </div>
 {#if premium === null}
@@ -46,3 +55,9 @@
     alone and not a full round trip. Nothing here borrows another token's price.
   </p>
 {/if}
+
+<style>
+  /* The one brand colour marks a toll that is actually charged. Nothing to
+     charge means nothing to mark. */
+  .ledger .total .fig.unmarked { color:var(--ink); }
+</style>

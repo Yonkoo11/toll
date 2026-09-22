@@ -19,6 +19,19 @@ Research it answers to: `ai/design-research.md`. Surfaces it must cover: `ai/sur
   lowered from 0.05 to 0.035.** At full-bleed it read as wallpaper in the render.
 - **The mockup's hero right half was empty with the address clipped into the corner.** The
   address moves to a labelled field under the name; the right axis carries a metadata stack.
+- **Checklist line 3 is not met for row hover, and deliberately.** `.row:hover` and
+  `tbody tr:hover` change background only. Line 3 asks for `transform` or `box-shadow`, but
+  line 5 allows exactly three shadows and none of them is a row marker, and a 612-row table
+  that lifts under the pointer is worse, not better. Colour-alone hover is accepted here and
+  nowhere else. Link hover changes both colour and border colour, as §9 specifies.
+- **`/record` and `/all` each carry a filter the brief did not specify.** 612 rows and 265
+  rows are not readable without one. Copy: `Filter by token, change or mint` and
+  `Filter by symbol, name or issuer`.
+- **Three files are committed that the brief assumed would be read live**, each because a
+  browser cannot reach the source. Measured 2026-09-22, all three from a real page:
+  `api.mainnet-beta.solana.com` answers 403 to a browser; `prestocks.com/api/prestocks` sends
+  no CORS headers at all; `solana-rpc.publicnode.com` refuses a `getMultipleAccounts` above
+  about five addresses. The page names the endpoint that answered and dates every saved figure.
 - **Direction 2's receipt is reframed.** It is labelled "What a round trip does to 100" and
   never "You get back" — the figure is an estimate of a trip the reader has not made.
 
