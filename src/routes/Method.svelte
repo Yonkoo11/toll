@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { asset } from '../lib/base.js'
   import { link } from '../lib/router.svelte.js'
   import { catalog, feeds } from '../lib/catalog.js'
   import { TOKEN_2022 } from '../lib/terms.js'
@@ -8,7 +9,7 @@
 
   // Stated from the committed index itself, so the sentence cannot drift from it.
   Promise.all([
-    fetch('/pyth-accounts.json').then((r) => r.json()),
+    fetch(asset('pyth-accounts.json')).then((r) => r.json()),
     Promise.resolve(feeds),
   ])
     .then(([index, feedMap]) => {

@@ -121,11 +121,11 @@
   {#if cost}
     <section class="section">
       <span class="field">What 100 comes back as</span>
-      <div style="margin-top:20px; max-width:62ch">
+      <div style="margin-top:20px">
         <Ledger {cost} />
       </div>
       {#if reference}
-        <p class="data muted" style="margin-top:20px; max-width:62ch">
+        <p class="data muted footnote">
           Reference: {reference.label} — {reference.source}{#if referenceAge !== null && referenceAge >= 1},
             <span class:held={referenceAge > 7}>posted {referenceAge} days ago</span>{/if}.
           {#if reference.note}{reference.note}{/if}
@@ -134,24 +134,25 @@
     </section>
   {/if}
 
-  <section class="section">
-    <span class="field">Who can do what to it</span>
-    <div style="margin-top:20px">
-      <Powers powers={terms.powers} />
-    </div>
-  </section>
-
   {#if oneAddress}
     <section class="section">
       <span class="field">All {spell(heldPowers.length)} sit at one address</span>
       <div class="panel panel-mark" style="margin-top:20px; max-width:62ch">
         <p class="prose" style="margin:0; color:var(--ink)">
-          <code class="data" style="word-break:break-all">{oneAddress}</code> holds every power
-          listed above. There is no second signer between it and your balance.
+          <code class="data" style="word-break:break-all">{oneAddress}</code> holds every one of
+          the {spell(heldPowers.length)} powers that anybody holds over this token. There is no
+          second signer between it and your balance.
         </p>
       </div>
     </section>
   {/if}
+
+  <section class="section">
+    <span class="field">Who can do what to it</span>
+    <div style="margin-top:20px">
+      <Powers powers={terms.powers} common={oneAddress} />
+    </div>
+  </section>
 
   <section class="section">
     <span class="field">What has changed</span>

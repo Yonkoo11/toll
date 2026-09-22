@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  @page { margin:0 }
+  *,*::before,*::after { box-sizing:border-box }
+  body {
+    margin:0; width:1200px; height:630px; overflow:hidden;
+    background:#F6F4EF; color:#16140F;
+    font-family:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column; justify-content:space-between;
+    padding:66px 72px; position:relative;
+  }
+  /* The same cross-hatch the site uses, at the same weight. */
+  .texture { position:absolute; inset:0; opacity:.035;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72'%3E%3Cpath d='M36 30v12M30 36h12' stroke='%2316140F' stroke-width='1'/%3E%3C/svg%3E"); }
+  .rule { position:absolute; top:0; bottom:0; width:1px; background:#E8E3D9 }
+  .rule.l { left:40px } .rule.r { right:40px }
+  .inner { position:relative; z-index:1 }
+  .top { display:flex; align-items:baseline; gap:18px }
+  .mark { font-family:"Iowan Old Style",Baskerville,Palatino,Georgia,serif; font-size:40px; letter-spacing:-.02em }
+  .sub { font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:16px; color:#756E5D; letter-spacing:.01em }
+  h1 { margin:0; font-family:"Iowan Old Style",Baskerville,Palatino,Georgia,serif;
+       font-size:82px; line-height:.97; letter-spacing:-.035em; font-weight:400; max-width:17ch }
+  h1 em { font-style:normal; color:#B4331A }
+  .bar { position:relative; height:46px; border-radius:4px; overflow:hidden;
+         box-shadow:0 2px 4px rgba(22,20,15,.05), 0 8px 24px -8px rgba(22,20,15,.14) }
+  .kept { position:absolute; inset:0; background:linear-gradient(180deg,rgba(22,20,15,.90),rgba(22,20,15,.80)) }
+  .lost { position:absolute; top:0; bottom:0; right:0; width:1.99%; background:#B4331A;
+          box-shadow:inset 1px 0 0 rgba(255,255,255,.22) }
+  .marks { display:flex; justify-content:space-between; margin-top:12px;
+           font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:15px; color:#756E5D }
+  .marks .red { color:#B4331A }
+  .foot { position:relative; z-index:1; font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+          font-size:15px; color:#756E5D; display:flex; justify-content:space-between; align-items:center }
+</style></head>
+<body>
+  <div class="texture"></div><div class="rule l"></div><div class="rule r"></div>
+
+  <div class="inner top">
+    <span class="mark">Toll</span>
+    <span class="sub">every figure read from Solana on request</span>
+  </div>
+
+  <div class="inner">
+    <h1>What a tokenized stock costs to <em>hold</em>.</h1>
+  </div>
+
+  <div class="inner">
+    <div class="bar"><div class="kept"></div><div class="lost"></div></div>
+    <div class="marks"><span>98.01% comes back</span><span class="red">1.99% is the toll, both ways</span></div>
+  </div>
+
+  <div class="foot">
+    <span>Nine mints had that toll doubled on 19 September 2026.</span>
+    <span>Token-2022 &middot; Pyth &middot; Solana</span>
+  </div>
+</body></html>

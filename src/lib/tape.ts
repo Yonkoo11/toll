@@ -96,7 +96,13 @@ export async function changesByAuthority(
     const out: Change[] = []
     try {
       const tx = await rpc.getTransaction(row.signature)
-      if (tx && !tx.meta?.err) {
+      // A null is not an empty transaction. The endpoint answers null for one it
+      // will not serve — its details pruned, or the read dropped — and treating
+      // that as "nothing happened here" is how a short tape passes for a whole
+      // one. Measured 2026-09-22: 2 of 12 signatures from 2026-09-19 answered
+      // null from the public endpoint while their signatures still listed.
+      if (tx === null) unreachable.push(row.signature)
+      else if (!tx.meta?.err) {
         for (const ix of allInstructions(tx)) {
           const change = toChange(ix, row.signature, row.blockTime ?? 0, authority)
           if (change) out.push(change)
@@ -109,17 +115,22 @@ export async function changesByAuthority(
     return out
   })
 
-  // The public endpoint drops a request now and then under load. Give every
-  // straggler its own unhurried second pass before calling the read a failure.
+  // The public endpoint drops requests under load, and the first pass runs six at
+  // a time, so a busy moment can leave a third of the read missing. Measured
+  // 2026-09-22: 36 of 100 came back unreachable on the first pass. Retry the
+  // stragglers one at a time, waiting longer each round, before calling it a
+  // failure — the remedy for rate limiting is patience, not a shorter answer.
   const recovered: Change[] = []
-  if (unreachable.length > 0) {
+  for (let round = 1; round <= 4 && unreachable.length > 0; round++) {
     const stragglers = [...unreachable]
     unreachable.length = 0
+    if (round > 1) await new Promise((r) => setTimeout(r, 800 * 2 ** (round - 2)))
     for (const signature of stragglers) {
       const row = signatures.find((s) => s.signature === signature)
       try {
         const tx = await rpc.getTransaction(signature)
-        if (tx && !tx.meta?.err) {
+        if (tx === null) unreachable.push(signature)
+        else if (!tx.meta?.err) {
           for (const ix of allInstructions(tx)) {
             const change = toChange(ix, signature, row?.blockTime ?? 0, authority)
             if (change) recovered.push(change)

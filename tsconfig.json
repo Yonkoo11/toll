@@ -12,5 +12,5 @@
     "resolveJsonModule": true,
     "allowJs": true
   },
-  "include": ["src/**/*.ts", "src/**/*.svelte", "scripts/**/*.ts"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.svelte", "scripts/**/*.ts"]
 }

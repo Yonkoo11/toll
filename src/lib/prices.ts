@@ -2,6 +2,7 @@
 // the time it was published. Nothing here is averaged or blended: a person is
 // shown which number came from where, and how old it is.
 
+import { asset } from './base.js'
 import { base58Encode, base64Decode } from './base58.js'
 import type { Rpc } from './rpc.js'
 import type { Terms } from './terms.js'
@@ -86,7 +87,7 @@ let pythIndex: Promise<PythIndex | null> | null = null
 
 /** The committed address index. Absent in Node, where the live scan is fine. */
 function loadPythIndex(): Promise<PythIndex | null> {
-  pythIndex ??= fetch('/pyth-accounts.json')
+  pythIndex ??= fetch(asset('pyth-accounts.json'))
     .then((r) => (r.ok ? (r.json() as Promise<PythIndex>) : null))
     .catch(() => null)
   return pythIndex
@@ -200,7 +201,7 @@ let snapshot: Promise<MarkSnapshot | null> | null = null
  * shown with the time it was taken so it is never read as a current price.
  */
 async function snapshotMark(symbol: string): Promise<Quoted | null> {
-  snapshot ??= fetch('/marks.json')
+  snapshot ??= fetch(asset('marks.json'))
     .then((r) => (r.ok ? (r.json() as Promise<MarkSnapshot>) : null))
     .catch(() => null)
   const snap = await snapshot

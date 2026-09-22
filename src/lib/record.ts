@@ -1,5 +1,7 @@
 /** The committed record: 612 dated changes, built by scripts/build-tape.ts. */
 
+import { asset } from './base.js'
+
 export interface RecordedChange {
   signature: string
   blockTime: number
@@ -23,7 +25,7 @@ export interface Tape {
 let cached: Promise<Tape> | null = null
 
 export function loadTape(): Promise<Tape> {
-  cached ??= fetch('/tape.json').then((r) => {
+  cached ??= fetch(asset('tape.json')).then((r) => {
     if (!r.ok) throw new Error(`The record could not be loaded (${r.status}).`)
     return r.json() as Promise<Tape>
   })
