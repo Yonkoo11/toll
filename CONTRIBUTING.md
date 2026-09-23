@@ -11,7 +11,7 @@ Solana when you ask for it. That constraint is the product, so it shapes what ca
 
 2. **An incomplete read is an error, never a shorter answer.** A record missing rows because
    an endpoint was busy looks exactly like a record where nothing happened. `changesByAuthority`
-   throws rather than return a short tape. Do not relax this to make a gate go green — the
+   throws rather than return a short tape. Do not relax this to make a gate go green, the
    whole point of the project is that it will not show you a partial answer and call it whole.
 
 3. **Say which state a claim is in.** Designed, built, tested and proven are four different
@@ -29,7 +29,7 @@ npm run build
 ```
 
 `npm run verify` reads live mainnet, so it is slow (two to five minutes) and it can fail for
-reasons that are not your change — the free endpoint rate-limits. If it fails, read the message:
+reasons that are not your change, the free endpoint rate-limits. If it fails, read the message:
 a `TapeError` naming how many of how many transactions were read is the endpoint refusing to
 serve history, not a bug you introduced.
 

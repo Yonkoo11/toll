@@ -126,7 +126,7 @@
       </div>
       {#if reference}
         <p class="data muted footnote">
-          Reference: {reference.label} — {reference.source}{#if referenceAge !== null && referenceAge >= 1},
+          Reference: {reference.label}, {reference.source}{#if referenceAge !== null && referenceAge >= 1},
             <span class:held={referenceAge > 7}>posted {referenceAge} days ago</span>{/if}.
           {#if reference.note}{reference.note}{/if}
         </p>

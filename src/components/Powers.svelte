@@ -25,7 +25,7 @@
               <a href={explorerAccount(power.authority)} rel="noreferrer">the same address</a>
             {:else}
               <a href={explorerAccount(power.authority)} rel="noreferrer">{power.authority}</a>
-              {#if common}<span class="held"> — a different one</span>{/if}
+              {#if common}<span class="held">, a different one</span>{/if}
             {/if}
           </div>
         {/if}

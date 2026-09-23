@@ -73,7 +73,7 @@ npm run build                        # → ✓ built
 npm run verify                       # → 22 checks pass, then TapeError: Read 39 of 100
 ```
 
-The first three pass. **The fourth does not, and that is the honest state of it today** — see
+The first three pass. **The fourth does not, and that is the honest state of it today**, see
 the next section, because the reason is the most interesting thing in this repository.
 
 `verify-cost.ts` proves the cost engine against live mainnet. `npm run verify` proves the mint
@@ -91,7 +91,7 @@ not prove the browser front end; that was checked by rendering it and looking, n
 ```
 
 `getSignaturesForAddress` still lists those transactions. `getTransaction` then answers `null`
-for many of them — the free endpoint will not serve details it still indexes.
+for many of them, the free endpoint will not serve details it still indexes.
 
 Until 22 September this check printed green. It was reading 100 signatures, silently discarding
 every transaction the endpoint would not serve, and reporting what was left as the complete
@@ -103,7 +103,7 @@ an incomplete read. Stragglers retry with backoff, and if any remain the read th
 returning a shorter answer. The gate is red because the endpoint genuinely cannot serve the data,
 which is the truth, and a green gate built on a third of the rows is worth less than a red one.
 
-`public/tape.json` — 612 dated changes — was built when those transactions were reachable and is
+`public/tape.json`, 612 dated changes, was built when those transactions were reachable and is
 unaffected. It is committed for exactly this reason.
 
 ## What is committed, and why
@@ -139,7 +139,7 @@ getblock, blockeden, grove, leorpc.
 |---|---|
 | **Reads any Token-2022 mint and names its fee, powers and epoch schedule** | Real. 22 checks against live mainnet on two issuers with opposite behaviour. |
 | **Round-trip cost net of the toll** | Real. `verify-cost.ts` passes against mainnet. |
-| **265 tokens catalogued** | Measured, not asserted. Built from admin transaction history, which is why it includes XAI — a live mint the issuer's own published list omits. |
+| **265 tokens catalogued** | Measured, not asserted. Built from admin transaction history, which is why it includes XAI, a live mint the issuer's own published list omits. |
 | **Only 64 of the 252 Pyth feeds these tokens name have a price account on Solana** | Measured. One scan of 11,398 accounts. |
 | **Live rebuild of the change record** | **Currently failing.** The free endpoint serves 39 of 100 transactions. The committed record is complete; the live rebuild is not. |
 | **The issuer's mark on pre-IPO names** | Degraded, and labelled as such on the page. A dated saved copy, because the API sends no CORS headers. |

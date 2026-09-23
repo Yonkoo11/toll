@@ -152,7 +152,7 @@ export async function pythOnChain(rpc: Rpc, feedId: string, label: string): Prom
     note:
       ageDays < 1
         ? 'posted today'
-        : `last posted ${Math.floor(ageDays)} day${Math.floor(ageDays) === 1 ? '' : 's'} ago — Pyth only lands on Solana when somebody pays to post it`,
+        : `last posted ${Math.floor(ageDays)} day${Math.floor(ageDays) === 1 ? '' : 's'} ago. Pyth only lands on Solana when somebody pays to post it`,
   }
 }
 

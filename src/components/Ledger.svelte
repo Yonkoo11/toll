@@ -41,7 +41,7 @@
   {:else}
     <div class="line">
       <span>Toll, both ways</span><span class="leader"></span>
-      <span class="fig mid">none — this issuer charges no transfer fee</span>
+      <span class="fig mid">none. This issuer charges no transfer fee</span>
     </div>
   {/if}
   <div class="line total">
