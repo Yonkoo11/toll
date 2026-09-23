@@ -10,10 +10,16 @@
   let { powers, common = null }: { powers: Power[]; common?: string | null } = $props()
 
   /**
-   * Four of these can reach into a wallet that never signed anything. Three change
-   * the terms or the supply. Colour is spent on the first group only: if every row
+   * Four of the eight can reach into a wallet that never signed anything: seize,
+   * pause, freeze and rescale. The rest set the terms, change the supply, or are
+   * held by nobody. Colour is spent on the first group only, because if every row
    * is marked then the one that can empty your account reads no louder than the one
    * that dilutes it.
+   *
+   * The transfer hook sits in the second group deliberately and it is the closest
+   * call here: an authority that can attach a program to every transfer is a latent
+   * path to a lot. It is ranked by what is attached TODAY, which is nothing, and the
+   * row says so in full rather than leaving the reader to infer it.
    */
   const REACHES_YOUR_BALANCE = new Set(['seize', 'pause', 'freeze', 'rescale'])
 

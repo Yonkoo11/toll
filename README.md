@@ -23,6 +23,20 @@ Built for Stocklana (Solana Foundation). Entering the main track, PreStocks and 
 
 ---
 
+## Demo
+
+*Every frame below is a real run against mainnet. Nothing is mocked and no figure was typed in.*
+
+| The verdict, read live | What a round trip actually returns | Nine mints, one day |
+|---|---|---|
+| ![ANDURIL trades below the issuer's own mark; after the 1% toll both ways a round trip loses more](demo/stills/verdict.png) | ![100 in, toll out both ways, and what actually comes back](demo/stills/ledger.png) | ![Nine tokens all reading "Toll changed, the transfer fee was set to 1%" on 19 September 2026, each with its signature](demo/stills/record.png) |
+
+| Ranked by what it can do to you | A token that charges nothing |
+|---|---|
+| ![Four powers marked as able to reach your balance, two that only set the terms, two held by nobody](demo/stills/powers.png) | ![Backed's Apple token: no transfer fee, authorities split across four addresses](demo/stills/aaplx.png) |
+
+---
+
 ## The problem
 
 - **The fee is not the price.** A venue quotes you a number. Token-2022's `transferFeeConfig`
