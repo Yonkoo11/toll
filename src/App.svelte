@@ -14,10 +14,10 @@
 
 <header class="column masthead">
   <div>
-    <a class="wordmark" href="/" use:link>Toll</a>
-    <span class="data muted" style="margin-left:12px">What a tokenized stock costs to hold, read from the chain.</span>
+    <a class="wordmark" href="/" use:link data-reveal style="--rv-delay:60ms">Toll</a>
+    <span class="data muted" style="margin-left:12px" data-reveal>What a tokenized stock costs to hold, read from the chain.</span>
   </div>
-  <nav>
+  <nav data-reveal style="--rv-delay:140ms">
     <a href="/all" use:link>All tokens</a>
     <a href="/record" use:link>The record</a>
     <a href="/method" use:link>Method</a>

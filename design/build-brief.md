@@ -44,6 +44,52 @@ Research it answers to: `ai/design-research.md`. Surfaces it must cover: `ai/sur
   gradient), and the gate fires at three. The accent focus ring is `--mark-32` (0.32, floor
   0.08), three shadow tiers are in use, the beat dot animates and every figure on the page is
   live. The script is left unmodified.
+- **Sections are a two-column grid, label in the margin, not a label stacked above a
+  block.** The first build stacked them, which is the default shape of any web page and
+  read as generic however good the tokens were. "The Filing" has a margin; a document of
+  record puts its labels in it. Folds back to a stack below 980px, which is the only width
+  where a stack is correct.
+- **Powers are ranked in three tiers, and only one of them gets the brand colour.** Seize,
+  pause, freeze and rescale can reach a balance whose owner never signed anything; fee and
+  mint set the terms; the rest are held by nobody. Marking all eight made the one that can
+  empty a wallet read no louder than the one that dilutes it, which is the opposite of
+  Socket's rule.
+- **The ledger total was one type step above the verdict sentence.** The working was
+  louder than the answer. The total is now a step below it.
+- **A load reveal was added, and deliberately excludes every figure read from the chain.**
+  A number fading in on a timer implies the read finished when it had not. Structure
+  reveals; data lands when it lands.
+- **The craft audit reports three hover violations that are false positives.**
+  `~/.claude/skills/ui-revamp/scripts/audit.js` checks line by line and cannot see an
+  enclosing block, so `@media (hover:hover) { .row:hover {...} }` reads to it as a bare
+  hover. All three are verified wrapped. The script is left unmodified and the code is
+  not changed to satisfy it.
+- **`~/Downloads/landing-brief.md` was read in full and deliberately not applied.**
+  Reasons recorded in §0.1 below.
+
+### §0.1 Why the cinematic landing brief was rejected
+
+It specifies a dark single-screen hero with a shared background video, glass metric cards,
+Geist and Inter, LED dot type, and a marquee reading "Trusted by wealth advisors at"
+followed by the Intel, Google, Sony, Amazon and Adobe logos.
+
+1. **It would put fabricated social proof on a page entered in a judged competition.**
+   Toll has no users. Naming five companies as customers is a false claim, and no amount
+   of craft makes it acceptable.
+2. **Its copy is another product's.** "Intelligent Connections / Cross-Source Context"
+   is not this product, and the brief says to use it verbatim.
+3. **Dark was already built, judged and lost here.** Direction 3 was the candidate dark
+   had to win as, on the record in `directions.md`. `style.config.md` requires a dark
+   winner to beat the best non-dark candidate; it did not.
+4. **One screen that never scrolls cannot hold this product.** `/record` is 612 rows and
+   `/all` is 265. The architecture is incompatible, not merely different.
+5. **It hotlinks another account's CDN assets**, which can vanish without notice.
+
+Taken from it and kept: the load reveal (opacity only, staggered, with a failsafe that
+clears the hidden state rather than risking a page stranded at zero). Considered and not
+taken: artboard units. They are the better system, and re-porting every length hours
+before a deadline is a regression risk with no visible gain over the existing clamp scale.
+
 - **`/record` and `/all` each carry a filter the brief did not specify.** 612 rows and 265
   rows are not readable without one. Copy: `Filter by token, change or mint` and
   `Filter by symbol, name or issuer`.

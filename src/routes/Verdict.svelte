@@ -83,7 +83,7 @@
         <h1 class="display">{terms.symbol ?? 'Unnamed mint'}</h1>
         <p class="sub" style="margin-top:12px">{entry?.name ?? terms.name ?? 'No name on the mint'}{entry ? `, issued by ${entry.issuer}` : ''}</p>
         <div style="margin-top:28px; max-width:46ch">
-          <span class="field">Mint address</span>
+          <span class="field" data-reveal style="--rv-delay:300ms">Mint address</span>
           <div class="data" style="word-break:break-all; margin-top:8px">
             <a href={explorerAccount(terms.mint)} rel="noreferrer">{terms.mint}</a>
           </div>
@@ -105,17 +105,19 @@
       </div>
     </div>
 
-    {#if cost}
-      <p class="lede">{@html markPercents(cost.verdict)}</p>
-      <TollBar keeps={cost.keeps} />
-    {:else if priceFailure}
-      <p class="prose" style="max-width:62ch">
-        The round trip could not be priced: {priceFailure}. The terms below were read and are
-        shown as they came back.
-      </p>
-    {:else}
-      <p class="data muted">Pricing the round trip…</p>
-    {/if}
+    <div class="hero-aligned">
+      {#if cost}
+        <p class="lede">{@html markPercents(cost.verdict)}</p>
+        <TollBar keeps={cost.keeps} />
+      {:else if priceFailure}
+        <p class="prose">
+          The round trip could not be priced: {priceFailure}. The terms below were read and are
+          shown as they came back.
+        </p>
+      {:else}
+        <p class="data muted">Pricing the round trip…</p>
+      {/if}
+    </div>
   </section>
 
   {#if cost}
