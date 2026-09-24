@@ -12,7 +12,7 @@
 **Toll reads a tokenized-stock mint on Solana and answers one question: what does this cost to
 hold? It names the transfer fee, what a round trip actually leaves you, who can seize or pause
 or rewrite your balance, and when any of it last changed. Nine PreStocks mints had their toll
-doubled from 0.5% to 1% inside nineteen minutes on 19 September 2026, and Toll rebuilds that
+doubled from 0.5% to 1% inside eighteen minutes on 19 September 2026, and Toll rebuilds that
 from the chain rather than asserting it.**
 
 **[ Live ↗ ](https://tollbar.xyz)** · **[ Verify it yourself ↗ ](#verify-it-yourself)** · **[ The record ↗ ](https://tollbar.xyz/record)** · **[ Method ↗ ](https://tollbar.xyz/method)**
