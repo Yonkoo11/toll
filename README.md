@@ -25,7 +25,11 @@ Built for Stocklana (Solana Foundation). Entering the main track, PreStocks and 
 
 ## Demo
 
-*Every frame below is a real run against mainnet. Nothing is mocked and no figure was typed in.*
+**[Watch the demo (1:23) ->](demo/toll-demo.mp4)** · [vertical clip](demo/toll-social.mp4)
+
+*Every frame below is a real run against mainnet. Nothing is mocked and no figure was typed in.
+The narration does not read the figures aloud, on purpose: prices move between takes, and the
+toll is the part that does not.*
 
 | The verdict, read live | What a round trip actually returns | Nine mints, one day |
 |---|---|---|
