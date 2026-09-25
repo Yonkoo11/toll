@@ -14,6 +14,24 @@ export const FALLBACK_RPCS = [
   'https://solana.api.onfinality.io/public',
 ]
 
+/**
+ * Transaction history needs an archival node, and most free endpoints are not one.
+ *
+ * Measured 2026-09-25 on a signature that is definitely on chain:
+ *   api.mainnet-beta.solana.com   serves it
+ *   solana-rpc.publicnode.com     returns null
+ *   solana.api.onfinality.io      answers "Too Many Requests"
+ *
+ * A null from a non-archival node reads exactly like "no such transaction", and the
+ * rotation counted it as an endpoint being busy. Worse, a null is a successful HTTP
+ * answer, so one account read against publicnode made it the preferred endpoint and
+ * every later getTransaction came back null from it. That is how the record rebuild
+ * reported 12 of 100 while the chain was perfectly reachable.
+ *
+ * So history is only ever asked of a node that keeps it.
+ */
+export const ARCHIVAL_RPCS = ['https://api.mainnet-beta.solana.com']
+
 export class RpcError extends Error {
   constructor(message: string, readonly kind: 'timeout' | 'network' | 'rpc') {
     super(message)
@@ -67,21 +85,24 @@ export class Rpc {
     return this.answered ?? this.endpoints[0]
   }
 
-  async call<T>(method: string, params: unknown[]): Promise<T> {
+  async call<T>(method: string, params: unknown[], only?: string[]): Promise<T> {
     let last: RpcError | null = null
+    // `only` pins a call to a set of endpoints that can actually answer it, and keeps
+    // it out of the shared `answered` preference so it cannot steer the other calls.
+    const pool = only ?? this.endpoints
 
     for (let round = 0; round < this.attempts; round++) {
       if (round > 0) await sleep(600 * 2 ** (round - 1))
 
       // Start from whatever answered last, so a refused endpoint is paid for once.
-      const order = this.answered
-        ? [this.answered, ...this.endpoints.filter((e) => e !== this.answered)]
-        : this.endpoints
+      const order = !only && this.answered
+        ? [this.answered, ...pool.filter((e) => e !== this.answered)]
+        : pool
 
       for (const endpoint of order) {
         try {
           const result = await this.paced(() => this.callOne<T>(endpoint, method, params))
-          this.answered = endpoint
+          if (!only) this.answered = endpoint
           return result
         } catch (err) {
           const error = err instanceof RpcError ? err : new RpcError(String(err), 'network')
@@ -138,14 +159,15 @@ export class Rpc {
   getSignatures(address: string, limit = 100, before?: string): Promise<SignatureRow[]> {
     const cfg: Record<string, unknown> = { limit }
     if (before) cfg.before = before
-    return this.call('getSignaturesForAddress', [address, cfg])
+    return this.call('getSignaturesForAddress', [address, cfg], ARCHIVAL_RPCS)
   }
 
   getTransaction(signature: string): Promise<ParsedTransaction | null> {
-    return this.call('getTransaction', [
-      signature,
-      { encoding: 'jsonParsed', maxSupportedTransactionVersion: 0 },
-    ])
+    return this.call(
+      'getTransaction',
+      [signature, { encoding: 'jsonParsed', maxSupportedTransactionVersion: 0 }],
+      ARCHIVAL_RPCS,
+    )
   }
 }
 
