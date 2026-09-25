@@ -16,7 +16,7 @@
   /* The motif. A toll is a slice taken from what passes, and the toll bar is that
      shape at page scale. These carry it down to component and control scale, so the
      corner treatment is the brand rather than a neutral radius (CT-1). */
-  --cut:15px; --cut-sm:7px;
+  --cut-lg:34px; --cut:16px; --cut-sm:7px;
 
   --lift-1:0 1px 2px rgba(22,20,15,.06), 0 0 0 1px rgba(22,20,15,.04);
   --lift-2:0 2px 4px rgba(22,20,15,.05), 0 8px 24px -8px rgba(22,20,15,.14), 0 0 0 1px rgba(22,20,15,.05);
@@ -292,13 +292,17 @@ input:focus-visible { box-shadow:var(--lift-3), 0 0 0 3px var(--mark-32); }
    taken from what passes. It carries the same cut as the plates and the controls,
    which is what makes one shape read as identity rather than three chamfers. */
 .tollbar {
-  position:relative; height:54px;
+  /* Taller than it was. This is the one element the whole product is named after and
+     it was 54px of a 900px viewport. At 88px the large cut is proportionally modest,
+     so the toll segment keeps its full height for most of its width and its width is
+     still readable as the figure it encodes. */
+  position:relative; height:88px;
   background:var(--paper-2);
   overflow:hidden;
   border-radius:0;
   clip-path:polygon(
     0 0, 100% 0,
-    100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%,
+    100% calc(100% - var(--cut-lg)), calc(100% - var(--cut-lg)) 100%,
     0 100%
   );
   filter:drop-shadow(0 2px 4px rgba(22,20,15,.06)) drop-shadow(0 10px 24px rgba(22,20,15,.10));
@@ -369,9 +373,21 @@ td { padding:15px 12px 15px 0; border-top:1px dotted var(--rule); vertical-align
 @media (max-width:780px) {
   :root { --colw:min(var(--col), 100% - 2 * var(--gutter-sm)); }
   .rules { display:none; }
+  /* The bar is 358px here, not 950. A 34px cut is proportionally three times the
+     bite it takes on a desktop, so the motif scales with its host. */
+  :root { --cut-lg:20px; --cut:12px; }
+  .tollbar { height:68px; }
   .stack > * + * { margin-top:34px; }
   .section { margin-top:52px; }
   .split { flex-direction:column; gap:20px; }
+  /* On a phone the metadata stack sat between the token's name and its verdict, so
+     six lines of supporting detail pushed the answer below the fold. The hero
+     becomes a flex column here and the meta goes last. The answer comes first. */
+  .hero-split { display:flex; flex-direction:column; }
+  .hero-split .split { display:contents; }
+  .hero-split .meta { order:3; margin-top:28px; }
+  .hero-split .hero-aligned { order:2; }
+
   .meta { text-align:left; }
   /* The margin column folds back on top: below this width there is no margin. */
   .section { grid-template-columns:1fr; column-gap:0; }

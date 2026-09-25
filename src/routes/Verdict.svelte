@@ -78,7 +78,7 @@
     <p class="data muted">Reading the mint on Solana…</p>
   </section>
 {:else}
-  <section class="stack" style="padding-top:20px">
+  <section class="stack hero-split" style="padding-top:20px">
     <div class="split">
       <div>
         <h1 class="display">{terms.symbol ?? 'Unnamed mint'}</h1>

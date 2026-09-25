@@ -356,3 +356,17 @@ The two live gates (`npm run verify`, `scripts/verify-cost.ts`) read Solana main
 free public endpoint and take two to five minutes. They can fail for reasons that are not your
 change: a `TapeError` naming how many of how many transactions were read is the endpoint
 refusing to serve history it still lists, which is a documented condition, not a regression.
+
+## 15. Corrections after the live page was looked at
+
+- **The toll bar is 88px, not 54px** (68px below 780). It is the element the product is
+  named after and it was occupying six percent of the first viewport.
+- **The motif has three sizes, not one.** `--cut-lg:34px` on the bar, `--cut:16px` on plates,
+  `--cut-sm:7px` on controls, and all three step down again below 780px. A single 15px value
+  used in three places is one scale used three times, which is not what CT-1 asks for: on a
+  950px bar it is 1.3 percent of the width and invisible.
+- **The cut on the bar stops short of destroying the figure.** The toll segment keeps its full
+  height across its top edge, so its width still reads as the number it encodes. The bar was
+  made taller rather than the cut made smaller, because the bar needed the presence anyway.
+- **On a phone the metadata now comes after the verdict.** It sat between the token's name and
+  its answer, so six lines of supporting detail pushed the answer below the fold.
