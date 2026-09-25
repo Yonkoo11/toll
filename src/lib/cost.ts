@@ -97,17 +97,20 @@ function verdictFor(
   keeps: number,
   referenceIsIssuersOwn: boolean,
 ): string {
+  // A mint with no symbol needs a stand-in, and the stand-in has to agree with where
+  // it lands. 'This token' opens a sentence; 'this token' sits inside one.
   const name = terms.symbol ?? 'This token'
+  const named = terms.symbol ?? 'this token'
   const roundTripCost = 1 - keeps
   // Say which number the comparison is against. An issuer's own mark is not an
   // independent share price and must never be described as one.
   const against = referenceIsIssuersOwn ? "the issuer's own mark" : 'the share'
 
-  if (!market) return `No venue is quoting ${name} right now, so there is no price to check the toll against.`
+  if (!market) return `No venue is quoting ${named} right now, so there is no price to check the toll against.`
   if (!reference || premium === null) {
     return roundTripCost > 0
-      ? `Nothing independent prices the share behind ${name}, so the only certain number is the toll: buying and selling back costs ${pct(roundTripCost)}.`
-      : `Nothing independent prices the share behind ${name}. Moving it costs nothing beyond the venue's own spread.`
+      ? `Nothing independent prices the share behind ${named}, so the only certain number is the toll: buying and selling back costs ${pct(roundTripCost)}.`
+      : `Nothing independent prices the share behind ${named}. Moving it costs nothing beyond the venue's own spread.`
   }
 
   if (roundTripCost === 0) {

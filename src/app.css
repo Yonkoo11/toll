@@ -290,7 +290,14 @@ input:focus-visible { box-shadow:var(--lift-3), 0 0 0 3px var(--mark-32); }
 
 /* The motif at page scale. The bar is the product's noun drawn to size: a slice
    taken from what passes. It carries the same cut as the plates and the controls,
-   which is what makes one shape read as identity rather than three chamfers. */
+   which is what makes one shape read as identity rather than three chamfers.
+
+   The cut is on the LEFT. It used to be on the right, over the toll segment, and
+   measured against the rendered bar the notch was wider than the data at every rate
+   this product will ever show: at 1% the segment is 15px and the notch was 34px, on
+   a phone the segment is 10.6px against a 20px notch. The decoration was eating the
+   one measurement the product is named after. The kept side is 98% of the bar and
+   absorbs the same cut at the same size without losing anything. */
 .tollbar {
   /* Taller than it was. This is the one element the whole product is named after and
      it was 54px of a 900px viewport. At 88px the large cut is proportionally modest,
@@ -302,14 +309,26 @@ input:focus-visible { box-shadow:var(--lift-3), 0 0 0 3px var(--mark-32); }
   border-radius:0;
   clip-path:polygon(
     0 0, 100% 0,
-    100% calc(100% - var(--cut-lg)), calc(100% - var(--cut-lg)) 100%,
-    0 100%
+    100% 100%, var(--cut-lg) 100%,
+    0 calc(100% - var(--cut-lg))
   );
   filter:drop-shadow(0 2px 4px rgba(22,20,15,.06)) drop-shadow(0 10px 24px rgba(22,20,15,.10));
 }
 .tollbar .kept { position:absolute; inset:0; background:linear-gradient(180deg, rgba(22,20,15,.90), rgba(22,20,15,.80)); }
-.tollbar .lost { position:absolute; top:0; bottom:0; right:0; background:var(--mark); box-shadow:inset 1px 0 0 rgba(255,255,255,.22); }
+/* min-width is the rendering floor, not a thumb on the scale: below 2px a real toll
+   rounds away to nothing. The width above that floor is the figure, untouched. */
+.tollbar .lost {
+  position:absolute; top:0; bottom:0; right:0; min-width:2px;
+  background:var(--mark); box-shadow:inset 1px 0 0 rgba(255,255,255,.28);
+}
 .tollmarks { display:flex; justify-content:space-between; margin-top:12px; }
+/* A 2% band is honestly small, so the label is tied to it with a leader rather than
+   the band being drawn bigger than it is. Both sit on the bar's right edge. */
+.tollmarks .held { position:relative; }
+.tollmarks .held::before {
+  content:''; position:absolute; right:0; top:-13px; width:1px; height:11px;
+  background:var(--mark);
+}
 
 /* ---------- the ledger ---------- */
 
