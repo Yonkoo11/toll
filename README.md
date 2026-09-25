@@ -52,7 +52,7 @@ toll is the part that does not.*
   `pausableConfig` can stop every transfer. `scaledUiAmountConfig` can multiply every balance.
   On the nine PreStocks mints, **one address holds all six of the powers that anybody holds.**
 - **A rescaled token prices wrong the obvious way.** SPACEX has a UI multiplier of 5, so asking
-  a venue for a quote without dividing it out returns five times too much. Our own first attempt
+  a venue for a quote without dividing it out returns five times too much. My own first attempt
   did exactly that. It is now pinned by a check.
 
 ## What Toll is
@@ -151,7 +151,7 @@ Toll carries a keyless endpoint list, remembers which one answered, and prints i
 page. Six other public endpoints were tried and are unusable from a browser: ankr, helius demo,
 getblock, blockeden, grove, leorpc.
 
-## What's real, and what we deliberately did not claim
+## What's real, and what I deliberately did not claim
 
 | Capability | Status |
 |---|---|
@@ -164,7 +164,7 @@ getblock, blockeden, grove, leorpc.
 | Price prediction, scoring, risk ratings | Not claimed, anywhere. Toll reports what is on chain and does not tell you what it means for the price. |
 | Front-end test suite | Does not exist. The five pages were checked by rendering them at 1440 and 390 in Chromium and Firefox and looking at them. |
 | Safari | Untested. No WebKit build here close enough for a result to mean anything. |
-| Audited | No. Nothing here has been reviewed by anyone but its author. |
+| Audited | No. Nothing here has been reviewed by anyone but me. |
 
 ## Project layout
 
