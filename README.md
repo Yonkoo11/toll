@@ -27,7 +27,7 @@ Built for Stocklana (Solana Foundation). Entering the main track, PreStocks and 
 
 ## Demo
 
-**[Watch the pitch (1:19) ->](demo/toll-pitch.mp4)** · [the technical walk-through (2:07)](demo/toll-technical.mp4) · [vertical clip](demo/toll-social.mp4)
+**[Watch the pitch (1:19) ->](demo/toll-pitch.mp4)** · [the technical walk-through (2:12)](demo/toll-technical.mp4) · [vertical clip](demo/toll-social.mp4)
 
 *Every frame below is a real run against mainnet. Nothing is mocked and no figure was typed in.
 The narration does not read the figures aloud, on purpose: prices move between takes, and the
