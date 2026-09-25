@@ -18,15 +18,24 @@
   ]
 
   const found = $derived(resolve(typed))
+  $effect(() => {
+    if (found) hint = null
+  })
 
   function submit(e: SubmitEvent) {
     e.preventDefault()
-    if (found) {
+    // Read the derived BEFORE clearing the input it derives from. Clearing first made
+    // `found` re-evaluate to null inside the template literal below, and every submit
+    // navigated to /t/null. The core action of the product, broken by one line order.
+    const target = found
+    if (target) {
       typed = ''
       hint = null
-      go(`/t/${found}`)
+      go(`/t/${target}`)
     } else {
-      hint = typed.trim() ? 'That is not a mint address or a symbol this project has read.' : null
+      hint = typed.trim()
+        ? `Nothing here reads as “${typed.trim().slice(0, 24)}”. Paste a mint address, or try a symbol like SPACEX.`
+        : 'Paste a mint address, or type a symbol like SPACEX.'
     }
   }
 </script>
@@ -43,7 +52,7 @@
       autocapitalize="off"
       autocorrect="off"
     />
-    <button type="submit" disabled={!found} class="cut-control">Read the mint</button>
+    <button type="submit" class="cut-control">Read the mint</button>
   </form>
   <div class="check-row data">
     <span class="muted check-lead">Or try</span>
