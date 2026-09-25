@@ -434,3 +434,44 @@ td { padding:15px 12px 15px 0; border-top:1px dotted var(--rule); vertical-align
 }
 
 .prose p:last-child { margin-bottom:0; }
+
+/* ---------- the front door ----------
+   This block used to be the last thing on a 4.4-screen page, so a visitor who came to
+   check their own token had to scroll past a worked example of a token they did not
+   choose before they could type. It is now the first thing, and the example follows
+   it. The typography stays in the same register as the rest: this is still a filing,
+   it just puts the form at the top where a form belongs. */
+.check-block { padding-top:34px; margin-bottom:8px; }
+.check-q {
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(30px, 4.1vw, 50px); line-height:1.06; letter-spacing:-0.02em;
+  margin:0 0 22px; color:var(--ink);
+}
+.check { display:flex; gap:10px; align-items:stretch; max-width:720px; }
+.check-in { flex:1 1 auto; min-width:0; }
+.check-row { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:18px 0 0; }
+.check-lead { font-size:12.5px; padding-right:2px; }
+/* A 12.5px inline link is not a target. These are the fastest path to the thing the
+   product does, so they get a real one: 44px tall, the touch minimum. */
+.chip {
+  display:inline-flex; align-items:baseline; gap:8px;
+  min-height:44px; padding:0 14px;
+  background:var(--paper-2); border:var(--hairline) solid var(--rule);
+  text-decoration:none; color:var(--ink);
+  transition:border-color var(--t-fast), box-shadow var(--t-mid), transform var(--t-fast);
+  clip-path:polygon(0 0,100% 0,100% calc(100% - var(--cut-sm)),calc(100% - var(--cut-sm)) 100%,0 100%);
+}
+.chip-sym { font-family:var(--mono); font-size:13.5px; }
+.chip-note { font-family:var(--mono); font-size:12px; color:var(--ink-3); }
+@media (hover:hover) {
+  .chip:hover { border-color:var(--ink); box-shadow:var(--lift-2); transform:translateY(-1px); }
+}
+.chip:active { transform:scale(.98); transition-duration:80ms; }
+.check-hint { color:var(--mark); margin:12px 0 0; }
+.check-free { margin:14px 0 0; }
+
+@media (max-width:640px) {
+  .check { flex-direction:column; }
+  .check-block { padding-top:24px; }
+}
+.example-mark { margin:36px 0 0; border-top:var(--hairline) solid var(--ink); padding-top:6px; display:inline-block; }

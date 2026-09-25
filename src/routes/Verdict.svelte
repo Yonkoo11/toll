@@ -4,7 +4,7 @@
   import type { Terms } from '../lib/terms.js'
   import { trueCost } from '../lib/cost.js'
   import type { TrueCost } from '../lib/cost.js'
-  import { entryFor, feedFor, resolve } from '../lib/catalog.js'
+  import { entryFor, feedFor, OPENING_MINT } from '../lib/catalog.js'
   import { loadTape } from '../lib/record.js'
   import type { RecordedChange } from '../lib/record.js'
   import { daysSince, timeOf, wholeSupply, explorerAccount } from '../lib/fmt.js'
@@ -14,6 +14,7 @@
   import Limits from '../components/Limits.svelte'
   import Powers from '../components/Powers.svelte'
   import ChangeRows from '../components/ChangeRows.svelte'
+  import Check from '../components/Check.svelte'
 
   let { mint }: { mint: string } = $props()
 
@@ -24,10 +25,10 @@
   let changes = $state<RecordedChange[]>([])
   let failure = $state<string | null>(null)
   let priceFailure = $state<string | null>(null)
-  let typed = $state('')
   let servedBy = $state<string | null>(null)
 
   const entry = $derived(entryFor(mint))
+  const isOpening = $derived(mint === OPENING_MINT)
   const heldPowers = $derived(terms ? terms.powers.filter((p) => p.held) : [])
   const heldAuthorities = $derived([...new Set(heldPowers.map((p) => p.authority).filter(Boolean))] as string[])
   const oneAddress = $derived(heldPowers.length > 1 && heldAuthorities.length === 1 ? heldAuthorities[0] : null)
@@ -58,12 +59,9 @@
       .catch(() => {})
   })
 
-  function submit(e: SubmitEvent) {
-    e.preventDefault()
-    const found = resolve(typed)
-    if (found) { typed = ''; go(`/t/${found}`) }
-  }
 </script>
+
+<Check />
 
 {#if failure}
   <section class="stack" style="padding-top:52px">
@@ -78,7 +76,10 @@
     <p class="data muted">Reading the mint on Solana…</p>
   </section>
 {:else}
-  <section class="stack hero-split" style="padding-top:20px">
+  <!-- Without this label the example reads as "why am I looking at a token I did not
+       pick?". It says which of the two things on the page this is. -->
+  <p class="field example-mark">{isOpening ? 'A worked example, read live' : 'Read live from Solana'}</p>
+  <section class="stack hero-split" style="padding-top:6px">
     <div class="split">
       <div>
         <h1 class="display">{terms.symbol ?? 'Unnamed mint'}</h1>
@@ -182,21 +183,6 @@
     </div>
   </section>
 
-  <section class="section">
-    <span class="field">Check another token</span>
-    <form class="check" onsubmit={submit}>
-      <input
-        class="cut-control"
-        bind:value={typed}
-        placeholder="Paste a token address"
-        aria-label="Paste a token address"
-        spellcheck="false"
-        autocapitalize="off"
-        autocorrect="off"
-      />
-      <button type="submit" disabled={!resolve(typed)} class="cut-control">Read the mint</button>
-    </form>
-  </section>
 {/if}
 
 <script lang="ts" module>
