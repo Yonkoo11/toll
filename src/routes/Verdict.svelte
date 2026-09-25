@@ -210,12 +210,3 @@
     return escaped.slice(0, at) + `<em>${last[0]}</em>` + escaped.slice(at + last[0].length)
   }
 </script>
-
-<style>
-  .check { display:flex; gap:12px; margin-top:20px; max-width:62ch; }
-  .check input { flex:1 1 auto; }
-  @media (max-width:780px) {
-    .check { flex-direction:column; }
-    .check button { width:100%; }
-  }
-</style>

@@ -88,41 +88,56 @@ npx tsx scripts/verify-cost.ts   # → PHASE 2 GATE PASSED
 npx svelte-check --threshold error   # → 0 ERRORS 0 WARNINGS
 npm run build                        # → ✓ built
 
-npm run verify                       # → 22 checks pass, then TapeError: Read 39 of 100
+npm run verify                       # → GATE PASSED, 37 checks
 ```
 
-The first three pass. **The fourth does not, and that is the honest state of it today**, see
-the next section, because the reason is the most interesting thing in this repository.
+All four pass. `verify-cost.ts` proves the cost engine against live mainnet. `npm run verify`
+proves the mint reader the same way, rebuilds the 19 September record from the chain, and
+checks that bad input fails with a usable message. None of it proves the browser front end;
+that was checked by rendering it at 1440 and at three phone widths and looking, not by a test.
 
-`verify-cost.ts` proves the cost engine against live mainnet. `npm run verify` proves the mint
-reader the same way and then tries to rebuild the 19 September record from the chain. It does
-not prove the browser front end; that was checked by rendering it and looking, not by a test.
+The fourth line was red for three days. What was wrong is the most interesting thing in this
+repository, so it is written up below rather than quietly deleted.
 
-## The thing that fails, and why it is left failing
+## The thing that failed, and what it actually was
+
+For three days this printed:
 
 ```
-(a) SPACEX, a PreStocks token that charges a toll      12 PASS
-(b) AAPLx, a Backed token that charges no toll         10 PASS
 (c) the change tape: PreStocks doubled the toll
-    TapeError: Read 39 of 100 transactions for WV9PJN7XTmTLVwbutCLFxp8TyePee6Xq5mRq6Fti5Wc;
+    TapeError: Read 12 of 100 transactions for WV9PJN7XTmTLVwbutCLFxp8TyePee6Xq5mRq6Fti5Wc;
     the record would be incomplete.
+  hint: The public Solana endpoint is rate-limiting.
 ```
 
-`getSignaturesForAddress` still lists those transactions. `getTransaction` then answers `null`
-for many of them, the free endpoint will not serve details it still indexes.
+The hint was wrong. It was not rate limiting. Measured on 25 September against a signature
+that is definitely on chain:
 
-Until 22 September this check printed green. It was reading 100 signatures, silently discarding
-every transaction the endpoint would not serve, and reporting what was left as the complete
-record. A week in which the issuer changed nine mints looked identical to a week in which
-nothing happened.
+| endpoint | `getTransaction` |
+|---|---|
+| `api.mainnet-beta.solana.com` | serves it |
+| `solana-rpc.publicnode.com` | returns `null` |
+| `solana.api.onfinality.io/public` | `Too Many Requests` |
 
-**That is the failure this project exists to prevent, and it was in the project.** A null is now
-an incomplete read. Stragglers retry with backoff, and if any remain the read throws instead of
-returning a shorter answer. The gate is red because the endpoint genuinely cannot serve the data,
-which is the truth, and a green gate built on a third of the rows is worth less than a red one.
+`publicnode` is not an archival node. It answers `null` for any historical transaction, which
+is indistinguishable from "no such transaction". Worse, `null` arrives as a *successful* HTTP
+response, so the client recorded that endpoint as the one that answered and preferred it from
+then on. One account read was enough to poison every transaction read that followed. That is
+how a rebuild reported 12 of 100 while the chain was reachable the whole time.
 
-`public/tape.json`, 612 dated changes, was built when those transactions were reachable and is
-unaffected. It is committed for exactly this reason.
+History is now only ever asked of a node that keeps it, and those calls are kept out of the
+shared endpoint preference so they cannot steer the others. `src/lib/rpc.ts` carries the
+measurements in a comment so the next person does not have to rediscover them.
+
+**The part worth keeping:** before any of that was understood, this check was already failing
+loudly rather than returning a short answer. Until 22 September it printed green, silently
+discarding every transaction the endpoint would not serve and reporting what was left as the
+complete record. A week in which the issuer changed nine mints looked identical to a quiet one.
+That is the exact failure this project exists to catch, and it was inside the project. A null
+became an incomplete read, and an incomplete read throws. It stayed red for three days because
+of it, which is the correct behaviour, and it is how the real cause was eventually found.
+
+`public/tape.json`, 612 dated changes, is committed and was unaffected throughout.
 
 ## What is committed, and why
 
@@ -155,7 +170,7 @@ getblock, blockeden, grove, leorpc.
 
 | Capability | Status |
 |---|---|
-| **Reads any Token-2022 mint and names its fee, powers and epoch schedule** | Real. 22 checks against live mainnet on two issuers with opposite behaviour. |
+| **Reads any Token-2022 mint and names its fee, powers and epoch schedule** | Real. Part of 37 checks against live mainnet on two issuers with opposite behaviour. |
 | **Round-trip cost net of the toll** | Real. `verify-cost.ts` passes against mainnet. |
 | **265 tokens catalogued** | Measured, not asserted. Built from admin transaction history, which is why it includes XAI, a live mint the issuer's own published list omits. |
 | **Only 64 of the 252 Pyth feeds these tokens name have a price account on Solana** | Measured. One scan of 11,398 accounts. |
