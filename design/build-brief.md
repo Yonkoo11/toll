@@ -254,25 +254,100 @@ The label for the last row is `What comes back`, never `You get back`.
 
 ## 11. Acceptance checklist
 
-Each line independently checkable.
+Done means every box below is ticked. Each line is independently checkable, and §12 gives the
+command for the ones a script can decide.
 
-1. No `#` hex literal outside `:root` in any `.svelte` or component file.
-2. No `border-radius` px literal outside `:root`.
-3. Every `:hover` block changes `transform` or `box-shadow`, not colour alone, and sits in
-   `@media (hover:hover)`.
-4. `:focus-visible` is defined for every link, button and input.
-5. Exactly one shadow philosophy: every `box-shadow` is `--lift-1/2/3` or the toll bar's
-   declared inset. No pixel-offset, no glow.
-6. `clamp()` is used for display and title sizes.
-7. No font size below 11px; 11px only on the uppercase mono field label; body ≥15px; input 16px.
-8. At most 3 uppercase mono field labels per viewport.
-9. `--mark` appears only on held powers, changed terms, stale prices, and focus/hover states.
-10. The toll bar's widths derive from the live cost. Grep finds no hardcoded percentage.
-11. Not one number on any page is written into markup; all come from the engine or the
-    committed record.
-12. `prefers-reduced-motion` renders a complete, readable page with no animation.
-13. Desktop 1440 and mobile 390 both render with no horizontal scroll and no clipped text.
-14. The column rules do not overlap or clip any content at any width.
-15. Every page answers Krug's five: what site, what page, what sections, what can I do,
-    where am I.
-16. Not one word of copy, one colour, or one URL differs from this brief.
+- [ ] No `#` hex literal outside `:root` in any `.svelte` or component file.
+- [ ] No `border-radius` px literal outside `:root`.
+- [ ] Every `:hover` block changes `transform` or `box-shadow`, not colour alone, and sits in
+      `@media (hover:hover)`. One deliberate exception, recorded in §0: row hover.
+- [ ] `:focus-visible` is defined for every link, button and input, and no later rule at equal
+      specificity cancels it.
+- [ ] Exactly one shadow philosophy: every `box-shadow` is `--lift-1/2/3` or the toll bar's
+      declared inset. No pixel-offset, no glow.
+- [ ] `clamp()` is used for display and title sizes.
+- [ ] No font size below 12px anywhere; 12px only on the uppercase mono field label; body ≥15px;
+      input 16px so iOS does not zoom.
+- [ ] Every text colour clears WCAG AA against the ground it sits on: 4.5:1 for body, 3:1 for
+      large text.
+- [ ] At most 3 uppercase mono field labels per viewport.
+- [ ] `--mark` appears only on powers that can reach a balance, changed terms, stale prices, and
+      focus/hover states.
+- [ ] The toll bar's widths derive from the live cost. Grep finds no hardcoded percentage.
+- [ ] Not one number on any page is written into markup; all come from the engine or the
+      committed record.
+- [ ] `prefers-reduced-motion` renders a complete, readable page with no animation.
+- [ ] Desktop 1440 and mobile 390 both render with no horizontal scroll and no clipped text.
+- [ ] The column rules do not overlap or clip any content at any width.
+- [ ] Every page answers Krug's five: what site, what page, what sections, what can I do,
+      where am I.
+- [ ] The signature motif appears at three scales, not one (CT-1).
+- [ ] The limits are set in the typography of the features, not in a muted footnote (CT-12, ER-8).
+- [ ] One accent per headline, on the word carrying the argument (CT-9).
+- [ ] Not one word of copy, one colour, or one URL differs from this brief.
+
+## 12. Verify it yourself
+
+Run these before calling the build done. Each line gives the command and the output it must
+produce; anything else is a failure, not a variation.
+
+```bash
+# No hex outside the token block. Expected: 0
+# The word boundary matters: without it this matches Svelte's own {#each} as the
+# three-digit hex #eac and reports six failures that are not there.
+grep -rEo '#[0-9a-fA-F]{3}\b|#[0-9a-fA-F]{6}\b' src/components src/routes | wc -l
+
+# No radius literals outside :root. Expected: 0
+grep -rEo 'border-radius: *[0-9]+(px|rem)' src/components src/routes | wc -l
+
+# Focus ring defined, and not cancelled later. Expected: at least 2 matches
+grep -c 'focus-visible' src/app.css
+
+# Every shadow is a token or one of the two declared insets. Expected: 0 stray
+grep -oE 'box-shadow: *[^v)]' src/app.css | grep -v inset | wc -l
+
+# The toll bar is drawn from data, never a literal. Expected: 0
+grep -rEo 'width: *[0-9]+%' src/components/TollBar.svelte | wc -l
+
+# Type check and build. Expected: 0 ERRORS, then a dist/ write
+npx svelte-check --threshold error
+npm run build
+
+# Craft floor. Expected: 0 critical
+node ~/.claude/skills/ui-revamp/scripts/audit.js src
+
+# Contrast, both grounds. Expected: every ratio >= 4.5
+npx tsx scripts/check-contrast.ts
+```
+
+Render at 1440 and at 390 and look at both. A script cannot tell you the page is composed; it
+can only tell you nothing is broken.
+
+## 13. What people get wrong here
+
+Every one of these was actually done on this project and had to be undone.
+
+- **Implementing the tokens and skipping the structure.** The first build had the paper, the
+  serif and the hairlines, and stacked a small label above a full-width block eleven times.
+  That is the default shape of any web page. "The Filing" is a document of record and a document
+  of record has a margin. Correct tokens on a default skeleton still reads as default.
+- **Marking every figure.** If all eight powers are in `--mark`, the one that can empty a wallet
+  reads no louder than the one that dilutes it. Colour means problem; when everything is a
+  problem, nothing is.
+- **Trusting a gate that is calibrated for a different world.** `design-qa.sh` reports this page
+  as dead because it counts background gradients and the word "noise". Read the skill's own
+  eight-item checklist and count; then record the override in §0 rather than editing the script.
+- **Believing a local pass.** `svelte-check` reported 0 errors here and 14 in CI, because
+  `@types/node` resolved from outside the project. A check that only passes on the machine that
+  wrote it is not a check.
+- **Letting the narration lead the footage.** Figures move between takes. Write to the picture.
+
+## 14. Setup
+
+Nothing to fetch. No key, no account, no env var, no signup, for the build or for the site at
+runtime. `npm install` then `npm run dev`, about two minutes on a cold cache.
+
+The two live gates (`npm run verify`, `scripts/verify-cost.ts`) read Solana mainnet through a
+free public endpoint and take two to five minutes. They can fail for reasons that are not your
+change: a `TapeError` naming how many of how many transactions were read is the endpoint
+refusing to serve history it still lists, which is a documented condition, not a regression.

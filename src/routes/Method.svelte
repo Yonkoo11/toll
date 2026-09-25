@@ -93,6 +93,7 @@
 
 <section class="stack" style="padding-top:20px">
   <h1 class="title">How each number is read</h1>
+  <div class="page-body">
   <p class="prose">
     No verdict on this site is stored. The terms, the toll and the powers are read from Solana
     when you open a token's page, from a keyless endpoint, and the page names the one that
@@ -140,5 +141,6 @@
         no venue quoting them.
       </p>
     </div>
+  </div>
   </div>
 </section>

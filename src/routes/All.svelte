@@ -19,6 +19,7 @@
 
 <section class="stack" style="padding-top:20px">
   <h1 class="title">All {catalog.length} tokens</h1>
+  <div class="page-body">
   <p class="prose">
     Every tokenized stock this project has read on Solana. {unlistedCount} of them had no venue
     quoting a price when the catalogue was built, which is why a toll on them costs more than
@@ -49,10 +50,11 @@
           <td><a href="/t/{token.mint}" use:link>{token.symbol}</a></td>
           <td class="mid">{token.name}</td>
           <td class="data muted">{token.issuer}</td>
-          <td class="data" class:held={token.unlisted}>{token.unlisted ? 'unlisted' : 'listed'}</td>
+          <td class="data" class:muted={token.unlisted}>{token.unlisted ? 'unlisted' : 'listed'}</td>
           <td class="data muted" style="word-break:break-all">{token.mint}</td>
         </tr>
       {/each}
     </tbody>
   </table>
+  </div>
 </section>

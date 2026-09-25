@@ -29,6 +29,7 @@
 
 <section class="stack" style="padding-top:20px">
   <h1 class="title">The record</h1>
+  <div class="page-body">
   {#if failure}
     <p class="prose">{failure}</p>
   {:else if !tape}
@@ -72,4 +73,5 @@
       <p class="data muted" style="margin-top:20px">Record built {timeOf(tape.builtAt)}.</p>
     </div>
   {/if}
+  </div>
 </section>

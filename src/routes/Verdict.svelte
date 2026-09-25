@@ -11,6 +11,7 @@
   import { go, link } from '../lib/router.svelte.js'
   import TollBar from '../components/TollBar.svelte'
   import Ledger from '../components/Ledger.svelte'
+  import Limits from '../components/Limits.svelte'
   import Powers from '../components/Powers.svelte'
   import ChangeRows from '../components/ChangeRows.svelte'
 
@@ -175,6 +176,13 @@
   </section>
 
   <section class="section">
+    <span class="field">Where this stops</span>
+    <div style="margin-top:20px">
+      <Limits />
+    </div>
+  </section>
+
+  <section class="section">
     <span class="field">Check another token</span>
     <form class="check" onsubmit={submit}>
       <input
@@ -198,9 +206,21 @@
   }
 
   /** Puts the one brand colour on the figures inside the engine's own sentence. */
+  /**
+   * One accent per headline, on the word carrying the argument (CT-9).
+   *
+   * This used to mark every percentage in the sentence. With three or four of them
+   * lit, none of them was the point. The last figure is the answer the sentence is
+   * built to deliver: what a round trip leaves you. Everything before it is the
+   * working, and reads as the working now.
+   */
   function markPercents(sentence: string): string {
     const escaped = sentence.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]!)
-    return escaped.replace(/[-+]?\d+(\.\d+)?%/g, (m) => `<em>${m}</em>`)
+    const figures = [...escaped.matchAll(/[+\-\u2212]?\d+(\.\d+)?%/g)]
+    if (figures.length === 0) return escaped
+    const last = figures[figures.length - 1]
+    const at = last.index!
+    return escaped.slice(0, at) + `<em>${last[0]}</em>` + escaped.slice(at + last[0].length)
   }
 </script>
 
