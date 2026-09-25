@@ -19,7 +19,7 @@
 - [x] F4 every route on the margin spine
 - [x] F5 stale comment corrected
 - [x] F6 dead token removed
-- [ ] F3 motif at three scales — NOT DONE, see below
+- [x] F3 motif at three scales — DONE, prototyped and verified before adoption
 
 ### Phase 4: Validate
 - [x] Automated audit: 0 critical
@@ -28,16 +28,46 @@
 - [x] Squint test: the accent now lands three times on the front page
 - [ ] Blur test not run as a formal pass
 
-## What F3 would have been, and why it is not here
+## F3, done: the motif at three scales
 
-CT-1 asks for one motif at three scales. Toll's noun is a slice taken from what passes, and
-the toll bar is that shape at page scale. Carrying it to component and detail scale means
-inventing a `clip-path` plate treatment and applying it to every panel and row.
+CT-1 asks for one geometric motif derived from the product's own noun, appearing at page,
+component and detail scale. Toll's noun is a slice taken from what passes.
 
-That is a new asset, not a correction to an existing one, and nothing in the audit established
-that the shape survives at row height or on a 390px column. Introducing it across every surface
-without that evidence, hours before a submission, risks making the page worse in a way the
-remaining time does not allow to be caught. Recorded as the next change rather than rushed.
+- **Page:** the toll bar. The cut lands on the red segment, so the slice is taken out of the
+  toll itself. The shape is the sentence.
+- **Component:** `.plate` on the one-address panel.
+- **Control:** `.cut-control` on the address field and its button, the two things a person
+  actually operates.
+
+`--cut:15px` and `--cut-sm:7px` are tokens; no component carries a literal.
+
+**The technical problem and what it cost.** `clip-path` clips `box-shadow`, so a cut plate
+cannot carry the `--lift` ladder. It carries `filter: drop-shadow()` instead, which follows
+the path: same offsets, same direction, same philosophy. The one thing lost is the hairline
+ring inside `--lift-1`, which a drop-shadow cannot express. The cut edge against the textured
+ground does that work instead, which is ER-6 rather than a workaround.
+
+**Verified before adopting, which is why it was deferred rather than skipped:** the clip
+resolves on all four elements at 1440 and at 390, with zero horizontal overflow and no page
+errors. An earlier attempt had the motif block above the primitives, so `.panel`'s own
+`box-shadow` won the cascade and was being clipped invisibly; caught by reading the computed
+style back rather than by looking.
+
+## Also closed in this pass
+
+- **CT-11.** The ledger now prints the rule that produces its own total:
+  `back = 100 × (1 + premium) × (1 − fee)²`, with the live figures in it. Checked: at a 4.09%
+  premium and a 1% fee that is 102.02, which is the total shown. A page that shows its
+  arithmetic can be checked; one that shows only a result asks to be believed.
+- **CT-5.** Two easing curves, chosen by job. `--ease-out` for anything under the pointer now,
+  where overshoot reads as lag. `--ease-enter` for things arriving on their own. Previously one
+  curve did both jobs, and the reveal carried a hand-written copy of it rather than the token.
+
+## Audited and found already compliant
+
+CT-3 (three families with assigned jobs), CT-7 (reduced motion), CT-8 (palette size), CT-10
+(tracking ladder). CT-2 (scroll-snap scenes) is genre-bound and carries its own "when not to
+use it"; a document of record is that case.
 
 ## What moved
 

@@ -13,6 +13,11 @@
 
   --r-xs:2px; --r-sm:4px; --r-md:8px; --r-full:999px;
 
+  /* The motif. A toll is a slice taken from what passes, and the toll bar is that
+     shape at page scale. These carry it down to component and control scale, so the
+     corner treatment is the brand rather than a neutral radius (CT-1). */
+  --cut:15px; --cut-sm:7px;
+
   --lift-1:0 1px 2px rgba(22,20,15,.06), 0 0 0 1px rgba(22,20,15,.04);
   --lift-2:0 2px 4px rgba(22,20,15,.05), 0 8px 24px -8px rgba(22,20,15,.14), 0 0 0 1px rgba(22,20,15,.05);
   --lift-3:0 4px 8px rgba(22,20,15,.06), 0 18px 48px -14px rgba(22,20,15,.20), 0 0 0 1px rgba(22,20,15,.06);
@@ -24,9 +29,17 @@
   --sans:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
   --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
 
-  --t-fast:110ms cubic-bezier(.23,1,.32,1);
-  --t-mid:190ms cubic-bezier(.23,1,.32,1);
-  --t-press:80ms cubic-bezier(.23,1,.32,1);
+  /* Two curves, by job (CT-5). --ease-out is for anything under the pointer right
+     now: a press, a hover, a focus ring. It settles without overshoot, because on a
+     control a person is holding, overshoot reads as lag. --ease-enter is for things
+     arriving on their own, where the long tail is what makes them feel placed
+     rather than switched on. */
+  --ease-out:cubic-bezier(.25,.46,.45,.94);
+  --ease-enter:cubic-bezier(.23,1,.32,1);
+
+  --t-fast:110ms var(--ease-out);
+  --t-mid:190ms var(--ease-enter);
+  --t-press:80ms var(--ease-out);
 
   --colw:min(var(--col), 100% - 2 * var(--gutter));
 }
@@ -111,7 +124,7 @@ body {
    number fading in on a timer would imply the read finished when it had not. */
 .js [data-reveal] { opacity:0; }
 .is-ready [data-reveal] {
-  animation:reveal var(--rv-dur, 480ms) cubic-bezier(.23, 1, .32, 1) var(--rv-delay, 0ms) both;
+  animation:reveal var(--rv-dur, 480ms) var(--ease-enter) var(--rv-delay, 0ms) both;
 }
 @keyframes reveal { from { opacity:0 } to { opacity:var(--rv-o, 1) } }
 
@@ -185,7 +198,7 @@ a:focus-visible { border-radius:var(--r-xs); }
 button {
   font:inherit; font-size:15px;
   color:var(--paper-2); background:var(--ink);
-  border:none; border-radius:var(--r-sm);
+  border:none;
   padding:0 20px; height:48px;
   white-space:nowrap;
   box-shadow:var(--lift-1);
@@ -202,7 +215,6 @@ input {
   font-family:var(--mono); font-size:16px;
   color:var(--ink); background:var(--paper-2);
   border:var(--hairline) solid var(--rule);
-  border-radius:var(--r-sm);
   padding:0 16px; height:48px; width:100%;
   box-shadow:var(--lift-2);
   transition:border-color var(--t-fast), box-shadow var(--t-mid);
@@ -220,6 +232,33 @@ input:focus-visible { box-shadow:var(--lift-3), 0 0 0 3px var(--mark-32); }
   padding:20px 22px;
 }
 .panel-mark { box-shadow:var(--lift-1); background:var(--mark-06); }
+
+/* ---------- the motif at component and control scale ---------- */
+
+/* clip-path clips box-shadow, so a cut plate carries its elevation as drop-shadow,
+   which follows the path. Same ladder, same direction, same philosophy (CF-5); the
+   hairline ring in --lift-1 is the one thing a clip cannot keep, and the cut edge
+   against the textured ground does that job instead (ER-6). */
+.plate {
+  border-radius:0;
+  clip-path:polygon(
+    0 0, 100% 0,
+    100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%,
+    0 100%
+  );
+  filter:drop-shadow(0 1px 2px rgba(22,20,15,.07)) drop-shadow(0 6px 16px rgba(22,20,15,.06));
+  box-shadow:none;
+}
+
+.cut-control {
+  border-radius:0;
+  clip-path:polygon(
+    0 0, 100% 0,
+    100% calc(100% - var(--cut-sm)), calc(100% - var(--cut-sm)) 100%,
+    0 100%
+  );
+}
+
 
 .row { display:flex; gap:20px; align-items:baseline; padding:17px 0; border-top:var(--hairline) solid var(--rule-soft); }
 .row-dotted { border-top:1px dotted var(--rule); padding:15px 0; }
@@ -245,12 +284,20 @@ input:focus-visible { box-shadow:var(--lift-3), 0 0 0 3px var(--mark-32); }
 
 /* ---------- the toll bar (signature element) ---------- */
 
+/* The motif at page scale. The bar is the product's noun drawn to size: a slice
+   taken from what passes. It carries the same cut as the plates and the controls,
+   which is what makes one shape read as identity rather than three chamfers. */
 .tollbar {
   position:relative; height:54px;
-  border-radius:var(--r-sm);
   background:var(--paper-2);
-  box-shadow:var(--lift-2);
   overflow:hidden;
+  border-radius:0;
+  clip-path:polygon(
+    0 0, 100% 0,
+    100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%,
+    0 100%
+  );
+  filter:drop-shadow(0 2px 4px rgba(22,20,15,.06)) drop-shadow(0 10px 24px rgba(22,20,15,.10));
 }
 .tollbar .kept { position:absolute; inset:0; background:linear-gradient(180deg, rgba(22,20,15,.90), rgba(22,20,15,.80)); }
 .tollbar .lost { position:absolute; top:0; bottom:0; right:0; background:var(--mark); box-shadow:inset 1px 0 0 rgba(255,255,255,.22); }

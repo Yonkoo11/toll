@@ -281,7 +281,12 @@ command for the ones a script can decide.
 - [ ] The column rules do not overlap or clip any content at any width.
 - [ ] Every page answers Krug's five: what site, what page, what sections, what can I do,
       where am I.
-- [ ] The signature motif appears at three scales, not one (CT-1).
+- [ ] The signature motif appears at three scales: the toll bar, the plates, the controls.
+      No component carries a `--cut` literal.
+- [ ] Any element carrying `clip-path` carries `drop-shadow`, never `box-shadow`, which a clip
+      silently eats.
+- [ ] The ledger prints the rule that produces its own total, with the live figures in it.
+- [ ] Two easing curves, assigned by job, and nothing hand-copies their values.
 - [ ] The limits are set in the typography of the features, not in a muted footnote (CT-12, ER-8).
 - [ ] One accent per headline, on the word carrying the argument (CT-9).
 - [ ] Not one word of copy, one colour, or one URL differs from this brief.

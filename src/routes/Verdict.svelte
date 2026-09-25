@@ -140,7 +140,7 @@
   {#if oneAddress}
     <section class="section">
       <span class="field">All {spell(heldPowers.length)} sit at one address</span>
-      <div class="panel panel-mark" style="margin-top:20px; max-width:62ch">
+      <div class="panel panel-mark plate" style="margin-top:20px; max-width:62ch">
         <p class="prose" style="margin:0; color:var(--ink)">
           <code class="data" style="word-break:break-all">{oneAddress}</code> holds every one of
           the {spell(heldPowers.length)} powers that anybody holds over this token. There is no
@@ -186,6 +186,7 @@
     <span class="field">Check another token</span>
     <form class="check" onsubmit={submit}>
       <input
+        class="cut-control"
         bind:value={typed}
         placeholder="Paste a token address"
         aria-label="Paste a token address"
@@ -193,7 +194,7 @@
         autocapitalize="off"
         autocorrect="off"
       />
-      <button type="submit" disabled={!resolve(typed)}>Read the mint</button>
+      <button type="submit" disabled={!resolve(typed)} class="cut-control">Read the mint</button>
     </form>
   </section>
 {/if}
